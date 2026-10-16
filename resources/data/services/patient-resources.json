@@ -1,0 +1,393 @@
+[
+    {
+        "id": "symptoms-we-treat",
+        "slug": "symptoms-we-treat",
+        "title": "Symptoms We Treat",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-list-check",
+        "shortDescription": "Common neurological symptoms and the clinic services that can help you find out more.",
+        "introduction": [
+            "This page lists common neurological symptoms and the clinic services that may be relevant to them. It is a guide to help you know where to start; it cannot tell you the cause of your symptoms.",
+            "If you are not sure which service you need, a general neurology consultation is a good place to begin."
+        ],
+        "sections": [
+            {
+                "heading": "Symptoms and where to start",
+                "style": "links",
+                "items": [
+                    { "text": "Headaches or migraine", "serviceId": "headache-migraine" },
+                    { "text": "Fits, seizures or blackouts", "serviceId": "epilepsy-clinic" },
+                    { "text": "Weakness, numbness or speech problems that came and went", "serviceId": "stroke-clinic" },
+                    { "text": "Tremor, stiffness or slowness of movement", "serviceId": "parkinsons-movement-disorders" },
+                    { "text": "Memory loss or confusion", "serviceId": "memory-cognitive-clinic" },
+                    { "text": "Numbness, tingling or burning in the hands or feet", "serviceId": "neuromuscular-clinic" },
+                    { "text": "Muscle weakness, cramps or wasting", "serviceId": "neuromuscular-clinic" },
+                    { "text": "Dizziness, vertigo or unsteadiness", "serviceId": "vertigo-balance" },
+                    { "text": "Back or neck pain spreading into an arm or leg", "serviceId": "spine-pain" },
+                    { "text": "Difficulty walking or doing daily tasks after a neurological illness", "serviceId": "neuro-rehabilitation" },
+                    { "text": "Not sure where to start", "serviceId": "neurology" }
+                ]
+            },
+            {
+                "heading": "Symptoms that need emergency care",
+                "style": "alert",
+                "intro": "Do not wait for an appointment. Call 112 or go to the nearest emergency department if you notice:",
+                "items": [
+                    "Sudden weakness or numbness of the face, arm or leg, especially on one side",
+                    "Sudden difficulty speaking or understanding speech",
+                    "A seizure lasting more than 5 minutes, or repeated seizures without recovery in between",
+                    "A sudden, severe 'worst-ever' headache",
+                    "Loss of consciousness or sudden confusion",
+                    "Weakness that is spreading quickly, or difficulty breathing or swallowing"
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can this page tell me what is causing my symptoms?",
+                "answer": "No. Symptoms can have many causes. Only an assessment by a doctor can work out the cause and the right treatment."
+            }
+        ],
+        "relatedServiceIds": ["neurology", "first-visit-guide", "emergency-guidance"],
+        "seoTitle": "Symptoms We Treat – Neurological Symptoms Guide",
+        "seoDescription": "A guide to common neurological symptoms such as headache, seizures, numbness, tremor and dizziness, and which clinic services may help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "first-visit-guide",
+        "slug": "first-visit-guide",
+        "title": "First Visit Guide",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-route",
+        "shortDescription": "What usually happens at your first appointment and how to make the most of it.",
+        "introduction": [
+            "Your first visit is a chance to explain your symptoms, ask questions and agree on the next steps. This guide explains what usually happens and how to make the most of your appointment."
+        ],
+        "sections": [
+            {
+                "heading": "Before your visit",
+                "style": "steps",
+                "items": [
+                    "Book an appointment by calling the clinic or sending a WhatsApp message. Walk-ins are welcome, but appointments are preferred.",
+                    "Check which clinic you will visit and its OPD day and timings (Patna, Ara or Siwan).",
+                    { "text": "Gather your reports, scans and a list of your medicines.", "serviceId": "what-to-bring" },
+                    "Write down your symptoms and the questions you want to ask."
+                ]
+            },
+            {
+                "heading": "During your visit",
+                "style": "steps",
+                "items": [
+                    "The doctor will ask about your symptoms, medical history and medicines.",
+                    "A physical and neurological examination is usually carried out.",
+                    "Your previous reports and scans will be reviewed.",
+                    "The doctor will explain the possible causes and whether any tests are needed."
+                ]
+            },
+            {
+                "heading": "After your visit",
+                "style": "list",
+                "items": [
+                    "You may be advised to have tests, start treatment or begin therapy.",
+                    "Keep your prescription and any test referrals safe.",
+                    "Book a follow-up visit if one is advised.",
+                    "Contact the clinic if your symptoms change or you have questions."
+                ]
+            },
+            {
+                "heading": "Clinic locations and OPD timings",
+                "style": "branches",
+                "intro": "Please confirm the OPD day and timings when you book."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Do I need an appointment?",
+                "answer": "Walk-ins are welcome, but appointments are preferred, especially for the Ara and Siwan clinics, which open on limited days."
+            },
+            {
+                "question": "Can a family member come with me?",
+                "answer": "Yes. A family member or caregiver can help describe your symptoms and remember the advice given."
+            }
+        ],
+        "relatedServiceIds": ["what-to-bring", "test-preparation", "symptoms-we-treat"],
+        "seoTitle": "First Visit Guide – What to Expect at Your Appointment",
+        "seoDescription": "How to book, what happens during your first neurology appointment, what to do afterwards and where the Patna, Ara and Siwan clinics are.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "what-to-bring",
+        "slug": "what-to-bring",
+        "title": "What to Bring",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-folder-open",
+        "shortDescription": "A checklist of documents and information to bring to your appointment.",
+        "introduction": [
+            "Bringing the right documents and information helps the doctor understand your history and avoids repeating tests unnecessarily."
+        ],
+        "sections": [
+            {
+                "heading": "Documents and records",
+                "style": "checklist",
+                "items": [
+                    "Previous medical reports and doctors' letters",
+                    "MRI or CT scan films or digital copies, together with the written reports",
+                    "Hospital discharge summaries",
+                    "Current and previous prescriptions",
+                    "Test results such as blood tests, EEG, NCV/NCS or EMG reports"
+                ]
+            },
+            {
+                "heading": "Information about you",
+                "style": "checklist",
+                "items": [
+                    "A list of all the medicines you take, with doses and timings",
+                    "Any allergies or previous reactions to medicines",
+                    "Other medical conditions, such as diabetes or high blood pressure",
+                    "A short diary of your symptoms, if you have kept one",
+                    "A short phone video of episodes that come and go, such as seizures or abnormal movements, if it can be recorded safely"
+                ]
+            },
+            {
+                "heading": "Also helpful",
+                "style": "checklist",
+                "items": [
+                    "A family member or caregiver, especially for memory problems or seizures",
+                    "Reading glasses and hearing aids, if you use them",
+                    "Any walking aid you use",
+                    "A list of the questions you want to ask"
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Should I bring the original scan films?",
+                "answer": "Yes, if you have them. Bring the films or digital copies of the images as well as the written reports."
+            },
+            {
+                "question": "What if I do not have my old reports?",
+                "answer": "Bring whatever you have. The doctor can still assess you and will advise whether any tests need to be repeated."
+            }
+        ],
+        "relatedServiceIds": ["first-visit-guide", "test-preparation"],
+        "seoTitle": "What to Bring to Your Neurology Appointment",
+        "seoDescription": "A simple checklist of reports, scans, medicine lists and other information to bring to your neurology appointment.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "test-preparation",
+        "slug": "test-preparation",
+        "title": "Test Preparation",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-clipboard-check",
+        "shortDescription": "General advice to help you prepare for neurological tests.",
+        "introduction": [
+            "Preparation depends on the test. Always follow the specific instructions given by the clinic or the testing centre when you book. The general advice below applies to most neurological tests."
+        ],
+        "sections": [
+            {
+                "heading": "General advice",
+                "style": "checklist",
+                "items": [
+                    "Ask the clinic when you book whether your test needs any special preparation",
+                    "Do not stop or change any medicine unless your doctor advises you to",
+                    "Bring previous test reports and scans",
+                    "Tell the clinic if you have a pacemaker or metal implants, take blood-thinning medicines, have a bleeding disorder, may be pregnant or have allergies",
+                    "Wear comfortable, loose clothing"
+                ]
+            },
+            {
+                "heading": "Tests explained on this website",
+                "style": "links",
+                "items": [
+                    { "text": "EEG (brain activity test)", "serviceId": "eeg" },
+                    { "text": "EMG (muscle test)", "serviceId": "emg" },
+                    { "text": "NCV / NCS (nerve conduction study)", "serviceId": "ncv-ncs" },
+                    { "text": "Cognitive assessment", "serviceId": "cognitive-assessment" },
+                    { "text": "Neuropsychological assessment", "serviceId": "neuropsychological-assessment" },
+                    { "text": "MRI / CT referral guidance", "serviceId": "mri-ct-referral" }
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can I eat before my test?",
+                "answer": "Ask the clinic when you book. Instructions vary between tests, so follow the advice given for your specific test."
+            },
+            {
+                "question": "Should I take my usual medicines on the day of the test?",
+                "answer": "Continue your usual medicines unless the doctor tells you otherwise."
+            }
+        ],
+        "relatedServiceIds": ["what-to-bring", "first-visit-guide"],
+        "seoTitle": "Test Preparation – Neurological Tests",
+        "seoDescription": "General advice on preparing for neurological tests such as EEG, EMG, nerve conduction studies and memory assessments.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Add verified test-specific preparation instructions when the clinic confirms them."]
+    },
+    {
+        "id": "faqs",
+        "slug": "faqs",
+        "title": "FAQs",
+        "category": "patient-resources",
+        "pageType": "link",
+        "url": "/clinics#faqs",
+        "icon": "fa-solid fa-circle-question",
+        "shortDescription": "Answers to common questions about appointments and visiting the clinics.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "emergency-guidance",
+        "slug": "emergency-guidance",
+        "title": "Emergency Guidance",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-truck-medical",
+        "shortDescription": "Warning signs that need emergency care, and what to do while waiting for help.",
+        "urgentNotice": "In an emergency, call 112 or go to the nearest emergency department immediately. Do not wait for a clinic appointment, and do not rely on this website.",
+        "introduction": [
+            "Some neurological symptoms need emergency treatment, and acting quickly can make a big difference. If you notice any of the warning signs below, get emergency help straight away."
+        ],
+        "sections": [
+            {
+                "heading": "Signs of a stroke – think FAST",
+                "style": "alert",
+                "items": [
+                    "Face: one side of the face droops or the smile is uneven",
+                    "Arm: weakness or numbness in one arm or leg",
+                    "Speech: slurred speech, or difficulty speaking or understanding",
+                    "Time: call 112 immediately and note the time the symptoms started"
+                ]
+            },
+            {
+                "heading": "Other emergency warning signs",
+                "style": "alert",
+                "items": [
+                    "A seizure lasting more than 5 minutes, or repeated seizures without recovery in between",
+                    "A sudden, severe 'worst-ever' headache",
+                    "A headache with fever, a stiff neck, confusion or a rash",
+                    "Loss of consciousness or new confusion",
+                    "Vomiting, drowsiness, confusion or a seizure after a head injury",
+                    "Weakness that is spreading quickly, or difficulty breathing or swallowing",
+                    "Back pain with loss of bladder or bowel control, or numbness around the genitals or buttocks"
+                ]
+            },
+            {
+                "heading": "While waiting for help",
+                "style": "list",
+                "items": [
+                    "Note the time the symptoms started.",
+                    "Do not give food or drink to someone who may be having a stroke or is drowsy.",
+                    "During a seizure, protect the person from injury, cushion their head and turn them onto their side once the jerking stops. Do not put anything in their mouth.",
+                    "Keep a list of the person's medicines ready for the emergency team."
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Should I contact the clinic in an emergency?",
+                "answer": "In an emergency, call 112 or go to the nearest emergency department first. The clinic can help with follow-up care afterwards."
+            }
+        ],
+        "relatedServiceIds": ["stroke", "epilepsy", "stroke-clinic", "epilepsy-clinic"],
+        "seoTitle": "Emergency Guidance – Neurological Warning Signs",
+        "seoDescription": "Neurological warning signs that need emergency care, including stroke (FAST) and prolonged seizures, and what to do while waiting for help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "caregiver-guides",
+        "slug": "caregiver-guides",
+        "title": "Caregiver Guides",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-hand-holding-heart",
+        "shortDescription": "Practical tips for families and caregivers supporting someone with a neurological condition.",
+        "introduction": [
+            "Caring for someone with a neurological condition can be rewarding, but it can also be demanding. These general tips can help you support your loved one and look after yourself."
+        ],
+        "sections": [
+            {
+                "heading": "Supporting appointments",
+                "style": "checklist",
+                "items": [
+                    "Keep a folder of reports, prescriptions and scans",
+                    "Note changes in symptoms, sleep, mood and behaviour between visits",
+                    "Prepare questions before each appointment",
+                    "Go with the person to appointments, if possible"
+                ]
+            },
+            {
+                "heading": "Medicines",
+                "style": "checklist",
+                "items": [
+                    "Keep an up-to-date list of all medicines and doses",
+                    "Use a pill organiser or reminders to avoid missed doses",
+                    "Do not stop or change medicines without medical advice",
+                    "Report possible side effects to the doctor"
+                ]
+            },
+            {
+                "heading": "Safety at home",
+                "style": "checklist",
+                "items": [
+                    "Reduce fall risks: good lighting, no loose rugs and handrails where needed",
+                    "Supervise cooking, medicines and money for people with memory problems",
+                    "Learn seizure first aid if the person has epilepsy",
+                    "Keep emergency numbers, including 112, easy to find"
+                ]
+            },
+            {
+                "heading": "Looking after yourself",
+                "style": "list",
+                "items": [
+                    "Take regular breaks and share responsibilities with other family members.",
+                    "Talk to someone you trust about how you are feeling.",
+                    "Look after your own health, sleep and appointments."
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How can I help someone with memory problems?",
+                "answer": "Keep routines simple and consistent, use calendars and reminders, speak calmly in short sentences and make the home safe."
+            },
+            {
+                "question": "When should I seek urgent help?",
+                "answer": "Call 112 for emergency warning signs such as sudden weakness, difficulty speaking, a long seizure or loss of consciousness."
+            }
+        ],
+        "relatedServiceIds": ["emergency-guidance", "memory-cognitive-clinic", "stroke-rehabilitation", "home-exercise-guidance"],
+        "seoTitle": "Caregiver Guides – Supporting Someone with a Neurological Condition",
+        "seoDescription": "Practical tips for caregivers on appointments, medicines, safety at home and looking after yourself while supporting a loved one.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "health-library",
+        "slug": "health-library",
+        "title": "Health Library / Articles",
+        "category": "patient-resources",
+        "pageType": "resource",
+        "icon": "fa-solid fa-book-open",
+        "shortDescription": "Articles on neurological health.",
+        "isPublished": false,
+        "optionalService": false,
+        "requiresVerification": ["Articles need to be written and clinically reviewed before this page is published."]
+    }
+]

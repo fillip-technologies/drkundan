@@ -2,7 +2,7 @@
     <div class=" max-w-7xl mx-auto">
 
         <div class="relative rounded-3xl overflow-hidden p-10 lg:p-16"
-            style="background: linear-gradient(135deg, rgba(2,134,148,0.95), rgba(30,41,59,0.98));">
+            style="background: var(--gradient-hero);">
 
             <!-- Decorative circles -->
             <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full opacity-10"
@@ -18,7 +18,7 @@
 
                     <!-- Label -->
                     <span class="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
-                        style="background: rgba(93,202,212,0.15); color: var(--color-secondary);">
+                        style="background: rgba(var(--secondary-rgb),0.15); color: var(--color-secondary);">
                         Book an Appointment
                     </span>
 
@@ -26,7 +26,7 @@
                         Get Expert Neurological <br>Care Today
                     </h2>
 
-                    <p class="text-base" style="color: rgba(240,249,250,0.65);">
+                    <p class="text-base" style="color: rgba(var(--light-rgb),0.65);">
                         Consult Dr. Kundan Kumar — Neurosurgeon in Patna. Available for
                         in-clinic visits, second opinions, and emergency cases.
                     </p>
@@ -34,16 +34,16 @@
                     <!-- Info Pills -->
                     <div class="flex flex-wrap gap-3 pt-2">
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
-                            style="background: rgba(255,255,255,0.07); color: rgba(240,249,250,0.8);">
-                            <svg class="w-4 h-4" fill="none" stroke="#5DCAD4" viewBox="0 0 24 24">
+                            style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M12 6v6l4 2m5-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                             Mon – Sat: 10am – 6pm
                         </div>
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
-                            style="background: rgba(255,255,255,0.07); color: rgba(240,249,250,0.8);">
-                            <svg class="w-4 h-4" fill="none" stroke="#5DCAD4" viewBox="0 0 24 24">
+                            style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
@@ -52,8 +52,8 @@
                             NSMCH, Bihta, Patna
                         </div>
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
-                            style="background: rgba(255,255,255,0.07); color: rgba(240,249,250,0.8);">
-                            <svg class="w-4 h-4" fill="none" stroke="#5DCAD4" viewBox="0 0 24 24">
+                            style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
                             </svg>
@@ -67,7 +67,7 @@
                 <div class="flex flex-col gap-4" data-aos="fade-left">
 
                     <!-- WhatsApp -->
-                    <a href="https://wa.me/918088152289"
+                    <a href="{{ $site->whatsappUrl() }}"
                         class="group flex items-center gap-4 px-6 py-5 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
                         style="background: #25D366;">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
@@ -79,7 +79,7 @@
                         </div>
                         <div class="flex-1">
                             <p class="text-white font-bold text-base">WhatsApp Appointment</p>
-                            <p class="text-white/75 text-sm mt-0.5">+91 80881 52289 · Instant Reply</p>
+                            <p class="text-white/75 text-sm mt-0.5">{{ $site->phoneDisplay() }} · Instant Reply</p>
                         </div>
                         <svg class="w-5 h-5 text-white/60 group-hover:translate-x-1 transition" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -89,7 +89,7 @@
                     </a>
 
                     <!-- Call -->
-                    <a href="tel:+918088152289"
+                    <a href="{{ $site->telUrl() }}"
                         class="group flex items-center gap-4 px-6 py-5 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
                         style="background: var(--color-primary);">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
@@ -101,7 +101,7 @@
                         </div>
                         <div class="flex-1">
                             <p class="text-white font-bold text-base">Call for Appointment</p>
-                            <p class="text-white/75 text-sm mt-0.5">+91 80881 52289 · Available 10am–6pm</p>
+                            <p class="text-white/75 text-sm mt-0.5">{{ $site->phoneDisplay() }} · Available 10am–6pm</p>
                         </div>
                         <svg class="w-5 h-5 text-white/60 group-hover:translate-x-1 transition" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -115,18 +115,18 @@
                         class="group flex items-center gap-4 px-6 py-5 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                         style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                            style="background: rgba(93,202,212,0.15);">
-                            <svg class="w-6 h-6" fill="none" stroke="#5DCAD4" viewBox="0 0 24 24">
+                            style="background: rgba(var(--secondary-rgb),0.15);">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" />
                             </svg>
                         </div>
                         <div class="flex-1">
                             <p class="font-bold text-base" style="color: var(--color-soft);">Book Online</p>
-                            <p class="text-sm mt-0.5" style="color: rgba(240,249,250,0.5);">Fill the appointment form
+                            <p class="text-sm mt-0.5" style="color: rgba(var(--light-rgb),0.5);">Fill the appointment form
                             </p>
                         </div>
-                        <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" stroke="#5DCAD4"
+                        <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" style="color: var(--color-secondary);"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 8l4 4m0 0l-4 4m4-4H3" />

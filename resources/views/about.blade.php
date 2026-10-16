@@ -5,7 +5,7 @@
 @section('content')
 
 {{-- Hero Banner --}}
-<section class="pt-36 pb-20 px-6" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
+<section class="pt-36 pb-20 px-6" style="background: var(--gradient-hero);">
     <div class="max-w-7xl mx-auto">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             {{-- Left --}}
@@ -29,8 +29,8 @@
             <div class="relative flex justify-center">
                 <div class="relative w-72">
                     <div class="absolute -inset-2 rounded-3xl opacity-40 blur-xl" style="background: rgba(255,255,255,0.3);"></div>
-                    <img src="{{ asset('images/why.jpg') }}" alt="Dr. Kundan Kumar"
-                        class="relative w-full rounded-3xl shadow-2xl object-cover" style="border: 4px solid rgba(255,255,255,0.4);">
+                    <img src="{{ asset('images/dr-kundan.png') }}" alt="Dr. Kundan Kumar"
+                        class="relative w-full aspect-[4/5] rounded-3xl shadow-2xl object-cover object-top" style="border: 4px solid rgba(255,255,255,0.4);">
                     <div class="absolute -bottom-5 left-4 right-4 rounded-2xl p-4 shadow-xl"
                         style="background: rgba(255,255,255,0.97); backdrop-filter: blur(12px);">
                         <div class="flex items-center gap-2 mb-1">
@@ -69,30 +69,30 @@
 </section>
 
 {{-- Doctor Details Section --}}
-<section class="py-20 px-6" style="background: white;">
+<section id="doctor-profile" class="scroll-mt-20 py-20 px-6" style="background: white;">
     <div class="max-w-6xl mx-auto">
         <div class="grid lg:grid-cols-2 gap-16 items-start">
 
             {{-- LEFT: Photo + floating card --}}
             <div class="relative">
                 <div class="absolute -inset-1 rounded-3xl opacity-20 blur-xl"
-                    style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));"></div>
+                    style="background: var(--gradient-brand);"></div>
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                    <img src="https://images.pexels.com/photos/5327655/pexels-photo-5327655.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop"
+                    <img src="{{ asset('images/dr-kundan.png') }}"
                         alt="Dr. Kundan Kumar – Neurosurgeon"
                         class="w-full h-[500px] object-cover object-top">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 </div>
                 <div class="absolute -bottom-8 left-6 right-6 bg-white rounded-2xl shadow-2xl p-5"
-                    style="border: 1px solid rgba(2,134,148,0.12);">
+                    style="border: 1px solid rgba(var(--primary-rgb),0.12);">
                     <div class="flex items-center justify-between">
                         <div>
-                            <p class="text-xs font-bold uppercase tracking-wide" style="color: var(--color-secondary);">Senior Consultant</p>
+                            <p class="text-xs font-bold uppercase tracking-wide" style="color: var(--color-primary);">Senior Consultant</p>
                             <h3 class="text-xl font-extrabold mt-0.5" style="color: var(--color-dark);">Dr. Kundan Kumar</h3>
                             <p class="text-sm text-gray-500">MBBS, MCh (Neurosurgery)</p>
                         </div>
                         <div class="w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
-                            style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
+                            style="background: var(--gradient-brand);">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
@@ -118,7 +118,7 @@
                 </p>
 
                 {{-- Qualifications --}}
-                <div class="space-y-3 mb-8">
+                <div id="qualifications" class="scroll-mt-28 space-y-3 mb-8">
                     <h3 class="font-bold text-sm uppercase tracking-widest mb-3" style="color: var(--color-primary);">Qualifications</h3>
                     @foreach ([
                         ['MBBS', 'Bachelor of Medicine & Bachelor of Surgery'],
@@ -140,12 +140,12 @@
                 </div>
 
                 <div class="flex flex-wrap gap-4">
-                    <a href="{{ url('/contact') }}"
+                    <a href="{{ $site->bookingUrl() }}"
                         class="px-6 py-3 rounded-xl text-white font-semibold shadow-lg transition hover:-translate-y-0.5"
-                        style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
+                        style="background: var(--gradient-brand);">
                         Book Appointment
                     </a>
-                    <a href="tel:+918088152289"
+                    <a href="{{ $site->telUrl() }}"
                         class="px-6 py-3 rounded-xl font-semibold transition hover:-translate-y-0.5"
                         style="border: 2px solid var(--color-primary); color: var(--color-primary); background: white;">
                         📞 Call Now
@@ -157,7 +157,7 @@
 </section>
 
 {{-- Specializations --}}
-<section class="py-20 px-6" style="background: var(--color-light);">
+<section id="expertise" class="scroll-mt-20 py-20 px-6" style="background: var(--color-light);">
     <div class="max-w-6xl mx-auto">
         <div class="text-center mb-14">
             <span class="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
@@ -175,7 +175,7 @@
                 ['🩺', 'Neuro OPD Consultation', 'Comprehensive outpatient consultations for headaches, vertigo, nerve pain, and more.'],
             ] as $s)
             <div class="rounded-2xl p-6 transition-all hover:-translate-y-1 hover:shadow-xl"
-                style="background: white; border: 1px solid rgba(2,134,148,0.1);">
+                style="background: white; border: 1px solid rgba(var(--primary-rgb),0.1);">
                 <div class="text-3xl mb-3">{{ $s[0] }}</div>
                 <h3 class="font-bold text-lg mb-2" style="color: var(--color-dark);">{{ $s[1] }}</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">{{ $s[2] }}</p>
@@ -186,7 +186,7 @@
 </section>
 
 {{-- Experience Timeline --}}
-<section class="py-20 px-6 relative" style="background: #fcfdfd;">
+<section id="experience" class="scroll-mt-20 py-20 px-6 relative" style="background: #fcfdfd;">
     <!-- Abstract background element -->
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div class="absolute top-[20%] left-[-10%] w-96 h-96 rounded-full opacity-30" style="background: var(--color-soft); filter: blur(80px);"></div>
@@ -196,12 +196,12 @@
     <div class="max-w-4xl mx-auto relative z-10">
         <div class="text-center mb-16">
             <span class="inline-block text-xs font-extrabold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 shadow-sm"
-                style="background: white; color: var(--color-primary); border: 1px solid rgba(2,134,148,0.1);">Career Journey</span>
+                style="background: white; color: var(--color-primary); border: 1px solid rgba(var(--primary-rgb),0.1);">Career Journey</span>
             <h2 class="text-4xl font-extrabold" style="color: var(--color-dark);">Experience & Training</h2>
             <p class="text-gray-500 mt-4 max-w-lg mx-auto">A continuous journey of excellence and dedication to mastering neurological and spinal care.</p>
         </div>
         
-        <div class="relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-teal-200 before:to-transparent">
+        <div class="relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-brand-200 before:to-transparent">
             @foreach ([
                 ['2014', 'MBBS Completed', 'Graduated from a reputed medical college with distinction. Foundation of medical expertise.', '🎓'],
                 ['2019', 'MCh – Neurosurgery', 'Super-specialization in Neurosurgery. Intensive training in advanced microsurgery, endoscopy, and neuro-navigation.', '🧠'],
@@ -213,14 +213,14 @@
             <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active mb-12 last:mb-0">
                 <!-- Timeline Marker -->
                 <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-transform duration-300 group-hover:scale-110"
-                    style="box-shadow: 0 0 0 4px rgba(2, 134, 148, 0.1);">
+                    style="box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.1);">
                     <div class="w-3 h-3 rounded-full" style="background: var(--color-primary);"></div>
                 </div>
                 
                 <!-- Card -->
-                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-3xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 bg-white border border-gray-100 group-hover:border-teal-100 relative overflow-hidden">
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-3xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 bg-white border border-gray-100 group-hover:border-brand-100 relative overflow-hidden">
                     <!-- Subtle hover glow -->
-                    <div class="absolute -top-20 -right-20 w-40 h-40 bg-teal-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                    <div class="absolute -top-20 -right-20 w-40 h-40 bg-brand-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     
                     <div class="flex items-center justify-between mb-3 relative z-10">
                         <span class="inline-block text-xs font-bold px-3 py-1 rounded-full"
@@ -244,7 +244,7 @@
         <div class="flex flex-wrap justify-center gap-4">
             <a href="{{ url('/contact') }}"
                 class="px-8 py-3 rounded-xl text-white font-semibold shadow-lg transition hover:-translate-y-0.5"
-                style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
+                style="background: var(--gradient-brand);">
                 Get in Touch
             </a>
             <a href="{{ url('/clinics') }}"

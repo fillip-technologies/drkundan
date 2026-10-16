@@ -2,8 +2,8 @@
 
     <!-- Decorative background elements -->
     <!-- <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <div class="absolute -top-20 -right-20 w-96 h-96 rounded-full" style="background: radial-gradient(circle, rgba(13,110,253,0.08) 0%, transparent 70%);"></div>
-        <div class="absolute -bottom-20 -left-20 w-96 h-96 rounded-full" style="background: radial-gradient(circle, rgba(0,180,216,0.06) 0%, transparent 70%);"></div>
+        <div class="absolute -top-20 -right-20 w-96 h-96 rounded-full" style="background: radial-gradient(circle, rgba(var(--primary-rgb),0.08) 0%, transparent 70%);"></div>
+        <div class="absolute -bottom-20 -left-20 w-96 h-96 rounded-full" style="background: radial-gradient(circle, rgba(var(--secondary-rgb),0.06) 0%, transparent 70%);"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
             <svg class="absolute top-10 left-10 opacity-10" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="0.5">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
@@ -30,11 +30,11 @@
                 <div class="relative">
                     <!-- Gradient outline effect -->
                     <div class="absolute -inset-1 rounded-3xl opacity-30 blur-xl"
-                        style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
+                        style="background: var(--gradient-brand);">
                     </div>
 
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="https://images.pexels.com/photos/5327655/pexels-photo-5327655.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop"
+                        <img src="{{ asset('images/dr-kundan.png') }}"
                             alt="Dr. Kundan Kumar - Neurosurgeon" class="w-full h-[480px] object-cover object-top">
 
                         <!-- Overlay gradient -->
@@ -49,12 +49,12 @@
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-sm font-semibold uppercase tracking-wide"
-                                style="color: var(--color-secondary);">Senior Consultant</p>
+                                style="color: var(--color-primary);">Senior Consultant</p>
                             <h3 class="text-2xl font-bold mt-1" style="color: var(--color-dark);">Dr. Kundan Kumar</h3>
                             <p class="text-sm text-gray-500 mt-0.5">MBBS, MCh (Neurosurgery)</p>
                         </div>
                         <div class="w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
-                            style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
+                            style="background: var(--gradient-brand);">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -115,7 +115,7 @@
                 <!-- Key Highlights -->
                 <div class="space-y-3 mb-8">
                     <div class="flex items-center gap-3 p-3 rounded-xl transition-all hover:translate-x-1"
-                        style="background: rgba(13,110,253,0.04);">
+                        style="background: rgba(var(--primary-rgb),0.04);">
                         <div class="w-8 h-8 rounded-full flex items-center justify-center"
                             style="background: var(--color-primary);">
                             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,9 +126,9 @@
                         <span class="text-gray-700 font-medium">Advanced Minimally Invasive Spine Surgery</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 rounded-xl transition-all hover:translate-x-1"
-                        style="background: rgba(0,180,216,0.04);">
+                        style="background: rgba(var(--secondary-rgb),0.04);">
                         <div class="w-8 h-8 rounded-full flex items-center justify-center"
-                            style="background: var(--color-secondary);">
+                            style="background: var(--color-violet);">
                             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
@@ -137,7 +137,7 @@
                         <span class="text-gray-700 font-medium">Complex Brain Tumor Surgeries</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 rounded-xl transition-all hover:translate-x-1"
-                        style="background: rgba(13,110,253,0.04);">
+                        style="background: rgba(var(--primary-rgb),0.04);">
                         <div class="w-8 h-8 rounded-full flex items-center justify-center"
                             style="background: var(--color-primary);">
                             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -153,7 +153,7 @@
                 <div class="flex flex-wrap gap-4">
                     <a href="#"
                         class="group inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl"
-                        style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); color: white;">
+                        style="background: var(--gradient-brand); color: white;">
                         Book Appointment
                         <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24">

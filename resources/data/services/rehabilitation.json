@@ -1,0 +1,418 @@
+[
+    {
+        "id": "stroke-rehabilitation",
+        "slug": "stroke-rehabilitation",
+        "title": "Stroke Rehabilitation",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-heart-pulse",
+        "shortDescription": "Therapy and guidance to help recovery of movement, function and independence after a stroke.",
+        "introduction": [
+            "After a stroke, many people have difficulties with movement, balance, speech, thinking or daily activities. Recovery is often greatest in the weeks and months after a stroke, but improvement can continue for longer.",
+            "Stroke rehabilitation uses targeted exercises and practical training to help people regain abilities, adapt to changes and reduce the risk of complications such as stiffness and falls."
+        ],
+        "symptomsOrReasons": [
+            "Weakness or stiffness of an arm or leg after a stroke",
+            "Difficulty walking, standing or keeping your balance",
+            "Problems using your hand for daily tasks",
+            "Reduced confidence or fear of falling",
+            "Caregivers needing guidance on how to give safe support at home"
+        ],
+        "whatToExpect": [
+            "An assessment of movement, strength, balance and daily activities.",
+            "Setting practical goals with you and your family.",
+            "Exercises and activity training adapted to your needs.",
+            "A home exercise plan and regular review of progress."
+        ],
+        "whoMayBenefit": [
+            "People recovering from a recent stroke",
+            "People with longer-standing difficulties after a stroke who want to improve function",
+            "Families and caregivers supporting stroke recovery"
+        ],
+        "preparation": [
+            "Comfortable clothing and supportive footwear",
+            "Any walking aids, splints or braces you use",
+            "Your hospital discharge summary and any previous therapy notes"
+        ],
+        "nextSteps": [
+            "Your plan is adjusted as you progress.",
+            "You may be given exercises to continue at home between sessions."
+        ],
+        "faqs": [
+            {
+                "question": "When should stroke rehabilitation start?",
+                "answer": "Rehabilitation usually starts once the person is medically stable. The doctor will advise on timing for your situation."
+            },
+            {
+                "question": "Can improvement continue months after a stroke?",
+                "answer": "Yes. Many people continue to make gains with ongoing practice and therapy, although progress differs from person to person."
+            }
+        ],
+        "relatedServiceIds": ["stroke-clinic", "physiotherapy", "balance-gait-training", "home-exercise-guidance"],
+        "seoTitle": "Stroke Rehabilitation – Recovery After Stroke",
+        "seoDescription": "Stroke rehabilitation to support recovery of movement, balance and daily activities. Learn what sessions involve, what to bring and how families can help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides rehabilitation sessions and where."]
+    },
+    {
+        "id": "parkinsons-rehabilitation",
+        "slug": "parkinsons-rehabilitation",
+        "title": "Parkinson's Rehabilitation",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-hand",
+        "shortDescription": "Exercise and therapy to support movement, balance and daily activities in Parkinson's disease.",
+        "introduction": [
+            "Parkinson's disease can cause slowness, stiffness, tremor and balance problems. Alongside medicines, regular exercise and therapy play an important role in staying active and independent.",
+            "Parkinson's rehabilitation focuses on walking, balance, flexibility, posture and practical strategies for everyday tasks."
+        ],
+        "symptomsOrReasons": [
+            "Slowness or stiffness affecting daily activities",
+            "Shuffling steps, freezing or difficulty turning",
+            "Balance problems or falls",
+            "A stooped posture",
+            "Wanting a safe and regular exercise routine"
+        ],
+        "whatToExpect": [
+            "An assessment of movement, walking, balance and posture.",
+            "Exercises for strength, flexibility and balance.",
+            "Strategies for walking, turning and getting up from a chair.",
+            "Advice on staying active at home."
+        ],
+        "whoMayBenefit": [
+            "People with Parkinson's disease at any stage",
+            "People with other movement disorders affecting walking or balance",
+            "Caregivers who want to support exercise safely"
+        ],
+        "preparation": [
+            "Comfortable clothing and footwear",
+            "A list of your medicines and the times you usually take them"
+        ],
+        "nextSteps": [
+            "Your exercise plan is adjusted as your needs change.",
+            "A home exercise routine may be suggested to help you stay active."
+        ],
+        "faqs": [
+            {
+                "question": "Can exercise help in Parkinson's disease?",
+                "answer": "Regular, appropriate exercise can help with mobility, balance and wellbeing. A therapist can suggest exercises that are safe for you."
+            },
+            {
+                "question": "Will rehabilitation replace my medicines?",
+                "answer": "No. Rehabilitation works alongside the treatment advised by your doctor."
+            }
+        ],
+        "relatedServiceIds": ["parkinsons-movement-disorders", "parkinsons", "balance-gait-training", "physiotherapy"],
+        "seoTitle": "Parkinson's Rehabilitation – Exercise and Balance Therapy",
+        "seoDescription": "Rehabilitation for Parkinson's disease to support walking, balance, posture and daily activities. Learn what sessions involve and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides rehabilitation sessions and where."]
+    },
+    {
+        "id": "neuromuscular-rehabilitation",
+        "slug": "neuromuscular-rehabilitation",
+        "title": "Neuromuscular Rehabilitation",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-dumbbell",
+        "shortDescription": "Therapy to maintain strength, mobility and function in nerve and muscle conditions.",
+        "introduction": [
+            "Nerve and muscle conditions, such as neuropathy, myopathy and Guillain-Barré syndrome, can cause weakness, numbness, tiredness and balance problems.",
+            "Neuromuscular rehabilitation aims to maintain and improve strength and mobility, protect joints, manage fatigue and support independence, with exercise matched to the condition."
+        ],
+        "symptomsOrReasons": [
+            "Weakness in the arms or legs",
+            "Balance problems caused by numbness in the feet",
+            "Tiredness that limits daily activities",
+            "Recovery after an episode of Guillain-Barré syndrome",
+            "Needing advice on walking aids or splints"
+        ],
+        "whatToExpect": [
+            "An assessment of strength, sensation, balance and stamina.",
+            "A tailored exercise programme that avoids overworking weak muscles.",
+            "Advice on saving energy and staying safe."
+        ],
+        "whoMayBenefit": [
+            "People with neuropathy, myopathy or other neuromuscular conditions",
+            "People recovering from Guillain-Barré syndrome"
+        ],
+        "preparation": [
+            "Comfortable clothing and footwear",
+            "Any splints, braces or walking aids you use"
+        ],
+        "nextSteps": [
+            "Your programme is reviewed and adjusted as your strength and needs change.",
+            "Home exercises may be provided to continue between sessions."
+        ],
+        "faqs": [
+            {
+                "question": "Is exercise safe with a muscle condition?",
+                "answer": "Appropriate exercise is often helpful, but the type and intensity need to suit your condition. Your programme will be planned with this in mind."
+            },
+            {
+                "question": "Can therapy help with numb feet?",
+                "answer": "Balance training and foot-care advice can help reduce falls and protect the feet when feeling is reduced."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "neuropathy", "gbs", "physiotherapy"],
+        "seoTitle": "Neuromuscular Rehabilitation – Therapy for Nerve and Muscle Conditions",
+        "seoDescription": "Rehabilitation for neuropathy, myopathy and other nerve and muscle conditions to support strength, balance and independence.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides rehabilitation sessions and where."]
+    },
+    {
+        "id": "post-surgery-rehabilitation",
+        "slug": "post-surgery-rehabilitation",
+        "title": "Post-Surgery Rehabilitation",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-bed-pulse",
+        "shortDescription": "Rehabilitation after brain or spine surgery.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that post-surgery rehabilitation is offered before writing and publishing this page."]
+    },
+    {
+        "id": "physiotherapy",
+        "slug": "physiotherapy",
+        "title": "Physiotherapy",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-person-running",
+        "shortDescription": "Exercise-based treatment to improve movement, strength, balance and pain.",
+        "introduction": [
+            "Physiotherapy uses exercise, movement training and other physical techniques to help people move better, reduce pain and recover function.",
+            "For neurological conditions, physiotherapy often focuses on strength, balance, walking, posture and preventing stiffness."
+        ],
+        "symptomsOrReasons": [
+            "Weakness or stiffness after a stroke or another neurological condition",
+            "Back or neck pain, including pain with sciatica",
+            "Balance problems or a risk of falls",
+            "Reduced mobility or difficulty walking"
+        ],
+        "whatToExpect": [
+            "An assessment of movement, strength and pain.",
+            "A personalised treatment plan with clear goals.",
+            "Guided exercises during sessions.",
+            "Exercises to continue at home."
+        ],
+        "whoMayBenefit": [
+            "People recovering from neurological illness",
+            "People with back, neck or nerve pain",
+            "People with balance or walking difficulties"
+        ],
+        "preparation": [
+            "Comfortable clothing and footwear",
+            "Previous reports or a note from your doctor, if available"
+        ],
+        "nextSteps": [
+            "Your progress is reviewed regularly and the plan updated.",
+            "You will be shown exercises to continue at home."
+        ],
+        "faqs": [
+            {
+                "question": "How many sessions will I need?",
+                "answer": "It depends on your condition and goals. Your progress will be reviewed regularly."
+            },
+            {
+                "question": "Should exercises be painful?",
+                "answer": "Some effort and mild discomfort can be expected, but tell the therapist if any exercise causes significant pain."
+            }
+        ],
+        "relatedServiceIds": ["neuro-rehabilitation", "spine-pain", "stroke-rehabilitation", "home-exercise-guidance"],
+        "seoTitle": "Physiotherapy for Neurological Conditions and Spine Pain",
+        "seoDescription": "Physiotherapy to improve movement, strength, balance and pain for neurological and spine conditions. Learn what to expect and what to wear.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides physiotherapy and where."]
+    },
+    {
+        "id": "occupational-therapy",
+        "slug": "occupational-therapy",
+        "title": "Occupational Therapy",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-hands",
+        "shortDescription": "Support to manage everyday activities.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that occupational therapy is offered before writing and publishing this page."]
+    },
+    {
+        "id": "speech-language-therapy",
+        "slug": "speech-language-therapy",
+        "title": "Speech & Language Therapy",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-comment-medical",
+        "shortDescription": "Therapy for speech and communication difficulties.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that speech and language therapy is offered before writing and publishing this page."]
+    },
+    {
+        "id": "swallowing-therapy",
+        "slug": "swallowing-therapy",
+        "title": "Swallowing Therapy",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-glass-water",
+        "shortDescription": "Therapy for swallowing difficulties.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that swallowing therapy is offered before writing and publishing this page."]
+    },
+    {
+        "id": "balance-gait-training",
+        "slug": "balance-gait-training",
+        "title": "Balance & Gait Training",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-shoe-prints",
+        "shortDescription": "Exercises to improve steadiness and walking, build confidence and reduce the risk of falls.",
+        "introduction": [
+            "Balance and walking (gait) can be affected by many neurological conditions, by inner-ear problems, or by weakness or numbness in the legs and feet.",
+            "Balance and gait training uses graded exercises and walking practice to improve steadiness, build confidence and lower the risk of falls."
+        ],
+        "symptomsOrReasons": [
+            "Unsteadiness or dizziness when walking",
+            "Falls or near-falls",
+            "Shuffling or uneven walking",
+            "Fear of falling that limits your activity",
+            "Using a walking aid and wanting to walk more safely"
+        ],
+        "whatToExpect": [
+            "An assessment of standing balance, walking pattern and fall risk.",
+            "Exercises for balance, strength and coordination.",
+            "Advice on walking aids and on safety at home."
+        ],
+        "whoMayBenefit": [
+            "People with balance problems due to neurological or inner-ear conditions",
+            "Older adults at risk of falls",
+            "People recovering from stroke or living with Parkinson's disease"
+        ],
+        "preparation": [
+            "Comfortable clothing and supportive footwear",
+            "Any walking aid you currently use"
+        ],
+        "nextSteps": [
+            "Exercises are progressed as your balance improves.",
+            "A home programme may be suggested to keep practising safely."
+        ],
+        "faqs": [
+            {
+                "question": "Can balance improve with exercise?",
+                "answer": "For many people, regular targeted practice improves balance and confidence. Results vary depending on the cause."
+            },
+            {
+                "question": "How can I reduce the risk of falls at home?",
+                "answer": "Good lighting, removing loose rugs, using handrails and wearing supportive footwear can help. The therapist can give advice specific to your home."
+            }
+        ],
+        "relatedServiceIds": ["vertigo-balance", "parkinsons-rehabilitation", "physiotherapy", "home-exercise-guidance"],
+        "seoTitle": "Balance & Gait Training – Walking and Fall Prevention",
+        "seoDescription": "Balance and gait training to improve steadiness and walking and to reduce the risk of falls. Learn what sessions involve and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides rehabilitation sessions and where."]
+    },
+    {
+        "id": "cognitive-rehabilitation",
+        "slug": "cognitive-rehabilitation",
+        "title": "Cognitive Rehabilitation",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-puzzle-piece",
+        "shortDescription": "Strategies and exercises to help with memory, attention and thinking difficulties.",
+        "introduction": [
+            "Cognitive rehabilitation helps people manage difficulties with memory, attention, planning and problem-solving after a stroke, brain injury or other neurological condition.",
+            "It focuses on practical strategies, such as routines, memory aids and step-by-step planning, along with exercises that make everyday tasks easier."
+        ],
+        "symptomsOrReasons": [
+            "Forgetfulness that affects daily life",
+            "Difficulty concentrating or following conversations",
+            "Trouble planning or organising tasks",
+            "Thinking difficulties after a stroke or brain injury"
+        ],
+        "whatToExpect": [
+            "An assessment of the specific thinking difficulties and the daily challenges they cause.",
+            "Setting goals that matter to you.",
+            "Practising strategies and using aids such as diaries, reminders and checklists.",
+            "Involving family members where this helps."
+        ],
+        "whoMayBenefit": [
+            "People with thinking difficulties after a stroke or brain injury",
+            "People with mild memory problems who want practical strategies",
+            "Families supporting a person with memory difficulties"
+        ],
+        "preparation": [
+            "Results of any previous cognitive or neuropsychological assessments",
+            "If possible, a family member who can help with practising strategies at home"
+        ],
+        "nextSteps": [
+            "Strategies are reviewed and adapted to your progress.",
+            "Practical tools may be suggested for use at home and work."
+        ],
+        "faqs": [
+            {
+                "question": "Can cognitive rehabilitation cure memory loss?",
+                "answer": "It cannot reverse every cause of memory loss, but it can help people cope better and stay more independent."
+            },
+            {
+                "question": "Is it useful for people with dementia?",
+                "answer": "Strategies and routines can help some people with early dementia manage daily life. The doctor will advise whether it is suitable."
+            }
+        ],
+        "relatedServiceIds": ["memory-cognitive-clinic", "cognitive-assessment", "neuropsychological-assessment", "stroke-rehabilitation"],
+        "seoTitle": "Cognitive Rehabilitation – Help with Memory and Attention",
+        "seoDescription": "Cognitive rehabilitation with practical strategies for memory, attention and planning difficulties after stroke, brain injury or other conditions.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides cognitive rehabilitation and where."]
+    },
+    {
+        "id": "home-exercise-guidance",
+        "slug": "home-exercise-guidance",
+        "title": "Home Exercise Guidance",
+        "category": "rehabilitation",
+        "icon": "fa-solid fa-house-medical",
+        "shortDescription": "Safe, practical exercise plans to continue your recovery at home.",
+        "introduction": [
+            "Regular practice between therapy sessions is an important part of recovery for many neurological conditions.",
+            "Home exercise guidance provides a simple, safe programme tailored to your abilities, with clear instructions for you and your caregivers."
+        ],
+        "symptomsOrReasons": [
+            "Continuing progress between or after therapy sessions",
+            "Difficulty travelling for frequent sessions",
+            "Needing a safe routine to stay active",
+            "Caregivers wanting to help with exercises"
+        ],
+        "whatToExpect": [
+            "A review of your current abilities and your home situation.",
+            "A demonstration of exercises you can do safely.",
+            "Written or illustrated instructions to follow.",
+            "Follow-up to update the programme."
+        ],
+        "whoMayBenefit": [
+            "People receiving rehabilitation who want to keep practising at home",
+            "Caregivers supporting exercises at home"
+        ],
+        "preparation": [
+            "Comfortable clothing and footwear",
+            "Notes about your home, such as stairs, space and handrails, that may affect which exercises are safe"
+        ],
+        "nextSteps": [
+            "Your home programme is updated as you progress.",
+            "Contact the clinic if an exercise causes pain or difficulty."
+        ],
+        "faqs": [
+            {
+                "question": "How often should I do my home exercises?",
+                "answer": "Follow the frequency advised in your programme. Regular, consistent practice is usually more helpful than occasional long sessions."
+            },
+            {
+                "question": "What if an exercise causes pain or dizziness?",
+                "answer": "Stop the exercise and contact the clinic for advice. Seek urgent medical help for any emergency symptoms."
+            }
+        ],
+        "relatedServiceIds": ["physiotherapy", "neuro-rehabilitation", "stroke-rehabilitation", "balance-gait-training"],
+        "seoTitle": "Home Exercise Guidance for Neurological Recovery",
+        "seoDescription": "Home exercise guidance to continue neurological recovery safely between therapy sessions, with tips for patients and caregivers.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who provides home exercise guidance."]
+    }
+]

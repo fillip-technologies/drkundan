@@ -9,7 +9,7 @@
     <div class="absolute inset-0">
         <img src="{{ asset('images/neurology-hero.png') }}"
              alt="Neurology" class="w-full h-full object-cover opacity-30">
-        <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(2,134,148,0.85) 0%, rgba(30,41,59,0.92) 55%, rgba(30,41,59,0.98) 100%);"></div>
+        <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(var(--primary-rgb),0.85) 0%, rgba(var(--dark-rgb),0.92) 55%, rgba(var(--dark-rgb),0.98) 100%);"></div>
     </div>
 
     {{-- Decorative circles --}}
@@ -32,7 +32,7 @@
 
             {{-- Label --}}
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-widest"
-                  style="background: rgba(93,202,212,0.15); color: var(--color-secondary); border: 1px solid rgba(93,202,212,0.3);">
+                  style="background: rgba(var(--secondary-rgb),0.15); color: var(--color-secondary); border: 1px solid rgba(var(--secondary-rgb),0.3);">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                 </svg>
@@ -45,7 +45,7 @@
                     Expert Neurology<br>
                     <span style="color: var(--color-secondary);">& Brain Care</span>
                 </h1>
-                <p class="text-lg leading-relaxed max-w-lg" style="color: rgba(240,249,250,0.75);">
+                <p class="text-lg leading-relaxed max-w-lg" style="color: rgba(var(--light-rgb),0.75);">
                     Advanced diagnosis and surgical treatment of brain, spine, and peripheral nerve disorders — delivered with precision, compassion, and 10+ years of specialized expertise.
                 </p>
             </div>
@@ -56,7 +56,7 @@
                 @foreach($heroStats as $st)
                 <div class="text-center">
                     <p class="text-3xl font-extrabold" style="color: var(--color-secondary);">{{ $st['v'] }}</p>
-                    <p class="text-xs font-medium mt-1" style="color: rgba(240,249,250,0.6);">{{ $st['l'] }}</p>
+                    <p class="text-xs font-medium mt-1" style="color: rgba(var(--light-rgb),0.6);">{{ $st['l'] }}</p>
                 </div>
                 @endforeach
             </div>
@@ -71,7 +71,7 @@
                 </a>
                 <a href="tel:+918088152289"
                    class="inline-flex items-center gap-2.5 px-8 py-4 rounded-2xl font-bold text-base transition-all hover:-translate-y-1"
-                   style="background: rgba(255,255,255,0.08); color: white; border: 1.5px solid rgba(93,202,212,0.4);">
+                   style="background: rgba(255,255,255,0.08); color: white; border: 1.5px solid rgba(var(--secondary-rgb),0.4);">
                     📞 Call Now
                 </a>
             </div>
@@ -85,18 +85,18 @@
                 <div class="absolute inset-0 blur-3xl opacity-30 rounded-full scale-90 transform translate-y-4" style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));"></div>
                 
                 {{-- Main image --}}
-                <div class="relative rounded-[2rem] overflow-hidden shadow-2xl transition duration-500 hover:scale-[1.02]" style="border: 1px solid rgba(93,202,212,0.3); background: rgba(30,41,59,0.5);">
+                <div class="relative rounded-[2rem] overflow-hidden shadow-2xl transition duration-500 hover:scale-[1.02]" style="border: 1px solid rgba(var(--secondary-rgb),0.3); background: rgba(var(--dark-rgb),0.5);">
                     <img src="{{ asset('images/scan.png') }}" alt="Advanced Brain Scan Analysis"
                          class="w-full object-cover" style="height: 480px; object-position: center;">
                     
                     {{-- Inner gradient overlay for depth --}}
-                    <div class="absolute inset-0 opacity-80" style="background: linear-gradient(to top, rgba(15,23,42,1) 0%, transparent 40%);"></div>
+                    <div class="absolute inset-0 opacity-80" style="background: linear-gradient(to top, rgba(var(--dark-rgb),1) 0%, transparent 40%);"></div>
                 </div>
 
                 {{-- Glassmorphism Floating Badge --}}
                 <div class="absolute -bottom-6 -left-4 md:-left-8 flex items-center gap-4 px-6 py-4 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.5)] backdrop-blur-xl"
-                     style="background: rgba(15,23,42,0.7); border: 1px solid rgba(93,202,212,0.2);">
-                    <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: rgba(93,202,212,0.15);">
+                     style="background: rgba(var(--dark-rgb),0.7); border: 1px solid rgba(var(--secondary-rgb),0.2);">
+                    <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: rgba(var(--secondary-rgb),0.15);">
                         <svg class="w-6 h-6" fill="none" stroke="var(--color-secondary)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                     </div>
                     <div>
@@ -111,14 +111,14 @@
 </section>
 
 {{-- ===================== WHAT WE TREAT ===================== --}}
-<section class="py-24 px-6" style="background: var(--color-light);">
+<section id="conditions" class="scroll-mt-20 py-24 px-6" style="background: var(--color-light);">
     <div class="max-w-7xl mx-auto">
 
         <div class="text-center mb-16">
             <span class="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4"
                   style="background: var(--color-soft); color: var(--color-primary);">Conditions We Treat</span>
             <h2 class="text-4xl font-extrabold mb-3" style="color: var(--color-dark);">Neurological Conditions</h2>
-            <p class="max-w-xl mx-auto text-base" style="color: rgba(30,41,59,0.6);">
+            <p class="max-w-xl mx-auto text-base" style="color: rgba(var(--dark-rgb),0.6);">
                 From common headaches to complex brain tumors — expert diagnosis and surgical treatment under one roof.
             </p>
         </div>
@@ -135,15 +135,15 @@
             ];
             @endphp
             @foreach($conditions as $i => $c)
-            <div class="group relative bg-white rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl overflow-hidden"
-                 style="border: 1px solid rgba(2,134,148,0.1);">
+            <div id="{{ \Illuminate\Support\Str::slug($c['title']) }}" class="scroll-mt-28 group relative bg-white rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl overflow-hidden"
+                 style="border: 1px solid rgba(var(--primary-rgb),0.1);">
                 {{-- Top accent bar --}}
                 <div class="absolute top-0 left-0 right-0 h-1 rounded-t-2xl transition-all duration-300 group-hover:h-1.5"
                      style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));"></div>
                 <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-5"
                      style="background: var(--color-soft);">{{ $c['icon'] }}</div>
                 <h3 class="text-lg font-bold mb-2" style="color: var(--color-dark);">{{ $c['title'] }}</h3>
-                <p class="text-sm leading-relaxed" style="color: rgba(30,41,59,0.65);">{{ $c['desc'] }}</p>
+                <p class="text-sm leading-relaxed" style="color: rgba(var(--dark-rgb),0.65);">{{ $c['desc'] }}</p>
                 <div class="mt-5 inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide transition-all group-hover:gap-2.5"
                      style="color: var(--color-primary);">
                     Learn More
@@ -164,15 +164,15 @@
             {{-- Image --}}
             <div class="relative order-2 lg:order-1">
                 <div class="rounded-3xl overflow-hidden shadow-2xl" style="border: 2px solid var(--color-soft);">
-                    <img src="{{ asset('images/doctor-consult.png') }}" alt="Dr. Kundan Kumar - Neurologist"
-                         class="w-full object-cover" style="height: 480px;">
+                    <img src="{{ asset('images/dr-kundan.png') }}" alt="Dr. Kundan Kumar - Neurologist"
+                         class="w-full object-cover object-top" style="height: 480px;">
                 </div>
                 {{-- Floating card --}}
                 <div class="absolute -bottom-6 -right-6 p-5 rounded-2xl shadow-2xl max-w-xs"
                      style="background: white; border: 1px solid var(--color-soft);">
                     <div class="flex items-center gap-3 mb-3">
                         <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background: var(--color-soft);">
-                            <svg class="w-5 h-5" fill="none" stroke="#028694" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                         </div>
                         <div>
                             <p class="text-sm font-bold" style="color: var(--color-dark);">Dr. Kundan Kumar</p>
@@ -182,15 +182,15 @@
                     <div class="grid grid-cols-3 gap-2 text-center">
                         <div class="rounded-xl py-2" style="background: var(--color-soft);">
                             <p class="text-base font-extrabold" style="color: var(--color-primary);">10+</p>
-                            <p class="text-xs" style="color: rgba(30,41,59,0.6);">Years</p>
+                            <p class="text-xs" style="color: rgba(var(--dark-rgb),0.6);">Years</p>
                         </div>
                         <div class="rounded-xl py-2" style="background: var(--color-light);">
                             <p class="text-base font-extrabold" style="color: var(--color-dark);">3000+</p>
-                            <p class="text-xs" style="color: rgba(30,41,59,0.6);">Cases</p>
+                            <p class="text-xs" style="color: rgba(var(--dark-rgb),0.6);">Cases</p>
                         </div>
                         <div class="rounded-xl py-2" style="background: var(--color-soft);">
                             <p class="text-base font-extrabold" style="color: var(--color-primary);">95%</p>
-                            <p class="text-xs" style="color: rgba(30,41,59,0.6);">Success</p>
+                            <p class="text-xs" style="color: rgba(var(--dark-rgb),0.6);">Success</p>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                 <h2 class="text-4xl font-extrabold leading-tight" style="color: var(--color-dark);">
                     Why Choose Dr. Kundan<br>for Neurology?
                 </h2>
-                <p class="text-base leading-relaxed" style="color: rgba(30,41,59,0.7);">
+                <p class="text-base leading-relaxed" style="color: rgba(var(--dark-rgb),0.7);">
                     Dr. Kundan Kumar holds an MCh in Neurosurgery from GRMC Gwalior and is trained at LBS Hospital, New Delhi. He combines advanced surgical techniques with a compassionate, patient-first approach to deliver the best neurological outcomes.
                 </p>
 
@@ -215,13 +215,13 @@
                         ['t'=>'Accessible Clinics','d'=>'Serving patients in Patna and Siwan - Bihar\'s trusted neurosurgeon'],
                     ]; @endphp
                     @foreach($points as $p)
-                    <div class="flex items-start gap-4 p-4 rounded-2xl" style="background: var(--color-light); border: 1px solid rgba(2,134,148,0.08);">
+                    <div class="flex items-start gap-4 p-4 rounded-2xl" style="background: var(--color-light); border: 1px solid rgba(var(--primary-rgb),0.08);">
                         <div class="w-8 h-8 rounded-xl flex items-center justify-center shrink-0 mt-0.5" style="background: var(--color-soft);">
-                            <svg class="w-4 h-4" fill="none" stroke="#028694" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                         </div>
                         <div>
                             <p class="text-sm font-bold" style="color: var(--color-dark);">{{ $p['t'] }}</p>
-                            <p class="text-sm mt-0.5" style="color: rgba(30,41,59,0.6);">{{ $p['d'] }}</p>
+                            <p class="text-sm mt-0.5" style="color: rgba(var(--dark-rgb),0.6);">{{ $p['d'] }}</p>
                         </div>
                     </div>
                     @endforeach
@@ -240,7 +240,7 @@
             <span class="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4"
                   style="background: var(--color-soft); color: var(--color-primary);">How It Works</span>
             <h2 class="text-4xl font-extrabold mb-3" style="color: var(--color-dark);">Your Path to Recovery</h2>
-            <p class="max-w-lg mx-auto" style="color: rgba(30,41,59,0.6);">
+            <p class="max-w-lg mx-auto" style="color: rgba(var(--dark-rgb),0.6);">
                 A structured, patient-first approach from first consultation to complete neurological recovery.
             </p>
         </div>
@@ -259,11 +259,11 @@
 
             @foreach($steps as $s)
             <div class="relative text-center p-7 rounded-2xl bg-white transition hover:shadow-xl"
-                 style="border: 1px solid rgba(2,134,148,0.1);">
+                 style="border: 1px solid rgba(var(--primary-rgb),0.1);">
                 <div class="w-16 h-16 rounded-full flex items-center justify-center text-white font-extrabold text-lg mx-auto mb-5 relative z-10 shadow-lg"
                      style="background: var(--color-primary);">{{ $s['n'] }}</div>
                 <h3 class="text-base font-bold mb-2" style="color: var(--color-dark);">{{ $s['t'] }}</h3>
-                <p class="text-sm leading-relaxed" style="color: rgba(30,41,59,0.6);">{{ $s['d'] }}</p>
+                <p class="text-sm leading-relaxed" style="color: rgba(var(--dark-rgb),0.6);">{{ $s['d'] }}</p>
             </div>
             @endforeach
 

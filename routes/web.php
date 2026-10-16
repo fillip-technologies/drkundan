@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -18,13 +19,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/services', function () {
-    return view('services');
-});
+Route::get('/services', [ServiceController::class, 'index'])->name('services.index');
 
-Route::get('/services/neurology', function () {
-    return view('neurology');
-});
+Route::redirect('/conditions', '/services#conditions');
+Route::redirect('/patient-resources', '/services#patient-resources');
 
 Route::get('/services/orthopedics', function () {
     return view('orthopedics');
@@ -33,3 +31,9 @@ Route::get('/services/orthopedics', function () {
 Route::get('/services/general-surgery', function () {
     return view('general-surgery');
 });
+
+// Service, condition and patient-resource pages from resources/data/services.
+Route::get('/{section}/{slug}', [ServiceController::class, 'show'])
+    ->whereIn('section', ['services', 'conditions', 'patient-resources'])
+    ->where('slug', '[a-z0-9-]+')
+    ->name('catalog.show');

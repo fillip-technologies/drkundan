@@ -9,11 +9,12 @@
             <div class="absolute -top-6 -left-6 w-64 h-64 rounded-full opacity-20 blur-2xl"
                 style="background: var(--color-primary);"></div>
 
-            <img src="{{ asset('images/why.jpg') }}" class="relative rounded-2xl shadow-2xl w-full object-cover z-10">
+            <img src="{{ asset('images/dr-kundan.png') }}" alt="Dr. Kundan Kumar"
+                class="relative rounded-2xl shadow-2xl w-full h-[520px] object-cover object-top z-10">
 
             <!-- Floating Badge -->
             <div class="absolute bottom-5 left-5 z-20 flex items-center gap-2 px-4 py-2 rounded-xl shadow-xl text-sm font-semibold"
-                style="background: white; color: var(--color-dark); border: 1px solid rgba(2,134,148,0.15);">
+                style="background: white; color: var(--color-dark); border: 1px solid rgba(var(--primary-rgb),0.15);">
                 🧠 Consultant Neurosurgeon
             </div>
 
@@ -46,7 +47,7 @@
             </div>
 
             <!-- Description -->
-            <p class="text-base leading-relaxed" style="color: rgba(30,41,59,0.7);">
+            <p class="text-base leading-relaxed" style="color: rgba(var(--dark-rgb),0.7);">
                 Dr. Kundan Kumar is a highly qualified neurosurgeon specializing in brain,
                 spine, and nerve disorders. With advanced surgical training and extensive
                 clinical experience, he is committed to providing safe, effective, and
@@ -57,10 +58,10 @@
             <div class="grid sm:grid-cols-2 gap-3">
 
                 <div class="flex items-start gap-3 rounded-xl p-3"
-                    style="background: var(--color-light); border: 1px solid rgba(2,134,148,0.1);">
+                    style="background: var(--color-light); border: 1px solid rgba(var(--primary-rgb),0.1);">
                     <div class="w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5"
                         style="background: var(--color-soft);">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                 d="M5 13l4 4L19 7" />
                         </svg>
@@ -73,10 +74,10 @@
                 </div>
 
                 <div class="flex items-start gap-3 rounded-xl p-3"
-                    style="background: var(--color-light); border: 1px solid rgba(2,134,148,0.1);">
+                    style="background: var(--color-light); border: 1px solid rgba(var(--primary-rgb),0.1);">
                     <div class="w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5"
                         style="background: var(--color-soft);">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                 d="M5 13l4 4L19 7" />
                         </svg>
@@ -89,10 +90,10 @@
                 </div>
 
                 <div class="flex items-start gap-3 rounded-xl p-3"
-                    style="background: var(--color-light); border: 1px solid rgba(2,134,148,0.1);">
+                    style="background: var(--color-light); border: 1px solid rgba(var(--primary-rgb),0.1);">
                     <div class="w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5"
                         style="background: var(--color-soft);">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                 d="M5 13l4 4L19 7" />
                         </svg>
@@ -105,10 +106,10 @@
                 </div>
 
                 <div class="flex items-start gap-3 rounded-xl p-3"
-                    style="background: var(--color-light); border: 1px solid rgba(2,134,148,0.1);">
+                    style="background: var(--color-light); border: 1px solid rgba(var(--primary-rgb),0.1);">
                     <div class="w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5"
                         style="background: var(--color-soft);">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                 d="M5 13l4 4L19 7" />
                         </svg>
@@ -133,9 +134,9 @@
                 </div>
 
                 <div class="flex flex-col items-center justify-center rounded-xl py-4 text-center"
-                    style="background: var(--color-soft); border: 1px solid rgba(2,134,148,0.15);">
+                    style="background: var(--color-soft); border: 1px solid rgba(var(--primary-rgb),0.15);">
                     <p class="text-2xl font-extrabold" style="color: var(--color-primary);">5000+</p>
-                    <p class="text-xs mt-1" style="color: rgba(30,41,59,0.6);">Cases Treated</p>
+                    <p class="text-xs mt-1" style="color: rgba(var(--dark-rgb),0.6);">Cases Treated</p>
                 </div>
 
                 <div class="flex flex-col items-center justify-center rounded-xl py-4 text-center"
@@ -157,9 +158,9 @@
                             d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                 </a>
-                <a href="https://wa.me/918088152289"
+                <a href="{{ $site->whatsappUrl() }}"
                     class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold shadow transition hover:-translate-y-0.5"
-                    style="background: var(--color-soft); color: var(--color-primary); border: 1px solid rgba(2,134,148,0.2);">
+                    style="background: var(--color-soft); color: var(--color-primary); border: 1px solid rgba(var(--primary-rgb),0.2);">
                     WhatsApp Now
                 </a>
             </div>

@@ -1,0 +1,870 @@
+[
+    {
+        "id": "stroke",
+        "slug": "stroke",
+        "title": "Stroke",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-heart-pulse",
+        "shortDescription": "A medical emergency in which the blood supply to part of the brain is interrupted.",
+        "urgentNotice": "Think FAST: Face drooping, Arm weakness, Speech difficulty – Time to call 112. Go to the nearest emergency department immediately; do not wait for a clinic appointment.",
+        "introduction": [
+            "A stroke happens when the blood supply to part of the brain is blocked (ischaemic stroke) or when a blood vessel in the brain bursts (haemorrhagic stroke). Brain cells can be damaged within minutes, so a stroke needs emergency treatment.",
+            "After emergency care, follow-up focuses on finding the cause, preventing another stroke and supporting recovery."
+        ],
+        "symptomsOrReasons": [
+            "Drooping of one side of the face",
+            "Weakness or numbness of an arm or leg, usually on one side",
+            "Slurred speech or difficulty understanding speech",
+            "Sudden loss of vision or double vision",
+            "Sudden loss of balance or coordination",
+            "A sudden, severe headache"
+        ],
+        "whatToExpect": [
+            "Emergency assessment and a brain scan (CT or MRI) at a hospital.",
+            "Tests to look for the cause, such as heart rhythm and blood vessel checks.",
+            "Follow-up review of risk factors and recovery."
+        ],
+        "whoMayBenefit": [
+            "People with high blood pressure, diabetes or high cholesterol",
+            "People who smoke",
+            "People with heart rhythm problems such as atrial fibrillation",
+            "People who have had a previous stroke or TIA"
+        ],
+        "nextSteps": [
+            "Follow-up at the stroke clinic to review the cause and prevention.",
+            "Rehabilitation to support recovery.",
+            "Long-term control of risk factors."
+        ],
+        "faqs": [
+            {
+                "question": "What does FAST mean?",
+                "answer": "FAST is a simple way to remember the signs of a stroke: Face drooping, Arm weakness, Speech difficulty – Time to call 112."
+            },
+            {
+                "question": "Can a stroke be prevented?",
+                "answer": "Many strokes can be prevented by controlling blood pressure, diabetes and cholesterol, not smoking, staying active and taking prescribed medicines."
+            }
+        ],
+        "relatedServiceIds": ["stroke-clinic", "stroke-rehabilitation", "emergency-guidance"],
+        "seoTitle": "Stroke – Warning Signs, Assessment and Follow-up Care",
+        "seoDescription": "Learn the warning signs of stroke (FAST), why it needs emergency care, who is at risk and how follow-up and rehabilitation can help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "epilepsy",
+        "slug": "epilepsy",
+        "title": "Epilepsy",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-bolt",
+        "shortDescription": "A condition that causes repeated seizures due to abnormal electrical activity in the brain.",
+        "urgentNotice": "Call 112 if a seizure lasts more than 5 minutes, if seizures happen one after another, if the person is injured or not breathing normally, or if it is their first seizure.",
+        "introduction": [
+            "Epilepsy is a condition in which a person tends to have repeated seizures. Seizures happen when there is a sudden burst of abnormal electrical activity in the brain.",
+            "Seizures can look very different from person to person, from convulsions to brief staring spells. With the right assessment and treatment, many people with epilepsy have good seizure control."
+        ],
+        "symptomsOrReasons": [
+            "Convulsions or jerking of the body",
+            "Brief staring spells or not responding",
+            "Sudden falls or loss of awareness",
+            "Repeated unusual sensations, smells or feelings",
+            "Confusion or sleepiness after an episode"
+        ],
+        "whatToExpect": [
+            "A detailed description of the episodes from the patient and from people who have seen them.",
+            "A neurological examination.",
+            "Tests such as an EEG and brain imaging, where advised."
+        ],
+        "whoMayBenefit": [
+            "Anyone who has had a seizure or an unexplained blackout",
+            "People with epilepsy whose seizures are not well controlled"
+        ],
+        "nextSteps": [
+            "Assessment at the epilepsy clinic.",
+            "Treatment planning, usually with medicines.",
+            "Safety advice and regular review."
+        ],
+        "faqs": [
+            {
+                "question": "Is epilepsy treatable?",
+                "answer": "Many people with epilepsy achieve good seizure control with medicines. The doctor will advise on the best approach for each person."
+            },
+            {
+                "question": "What should I do if someone has a seizure?",
+                "answer": "Keep them safe from injury, cushion their head, turn them onto their side once the jerking stops and do not put anything in their mouth. Call 112 if the seizure lasts more than 5 minutes."
+            }
+        ],
+        "relatedServiceIds": ["epilepsy-clinic", "eeg", "emergency-guidance"],
+        "seoTitle": "Epilepsy – Seizure Symptoms, Assessment and Care",
+        "seoDescription": "Learn what epilepsy is, common seizure symptoms, how it is assessed, seizure first aid and when to call for emergency help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "migraine",
+        "slug": "migraine",
+        "title": "Migraine",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-face-tired",
+        "shortDescription": "A common condition causing recurring, often severe headaches, sometimes with nausea and sensitivity to light.",
+        "urgentNotice": "Seek emergency care (call 112) for a sudden, severe 'worst-ever' headache, or a headache with fever, a stiff neck, confusion, weakness or fits.",
+        "introduction": [
+            "Migraine is a common neurological condition that causes repeated attacks of headache, often on one side of the head and throbbing in nature. Attacks can last from a few hours to a few days.",
+            "Some people have an aura before the headache, such as flashing lights or zigzag lines in their vision. Migraine is not dangerous in most cases, but it can have a big effect on daily life."
+        ],
+        "symptomsOrReasons": [
+            "A throbbing or pulsing headache, often on one side",
+            "Nausea or vomiting",
+            "Sensitivity to light, sound or smells",
+            "Visual disturbances (aura) before the headache",
+            "A headache that gets worse with routine physical activity"
+        ],
+        "whatToExpect": [
+            "A detailed history of the headache pattern and possible triggers.",
+            "An examination to look for any other causes.",
+            "Tests only if the doctor feels they are needed."
+        ],
+        "whoMayBenefit": [
+            "People with recurring headaches that affect daily life",
+            "People whose usual headache pattern has changed"
+        ],
+        "nextSteps": [
+            "Identifying and managing triggers.",
+            "Treatment for attacks.",
+            "Preventive treatment for frequent migraines, if needed."
+        ],
+        "faqs": [
+            {
+                "question": "What can trigger a migraine?",
+                "answer": "Common triggers include missed meals, poor sleep, stress, dehydration, bright lights, certain foods and hormonal changes. Triggers vary between people."
+            },
+            {
+                "question": "When is a headache an emergency?",
+                "answer": "A sudden, severe 'worst-ever' headache, or a headache with fever, a stiff neck, confusion, weakness or fits, needs emergency care. Call 112."
+            }
+        ],
+        "relatedServiceIds": ["headache-migraine", "neurology"],
+        "seoTitle": "Migraine – Symptoms, Triggers and Treatment Options",
+        "seoDescription": "Learn about migraine symptoms, common triggers, how migraine is assessed and which headaches need emergency care.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "dementia",
+        "slug": "dementia",
+        "title": "Dementia",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-puzzle-piece",
+        "shortDescription": "A decline in memory and thinking that is severe enough to affect daily life.",
+        "introduction": [
+            "Dementia is a general term for a group of conditions in which memory, thinking, language and behaviour decline enough to affect everyday life. Alzheimer's disease is the most common cause, but there are others, including dementia caused by strokes.",
+            "Early assessment helps to identify treatable causes of memory problems, plan care and support families."
+        ],
+        "symptomsOrReasons": [
+            "Memory loss, especially for recent events",
+            "Difficulty with familiar tasks",
+            "Confusion about time or place",
+            "Problems with language or finding words",
+            "Changes in mood, personality or behaviour",
+            "Poor judgement or difficulty planning"
+        ],
+        "whatToExpect": [
+            "A history from the patient and a family member.",
+            "A cognitive assessment of memory and thinking.",
+            "Blood tests and brain imaging, where advised, to look for other causes."
+        ],
+        "whoMayBenefit": [
+            "Older adults with worsening memory",
+            "People with a history of strokes, high blood pressure or diabetes",
+            "Families noticing changes in a loved one"
+        ],
+        "nextSteps": [
+            "Explaining the findings and possible causes.",
+            "Discussing treatment and support options.",
+            "Planning for safety and care at home."
+        ],
+        "faqs": [
+            {
+                "question": "Is dementia a normal part of ageing?",
+                "answer": "No. Some slowing of memory can happen with age, but dementia is not a normal part of ageing."
+            },
+            {
+                "question": "Can dementia be treated?",
+                "answer": "Some causes of memory problems are treatable. For many types of dementia, treatment and support can help manage symptoms and maintain quality of life."
+            }
+        ],
+        "relatedServiceIds": ["memory-cognitive-clinic", "cognitive-assessment", "alzheimers", "caregiver-guides"],
+        "seoTitle": "Dementia – Symptoms, Assessment and Support",
+        "seoDescription": "Learn about the symptoms of dementia, how memory problems are assessed, treatable causes and support for families and caregivers.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "alzheimers",
+        "slug": "alzheimers",
+        "title": "Alzheimer's",
+        "heading": "Alzheimer's Disease",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-brain",
+        "shortDescription": "The most common cause of dementia, causing a gradual decline in memory and thinking.",
+        "introduction": [
+            "Alzheimer's disease is a progressive brain condition and the most common cause of dementia. It usually begins with memory problems that slowly worsen over time.",
+            "There is currently no cure, but assessment and support can help people and their families manage symptoms, plan for the future and maintain quality of life."
+        ],
+        "symptomsOrReasons": [
+            "Forgetting recent conversations, events or appointments",
+            "Repeating questions",
+            "Often misplacing items",
+            "Difficulty with planning or problem-solving",
+            "Getting lost in familiar places",
+            "Changes in mood or behaviour"
+        ],
+        "whatToExpect": [
+            "A history from the patient and a family member.",
+            "A cognitive assessment.",
+            "Tests to rule out other causes of memory problems, where advised."
+        ],
+        "whoMayBenefit": [
+            "Older adults with memory problems that are slowly getting worse",
+            "Families concerned about a loved one's memory"
+        ],
+        "nextSteps": [
+            "Explaining the findings and the likely diagnosis.",
+            "Discussing treatment options that may help with symptoms.",
+            "Advice and support for caregivers."
+        ],
+        "faqs": [
+            {
+                "question": "Is Alzheimer's disease inherited?",
+                "answer": "Most cases are not directly inherited, although a family history can increase the risk. Rare forms run strongly in families."
+            },
+            {
+                "question": "How can families help?",
+                "answer": "Keeping routines, simplifying tasks, making the home safe and getting support for caregivers can all help."
+            }
+        ],
+        "relatedServiceIds": ["memory-cognitive-clinic", "dementia", "cognitive-assessment", "caregiver-guides"],
+        "seoTitle": "Alzheimer's Disease – Symptoms, Assessment and Support",
+        "seoDescription": "Learn about Alzheimer's disease, its early symptoms, how memory problems are assessed and how families can be supported.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "multiple-sclerosis",
+        "slug": "multiple-sclerosis",
+        "title": "Multiple Sclerosis",
+        "heading": "Multiple Sclerosis (MS)",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-diagram-project",
+        "shortDescription": "A condition in which the immune system affects the brain, spinal cord and optic nerves.",
+        "introduction": [
+            "Multiple sclerosis (MS) is a long-term condition in which the immune system damages the protective covering (myelin) around nerves in the brain, spinal cord and optic nerves. This disrupts nerve signals.",
+            "Symptoms vary widely and often come and go in episodes called relapses. Early assessment helps with diagnosis and planning care."
+        ],
+        "symptomsOrReasons": [
+            "Blurred vision or pain when moving the eye",
+            "Numbness or tingling",
+            "Weakness in the arms or legs",
+            "Problems with balance and coordination",
+            "Tiredness (fatigue)",
+            "Bladder problems"
+        ],
+        "whatToExpect": [
+            "A detailed history and neurological examination.",
+            "MRI of the brain and spine, where advised.",
+            "Other tests as recommended by the doctor."
+        ],
+        "whoMayBenefit": [
+            "Young and middle-aged adults with episodes of neurological symptoms",
+            "People with a diagnosis of MS who need regular review"
+        ],
+        "nextSteps": [
+            "Explaining the test results and diagnosis.",
+            "Treatment of relapses and discussion of long-term treatment options, where appropriate.",
+            "Rehabilitation for symptoms that affect daily life."
+        ],
+        "faqs": [
+            {
+                "question": "Is MS contagious?",
+                "answer": "No. MS cannot be passed from one person to another."
+            },
+            {
+                "question": "Does MS always lead to disability?",
+                "answer": "No. The course of MS varies widely. Many people lead active lives, and treatment and rehabilitation can help manage symptoms."
+            }
+        ],
+        "relatedServiceIds": ["neurology", "mri-ct-referral", "neuro-rehabilitation"],
+        "seoTitle": "Multiple Sclerosis (MS) – Symptoms and Assessment",
+        "seoDescription": "Learn about multiple sclerosis (MS), its common symptoms, how it is assessed and how treatment and rehabilitation can help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "parkinsons",
+        "slug": "parkinsons",
+        "title": "Parkinson's",
+        "heading": "Parkinson's Disease",
+        "category": "conditions",
+        "group": "movement",
+        "icon": "fa-solid fa-hand",
+        "shortDescription": "A progressive condition that causes slowness, stiffness and tremor.",
+        "introduction": [
+            "Parkinson's disease is a progressive condition in which brain cells that produce dopamine gradually stop working properly. Dopamine helps to control movement.",
+            "Symptoms usually develop slowly. Treatment, exercise and therapy can help people manage symptoms and stay active."
+        ],
+        "symptomsOrReasons": [
+            "Tremor, often in one hand at rest",
+            "Slowness of movement",
+            "Muscle stiffness",
+            "A shuffling walk or reduced arm swing",
+            "Balance problems",
+            "Smaller handwriting, a softer voice or less facial expression",
+            "Other symptoms such as constipation, poor sleep, low mood or a reduced sense of smell"
+        ],
+        "whatToExpect": [
+            "A detailed history and an examination of movement.",
+            "A review of medicines that can cause similar symptoms.",
+            "Tests in selected cases."
+        ],
+        "whoMayBenefit": [
+            "Mostly older adults, although it can begin earlier",
+            "People with a gradual onset of tremor, slowness or stiffness"
+        ],
+        "nextSteps": [
+            "Explaining the diagnosis.",
+            "Medicines to help movement symptoms, where appropriate.",
+            "Physiotherapy and exercise.",
+            "Regular review."
+        ],
+        "faqs": [
+            {
+                "question": "Can Parkinson's disease be cured?",
+                "answer": "There is currently no cure, but treatment and therapy can help control symptoms for many years."
+            },
+            {
+                "question": "Does Parkinson's disease only affect movement?",
+                "answer": "No. It can also affect sleep, mood, memory, bowel function and the sense of smell."
+            }
+        ],
+        "relatedServiceIds": ["parkinsons-movement-disorders", "parkinsons-rehabilitation", "tremor"],
+        "seoTitle": "Parkinson's Disease – Symptoms, Assessment and Care",
+        "seoDescription": "Learn about Parkinson's disease, its movement and non-movement symptoms, how it is assessed and how treatment and exercise can help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "tremor",
+        "slug": "tremor",
+        "title": "Tremor",
+        "category": "conditions",
+        "group": "movement",
+        "icon": "fa-solid fa-hand-dots",
+        "shortDescription": "Involuntary, rhythmic shaking of part of the body, most often the hands.",
+        "introduction": [
+            "Tremor is an involuntary shaking movement, most often of the hands, though it can affect the head, voice or legs. Tremor has many causes.",
+            "Common types include essential tremor, which often runs in families, and tremor due to Parkinson's disease. Tremor can also be caused by anxiety, thyroid problems, caffeine and some medicines."
+        ],
+        "symptomsOrReasons": [
+            "Shaking of the hands when holding objects or writing",
+            "Shaking at rest that improves with movement",
+            "Head nodding or a shaky voice",
+            "Tremor that worsens with stress, tiredness or caffeine"
+        ],
+        "whatToExpect": [
+            "Observing the tremor at rest, in different positions and during tasks.",
+            "A review of medicines, caffeine and alcohol use.",
+            "Blood tests, such as thyroid tests, if advised."
+        ],
+        "whoMayBenefit": [
+            "People with a new tremor",
+            "People whose tremor is affecting writing, eating or work"
+        ],
+        "nextSteps": [
+            "Explaining the type of tremor.",
+            "Lifestyle advice and treatment if the tremor affects daily life."
+        ],
+        "faqs": [
+            {
+                "question": "Is a tremor always serious?",
+                "answer": "No. Many tremors are mild. However, a new tremor should be checked to find the cause."
+            },
+            {
+                "question": "Can a tremor be reduced?",
+                "answer": "Depending on the cause, avoiding triggers, treating an underlying condition or medicines may help."
+            }
+        ],
+        "relatedServiceIds": ["parkinsons-movement-disorders", "parkinsons", "dystonia"],
+        "seoTitle": "Tremor – Causes, Assessment and Treatment",
+        "seoDescription": "Learn about tremor, its common causes including essential tremor and Parkinson's disease, and how it is assessed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "dystonia",
+        "slug": "dystonia",
+        "title": "Dystonia",
+        "category": "conditions",
+        "group": "movement",
+        "icon": "fa-solid fa-person-rays",
+        "shortDescription": "A movement disorder that causes involuntary muscle contractions and abnormal postures.",
+        "introduction": [
+            "Dystonia is a movement disorder in which muscles tighten involuntarily, causing twisting movements or abnormal postures. It can affect one part of the body, such as the neck, eyelids or hand, or several areas.",
+            "Assessment helps to identify the type of dystonia and possible causes, and to plan treatment that eases symptoms."
+        ],
+        "symptomsOrReasons": [
+            "The neck turning or tilting involuntarily",
+            "Excessive blinking or difficulty keeping the eyes open",
+            "Hand cramping during writing or other specific tasks",
+            "Abnormal twisting postures of a limb",
+            "Symptoms that get worse with stress or tiredness"
+        ],
+        "whatToExpect": [
+            "A detailed history, including medicines and family history.",
+            "An examination of movements and postures.",
+            "Tests, if advised, to look for underlying causes."
+        ],
+        "whoMayBenefit": [
+            "People with involuntary muscle spasms or abnormal postures",
+            "People whose symptoms started after taking certain medicines"
+        ],
+        "nextSteps": [
+            "Explaining the type of dystonia.",
+            "Treatment options to reduce muscle spasms.",
+            "Physiotherapy and stretching, where helpful."
+        ],
+        "faqs": [
+            {
+                "question": "What causes dystonia?",
+                "answer": "Dystonia can be inherited, linked to other conditions or medicines, or occur without a known cause."
+            },
+            {
+                "question": "Is dystonia painful?",
+                "answer": "It can be, especially when it affects the neck. Treatment aims to reduce spasms and discomfort."
+            }
+        ],
+        "relatedServiceIds": ["parkinsons-movement-disorders", "tremor", "physiotherapy"],
+        "seoTitle": "Dystonia – Symptoms, Causes and Assessment",
+        "seoDescription": "Learn about dystonia, its common symptoms such as neck twisting and writer's cramp, possible causes and how it is assessed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "neuropathy",
+        "slug": "neuropathy",
+        "title": "Neuropathy",
+        "heading": "Peripheral Neuropathy",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-wave-square",
+        "shortDescription": "Damage to the peripheral nerves that causes numbness, tingling, pain or weakness.",
+        "introduction": [
+            "Peripheral neuropathy is damage to the nerves outside the brain and spinal cord. It often starts in the feet and hands.",
+            "Common causes include diabetes, vitamin B12 deficiency, alcohol, some medicines, infections and inherited conditions. Finding the cause is important for treatment."
+        ],
+        "symptomsOrReasons": [
+            "Numbness or reduced feeling in the feet or hands",
+            "Tingling, pins and needles or burning pain",
+            "Weakness of the hands or feet",
+            "Balance problems, especially in the dark",
+            "Foot injuries that go unnoticed"
+        ],
+        "whatToExpect": [
+            "A history that includes diabetes, diet, alcohol use and medicines.",
+            "An examination of sensation, reflexes and strength.",
+            "Blood tests and nerve conduction studies, where advised."
+        ],
+        "whoMayBenefit": [
+            "People with diabetes",
+            "People with numbness or burning in the feet or hands",
+            "People with vitamin deficiency or heavy alcohol use"
+        ],
+        "nextSteps": [
+            "Treating the underlying cause where possible.",
+            "Managing nerve pain.",
+            "Foot care and balance advice.",
+            "Rehabilitation for weakness or balance problems."
+        ],
+        "faqs": [
+            {
+                "question": "Can neuropathy be reversed?",
+                "answer": "It depends on the cause. Treating causes such as vitamin deficiency or controlling blood sugar may stop it getting worse and sometimes improve symptoms."
+            },
+            {
+                "question": "Why is foot care important?",
+                "answer": "When feeling is reduced, small injuries can go unnoticed and become infected. Checking your feet every day helps prevent complications."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "ncv-ncs", "neuromuscular-rehabilitation"],
+        "seoTitle": "Peripheral Neuropathy – Numbness, Tingling and Nerve Pain",
+        "seoDescription": "Learn about peripheral neuropathy, common causes such as diabetes, symptoms like numbness and burning, and how it is assessed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "myopathy",
+        "slug": "myopathy",
+        "title": "Myopathy",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-dumbbell",
+        "shortDescription": "Conditions affecting the muscles, causing weakness, often around the hips and shoulders.",
+        "urgentNotice": "Seek emergency care (call 112) for any difficulty breathing or swallowing.",
+        "introduction": [
+            "Myopathy means disease of the muscles. It usually causes weakness in the muscles closest to the body, such as those around the hips, thighs and shoulders.",
+            "Causes include inflammation, inherited conditions, thyroid and other hormone problems, and some medicines. Assessment helps to find the cause and guide treatment."
+        ],
+        "symptomsOrReasons": [
+            "Difficulty climbing stairs or getting up from a chair",
+            "Difficulty lifting the arms above the head",
+            "Muscle aches, cramps or stiffness",
+            "Tiredness",
+            "Muscle wasting"
+        ],
+        "whatToExpect": [
+            "A history and an examination of muscle strength.",
+            "Blood tests, such as muscle enzyme levels.",
+            "EMG and other tests, where advised."
+        ],
+        "whoMayBenefit": [
+            "People with gradually increasing muscle weakness",
+            "People with muscle symptoms after starting a new medicine"
+        ],
+        "nextSteps": [
+            "Treatment of the underlying cause where possible.",
+            "Physiotherapy to maintain strength and mobility."
+        ],
+        "faqs": [
+            {
+                "question": "Can medicines cause muscle problems?",
+                "answer": "Yes, some medicines can affect the muscles. Do not stop any medicine without discussing it with your doctor."
+            },
+            {
+                "question": "Is myopathy inherited?",
+                "answer": "Some types are inherited, while others are caused by inflammation, hormone problems or medicines."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "emg", "neuromuscular-rehabilitation"],
+        "seoTitle": "Myopathy – Muscle Weakness Causes and Assessment",
+        "seoDescription": "Learn about myopathy, its common symptoms such as difficulty climbing stairs, possible causes and how muscle weakness is assessed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "myasthenia-gravis",
+        "slug": "myasthenia-gravis",
+        "title": "Myasthenia Gravis",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-eye",
+        "shortDescription": "An autoimmune condition causing muscle weakness that gets worse with activity.",
+        "urgentNotice": "Seek emergency care (call 112) for any difficulty breathing or swallowing.",
+        "introduction": [
+            "Myasthenia gravis is an autoimmune condition in which the immune system disrupts communication between nerves and muscles. This causes muscle weakness that gets worse with use and improves with rest.",
+            "It often affects the eye muscles first, but it can also affect the face, throat, arms and legs."
+        ],
+        "symptomsOrReasons": [
+            "Drooping eyelids",
+            "Double vision",
+            "Difficulty chewing, swallowing or speaking clearly",
+            "Weakness of the arms or legs that gets worse through the day",
+            "Shortness of breath, which needs urgent care"
+        ],
+        "whatToExpect": [
+            "A history and examination, including checks of how quickly muscles tire.",
+            "Blood tests for antibodies.",
+            "Specialised nerve tests and chest imaging, where advised."
+        ],
+        "whoMayBenefit": [
+            "People with weakness that varies through the day",
+            "People with drooping eyelids or double vision"
+        ],
+        "nextSteps": [
+            "Treatment to improve muscle strength and control the immune response.",
+            "Regular review and advice on avoiding triggers."
+        ],
+        "faqs": [
+            {
+                "question": "Is myasthenia gravis treatable?",
+                "answer": "Yes. Many people achieve good control of their symptoms with treatment."
+            },
+            {
+                "question": "What is a myasthenic crisis?",
+                "answer": "It is a serious worsening of weakness that affects breathing or swallowing. It is a medical emergency. Call 112."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "emg", "ncv-ncs"],
+        "seoTitle": "Myasthenia Gravis – Symptoms and Assessment",
+        "seoDescription": "Learn about myasthenia gravis, its symptoms such as drooping eyelids and double vision, how it is assessed and when to seek emergency care.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "gbs",
+        "slug": "gbs",
+        "title": "GBS",
+        "heading": "Guillain-Barré Syndrome (GBS)",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-person-falling",
+        "shortDescription": "A rare, rapidly developing condition in which the immune system attacks the nerves.",
+        "urgentNotice": "GBS can progress quickly. Seek emergency care (call 112) for weakness that is spreading quickly, or for any difficulty breathing or swallowing.",
+        "introduction": [
+            "Guillain-Barré syndrome (GBS) is a rare condition in which the immune system attacks the peripheral nerves, often after an infection. It causes weakness and numbness that usually start in the legs and spread upwards over days.",
+            "GBS needs urgent hospital assessment. Many people recover over weeks to months, and rehabilitation plays an important part in recovery."
+        ],
+        "symptomsOrReasons": [
+            "Tingling or numbness starting in the feet and hands",
+            "Weakness in the legs that spreads upwards",
+            "Difficulty walking or climbing stairs",
+            "Back or limb pain",
+            "Difficulty breathing or swallowing in severe cases"
+        ],
+        "whatToExpect": [
+            "Urgent assessment in hospital.",
+            "Nerve conduction studies and other tests, as advised.",
+            "Follow-up to monitor recovery."
+        ],
+        "whoMayBenefit": [
+            "People with rapidly progressing weakness, who need emergency care",
+            "People recovering from GBS who need follow-up and rehabilitation"
+        ],
+        "nextSteps": [
+            "Hospital treatment during the early phase.",
+            "Follow-up at the neuromuscular clinic.",
+            "Rehabilitation to rebuild strength and mobility."
+        ],
+        "faqs": [
+            {
+                "question": "Can people recover from GBS?",
+                "answer": "Many people recover well, although recovery can take time and some people have lasting weakness or tiredness."
+            },
+            {
+                "question": "Is GBS contagious?",
+                "answer": "No. GBS itself cannot be passed on, although it may follow an infection."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "ncv-ncs", "neuromuscular-rehabilitation", "emergency-guidance"],
+        "seoTitle": "Guillain-Barré Syndrome (GBS) – Symptoms and Recovery",
+        "seoDescription": "Learn about Guillain-Barré syndrome (GBS), why rapidly spreading weakness needs emergency care, how it is assessed and the role of rehabilitation.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "als-mnd",
+        "slug": "als-mnd",
+        "title": "ALS / MND",
+        "heading": "ALS / Motor Neuron Disease (MND)",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-person-cane",
+        "shortDescription": "A progressive condition affecting the nerve cells that control the muscles.",
+        "introduction": [
+            "Motor neuron disease (MND), also known as amyotrophic lateral sclerosis (ALS), is a progressive condition that affects the nerve cells (motor neurons) controlling the muscles. Over time, it causes increasing weakness.",
+            "There is currently no cure, but assessment, symptom management, therapy and support can help maintain comfort, independence and quality of life."
+        ],
+        "symptomsOrReasons": [
+            "Weakness in a hand, arm or leg",
+            "Muscle wasting or twitching",
+            "Muscle cramps",
+            "Slurred speech or difficulty swallowing",
+            "Weakness that gradually gets worse"
+        ],
+        "whatToExpect": [
+            "A detailed history and examination.",
+            "EMG and nerve conduction studies.",
+            "Other tests to rule out conditions with similar symptoms."
+        ],
+        "whoMayBenefit": [
+            "Adults with progressive weakness and muscle wasting",
+            "People with a diagnosis of MND and their families"
+        ],
+        "nextSteps": [
+            "Explaining the findings sensitively and clearly.",
+            "Managing symptoms and planning support.",
+            "Rehabilitation and care planning with the family."
+        ],
+        "faqs": [
+            {
+                "question": "Is every muscle twitch a sign of MND?",
+                "answer": "No. Muscle twitching is common and usually harmless. MND is considered when twitching occurs together with progressive weakness and wasting."
+            },
+            {
+                "question": "What support is available?",
+                "answer": "Support may include therapy, mobility aids, nutrition advice and caregiver support, depending on the person's needs."
+            }
+        ],
+        "relatedServiceIds": ["neuromuscular-clinic", "emg", "neuromuscular-rehabilitation", "caregiver-guides"],
+        "seoTitle": "ALS / Motor Neuron Disease (MND) – Symptoms and Support",
+        "seoDescription": "Learn about motor neuron disease (MND/ALS), its early symptoms, how it is assessed and the support available for patients and families.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "sciatica",
+        "slug": "sciatica",
+        "title": "Sciatica",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-bone",
+        "shortDescription": "Pain that spreads from the lower back down the leg because of nerve irritation.",
+        "urgentNotice": "Seek emergency care (call 112) if back pain comes with loss of bladder or bowel control, numbness around the genitals or buttocks, or rapidly worsening leg weakness.",
+        "introduction": [
+            "Sciatica is pain that travels from the lower back or buttock down the back of the leg, sometimes into the foot. It happens when a nerve root in the lower spine is irritated or compressed, often by a slipped (herniated) disc.",
+            "Most cases improve with time and non-surgical treatment, but persistent or severe symptoms need assessment."
+        ],
+        "symptomsOrReasons": [
+            "Pain from the buttock down the back of the leg",
+            "Numbness or tingling in the leg or foot",
+            "Weakness in the leg",
+            "Pain that gets worse with sitting, coughing or bending"
+        ],
+        "whatToExpect": [
+            "A history and examination of the spine and legs.",
+            "A review of any previous scans.",
+            "An MRI scan if the doctor advises it."
+        ],
+        "whoMayBenefit": [
+            "People with leg pain that is not improving",
+            "People with numbness or weakness in the leg"
+        ],
+        "nextSteps": [
+            "Pain relief and advice on activity.",
+            "Physiotherapy and exercises.",
+            "Further treatment options if symptoms are persistent or severe."
+        ],
+        "faqs": [
+            {
+                "question": "Does sciatica need surgery?",
+                "answer": "Most people improve without surgery. Surgery may be considered when symptoms are severe or persistent, or cause significant weakness."
+            },
+            {
+                "question": "Should I stay in bed?",
+                "answer": "Long periods of bed rest are usually not helpful. Gentle activity within your comfort limits is generally encouraged."
+            }
+        ],
+        "relatedServiceIds": ["spine-pain", "radiculopathy", "physiotherapy"],
+        "seoTitle": "Sciatica – Leg Pain from the Lower Back",
+        "seoDescription": "Learn about sciatica, its symptoms and causes, how it is assessed, treatment options and which back pain symptoms need emergency care.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "cervical-spondylosis",
+        "slug": "cervical-spondylosis",
+        "title": "Cervical Spondylosis",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-user-injured",
+        "shortDescription": "Age-related wear of the neck spine that can cause neck pain and nerve symptoms.",
+        "introduction": [
+            "Cervical spondylosis is age-related wear and tear of the discs and joints in the neck. It is common and often causes no symptoms.",
+            "In some people it causes neck pain and stiffness, or it may press on nerves or the spinal cord, causing arm symptoms or problems with walking and hand use."
+        ],
+        "symptomsOrReasons": [
+            "Neck pain and stiffness",
+            "Pain spreading to the shoulder or arm",
+            "Numbness or tingling in the arms or hands",
+            "Weakness or clumsiness of the hands",
+            "Unsteady walking, which needs prompt assessment"
+        ],
+        "whatToExpect": [
+            "A history and examination of the neck, arms and walking.",
+            "A review of X-ray or MRI reports.",
+            "An MRI scan if nerve or spinal cord involvement is suspected."
+        ],
+        "whoMayBenefit": [
+            "Middle-aged and older adults with neck pain",
+            "People with arm symptoms or hand clumsiness"
+        ],
+        "nextSteps": [
+            "Pain relief, posture and activity advice.",
+            "Physiotherapy and neck exercises.",
+            "Further treatment if there is significant pressure on the nerves or spinal cord."
+        ],
+        "faqs": [
+            {
+                "question": "Is cervical spondylosis common?",
+                "answer": "Yes, especially as people get older. Many people have changes on scans without any symptoms."
+            },
+            {
+                "question": "Can posture help?",
+                "answer": "Good posture, regular breaks from screens and appropriate exercises can help reduce neck pain."
+            }
+        ],
+        "relatedServiceIds": ["spine-pain", "radiculopathy", "physiotherapy"],
+        "seoTitle": "Cervical Spondylosis – Neck Pain and Nerve Symptoms",
+        "seoDescription": "Learn about cervical spondylosis, its symptoms such as neck pain and arm tingling, how it is assessed and how it can be managed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "radiculopathy",
+        "slug": "radiculopathy",
+        "title": "Radiculopathy",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-bolt-lightning",
+        "shortDescription": "A pinched or irritated nerve root in the spine, causing pain, numbness or weakness in a limb.",
+        "introduction": [
+            "Radiculopathy happens when a nerve root, where a nerve leaves the spinal cord, is compressed or irritated. It can occur in the neck (cervical radiculopathy) or the lower back (lumbar radiculopathy).",
+            "Causes include a slipped disc and age-related narrowing of the spaces where the nerves leave the spine."
+        ],
+        "symptomsOrReasons": [
+            "Pain that spreads into an arm or leg",
+            "Numbness or tingling along the path of the nerve",
+            "Weakness of particular muscles",
+            "Reduced reflexes"
+        ],
+        "whatToExpect": [
+            "An examination of strength, reflexes and sensation.",
+            "MRI and nerve tests (EMG/NCS), if advised."
+        ],
+        "whoMayBenefit": [
+            "People with arm or leg pain linked to neck or back problems",
+            "People with numbness or weakness in a limb"
+        ],
+        "nextSteps": [
+            "Pain relief and physiotherapy.",
+            "Monitoring for improvement.",
+            "Other treatment options if symptoms persist or weakness increases."
+        ],
+        "faqs": [
+            {
+                "question": "Is radiculopathy the same as sciatica?",
+                "answer": "Sciatica is a common type of lumbar radiculopathy. Radiculopathy can also affect the nerve roots in the neck, causing arm symptoms."
+            },
+            {
+                "question": "Will it get better?",
+                "answer": "Many cases improve with time and non-surgical treatment. Persistent or worsening weakness needs prompt review."
+            }
+        ],
+        "relatedServiceIds": ["spine-pain", "sciatica", "cervical-spondylosis", "emg"],
+        "seoTitle": "Radiculopathy – Pinched Nerve in the Neck or Back",
+        "seoDescription": "Learn about radiculopathy (a pinched nerve root), its symptoms in the arms or legs, how it is assessed and how it can be managed.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    }
+]

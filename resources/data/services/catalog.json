@@ -1,0 +1,110 @@
+{
+    "categories": [
+        {
+            "id": "specialities",
+            "label": "Specialities",
+            "file": "specialities.json",
+            "path": "services",
+            "icon": "fa-solid fa-stethoscope",
+            "description": "Specialist clinics for conditions affecting the brain, spine, nerves and muscles.",
+            "showPreparation": true,
+            "sectionLabels": {
+                "symptomsOrReasons": "When to consider this clinic",
+                "whatToExpect": "What happens at your visit",
+                "whoMayBenefit": "Who may benefit"
+            }
+        },
+        {
+            "id": "conditions",
+            "label": "Conditions",
+            "file": "conditions.json",
+            "path": "conditions",
+            "icon": "fa-solid fa-notes-medical",
+            "description": "Learn about common neurological conditions, their symptoms and how they are assessed.",
+            "countLabel": "conditions explained",
+            "showPreparation": true,
+            "groups": [
+                { "id": "brain-cognitive", "label": "Brain & Cognitive", "icon": "fa-solid fa-brain" },
+                { "id": "movement", "label": "Movement", "icon": "fa-solid fa-hand" },
+                { "id": "nerves-muscles", "label": "Nerves & Muscles", "icon": "fa-solid fa-wave-square" },
+                { "id": "spine", "label": "Spine", "icon": "fa-solid fa-bone" }
+            ],
+            "sectionLabels": {
+                "introduction": "About this condition",
+                "symptomsOrReasons": "Common symptoms",
+                "whatToExpect": "How it is assessed",
+                "whoMayBenefit": "Who may be affected",
+                "preparation": "Preparing for your appointment",
+                "nextSteps": "How the clinic can help"
+            }
+        },
+        {
+            "id": "diagnostics",
+            "label": "Diagnostics",
+            "file": "diagnostics.json",
+            "path": "services",
+            "icon": "fa-solid fa-wave-square",
+            "description": "Neurological tests and assessments that help find the cause of symptoms.",
+            "countLabel": "tests and assessments",
+            "showPreparation": true,
+            "preparationLinks": ["test-preparation", "what-to-bring"],
+            "sectionLabels": {
+                "symptomsOrReasons": "Why this test may be advised",
+                "whatToExpect": "What the test involves",
+                "whoMayBenefit": "Who may need this test"
+            }
+        },
+        {
+            "id": "rehabilitation",
+            "label": "Rehabilitation",
+            "file": "rehabilitation.json",
+            "path": "services",
+            "icon": "fa-solid fa-person-walking",
+            "description": "Therapy and practical guidance to support recovery, movement and independence.",
+            "countLabel": "rehabilitation services",
+            "showPreparation": true,
+            "sectionLabels": {
+                "symptomsOrReasons": "When rehabilitation may help",
+                "whatToExpect": "What sessions involve",
+                "whoMayBenefit": "Who may benefit"
+            }
+        },
+        {
+            "id": "patient-resources",
+            "label": "Patient Resources",
+            "file": "patient-resources.json",
+            "path": "patient-resources",
+            "icon": "fa-solid fa-book-medical",
+            "description": "Practical guides to help you prepare for your visit and know when to seek urgent help.",
+            "showPreparation": false,
+            "sectionLabels": {
+                "related": "Related pages"
+            }
+        }
+    ],
+    "homepage": {
+        "featured": ["neurology", "neurosurgery", "stroke-clinic", "epilepsy-clinic", "spine-pain"],
+        "categories": ["conditions", "diagnostics", "rehabilitation"]
+    },
+    "sectionLabels": {
+        "introduction": "Overview",
+        "symptomsOrReasons": "Reasons to seek assessment",
+        "whatToExpect": "What to expect",
+        "whoMayBenefit": "Who may benefit",
+        "preparation": "How to prepare",
+        "nextSteps": "What happens next",
+        "faqs": "Frequently asked questions",
+        "related": "Related services"
+    },
+    "defaults": {
+        "preparation": [
+            "Previous medical reports, prescriptions and hospital discharge summaries",
+            "MRI or CT scan films and reports, if you have them",
+            "A list of all the medicines you take, with their doses",
+            "A short note of your symptoms: when they started, how often they happen and what makes them better or worse"
+        ],
+        "preparationLinks": ["what-to-bring", "first-visit-guide"],
+        "nextStepsNote": "Recommendations depend on the clinician's assessment of your individual situation. This website cannot diagnose your condition or guarantee a particular result.",
+        "disclaimer": "This page gives general information to help you understand this topic. It is not a diagnosis and does not replace a consultation with a doctor."
+    }
+}

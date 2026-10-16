@@ -1,0 +1,703 @@
+[
+    {
+        "id": "neurology",
+        "slug": "neurology",
+        "title": "Neurology",
+        "heading": "Neurology Consultation",
+        "category": "specialities",
+        "icon": "fa-solid fa-brain",
+        "image": "images/neurology-hero.png",
+        "menuDescription": "General neurological consultation and management",
+        "shortDescription": "Consultation and ongoing care for conditions affecting the brain, spinal cord, nerves and muscles.",
+        "introduction": [
+            "Neurology deals with conditions of the brain, spinal cord, nerves and muscles. A neurological consultation is often the first step when you have symptoms such as headaches, seizures, weakness, numbness, dizziness or memory problems.",
+            "During the consultation, the doctor listens to your concerns, reviews your medical history and examines your nervous system to understand what may be causing your symptoms and what should happen next."
+        ],
+        "symptomsOrReasons": [
+            "Frequent or severe headaches",
+            "Fits, seizures or unexplained blackouts",
+            "Weakness, numbness or tingling in the face, arms or legs",
+            "Dizziness, vertigo or problems with balance",
+            "Tremor, stiffness or slowness of movement",
+            "Memory loss or confusion",
+            "Back or neck pain that spreads into an arm or leg"
+        ],
+        "whatToExpect": [
+            "A detailed conversation about your symptoms, how they started and how they affect your daily life.",
+            "A neurological examination, which may check strength, reflexes, sensation, coordination, walking, vision and speech.",
+            "A review of the previous reports, scans and medicines you bring.",
+            "An explanation of the possible causes and whether any tests are needed."
+        ],
+        "whoMayBenefit": [
+            "Adults with new, persistent or worsening neurological symptoms",
+            "People referred by another doctor for a neurological opinion",
+            "People with a known neurological condition who need regular review",
+            "Family members who have noticed changes in a loved one's memory, behaviour or movement"
+        ],
+        "preparation": [
+            "Write down the questions you want to ask so you do not forget them"
+        ],
+        "nextSteps": [
+            "The doctor will explain the findings and the possible causes of your symptoms.",
+            "Tests such as an EEG, nerve conduction studies or imaging may be advised if they are needed.",
+            "A treatment plan and a follow-up visit may be arranged, depending on your condition."
+        ],
+        "faqs": [
+            {
+                "question": "What does a neurology consultation cover?",
+                "answer": "Neurology covers conditions affecting the brain, spinal cord, nerves and muscles, such as headaches, epilepsy, stroke, movement disorders, memory problems, nerve pain and muscle weakness."
+            },
+            {
+                "question": "When should I book a neurology consultation?",
+                "answer": "Consider booking if you have neurological symptoms that are new, persistent, getting worse or affecting your daily life. If symptoms start suddenly, such as sudden weakness, facial drooping or difficulty speaking, call 112 or go to the nearest emergency department immediately."
+            },
+            {
+                "question": "How can I check appointment availability?",
+                "answer": "Call the clinic or send a WhatsApp message to ask about appointment times at the Patna, Ara or Siwan clinics."
+            }
+        ],
+        "relatedServiceIds": ["headache-migraine", "epilepsy-clinic", "stroke-clinic", "eeg"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Neurology Consultation for Brain, Nerve & Muscle Conditions",
+        "seoDescription": "Neurology consultation for brain, spinal cord, nerve and muscle conditions. Learn when to book, what happens at your visit and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "stroke-clinic",
+        "slug": "stroke-clinic",
+        "title": "Stroke Clinic",
+        "category": "specialities",
+        "icon": "fa-solid fa-heart-pulse",
+        "menuDescription": "Stroke, TIA, prevention and follow-up",
+        "shortDescription": "Assessment, prevention and follow-up care after a stroke or mini-stroke (TIA).",
+        "urgentNotice": "A stroke is a medical emergency. If you notice face drooping, arm weakness or speech difficulty, call 112 or go to the nearest emergency department immediately. Do not wait for a clinic appointment.",
+        "introduction": [
+            "A stroke happens when blood flow to part of the brain is blocked or when a blood vessel in the brain bleeds. A transient ischaemic attack (TIA), sometimes called a mini-stroke, causes similar symptoms that pass within a short time, but it is an important warning sign.",
+            "The stroke clinic focuses on understanding what caused a stroke or TIA, lowering the risk of another one and supporting recovery after hospital treatment."
+        ],
+        "symptomsOrReasons": [
+            "You have had a stroke or TIA and need follow-up after leaving hospital",
+            "You had symptoms that came and went, such as brief weakness, numbness, loss of vision or difficulty speaking",
+            "You have risk factors such as high blood pressure, diabetes, high cholesterol, a heart rhythm problem or smoking, and want advice on stroke prevention",
+            "You have ongoing problems after a stroke, such as weakness, speech difficulty or memory changes"
+        ],
+        "whatToExpect": [
+            "A review of what happened, your hospital records and any brain scans.",
+            "A neurological examination to assess any ongoing effects.",
+            "A discussion of your risk factors and of tests that may help find the cause.",
+            "Advice on medicines, lifestyle changes and recovery, based on your assessment."
+        ],
+        "whoMayBenefit": [
+            "People who have recently had a stroke or TIA",
+            "People recovering at home after a stroke",
+            "People with several stroke risk factors who want advice on prevention",
+            "Families and caregivers supporting someone after a stroke"
+        ],
+        "preparation": [
+            "Your hospital discharge summary and brain scan reports (CT or MRI)",
+            "Recent blood pressure, blood sugar and cholesterol readings, if available"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely type and cause of the stroke or TIA, where this is possible.",
+            "Further tests or changes to medicines may be advised to lower the risk of another stroke.",
+            "Rehabilitation may be recommended to support recovery.",
+            "Regular follow-up visits may be planned."
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between a stroke and a TIA?",
+                "answer": "In a stroke, symptoms are caused by lasting damage to part of the brain. In a TIA, the symptoms go away, usually within minutes to hours. A TIA is a warning sign and needs prompt medical assessment."
+            },
+            {
+                "question": "Should I come to the clinic if I think someone is having a stroke now?",
+                "answer": "No. A stroke needs emergency treatment. Call 112 or go to the nearest emergency department immediately. The stroke clinic is for assessment, prevention and follow-up."
+            },
+            {
+                "question": "Can the risk of another stroke be reduced?",
+                "answer": "For many people, controlling blood pressure, diabetes and cholesterol, stopping smoking, staying active and taking medicines as prescribed can lower the risk. The doctor will advise what applies to you."
+            }
+        ],
+        "relatedServiceIds": ["stroke", "stroke-rehabilitation", "neurology", "emergency-guidance"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Stroke Clinic – Stroke & TIA Follow-up and Prevention",
+        "seoDescription": "Stroke and TIA follow-up, risk assessment and prevention. Know the emergency warning signs, what to expect at the stroke clinic and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "epilepsy-clinic",
+        "slug": "epilepsy-clinic",
+        "title": "Epilepsy Clinic",
+        "category": "specialities",
+        "icon": "fa-solid fa-bolt",
+        "menuDescription": "Seizures, epilepsy assessment and management",
+        "shortDescription": "Assessment of seizures and long-term management of epilepsy.",
+        "urgentNotice": "Call 112 if a seizure lasts more than 5 minutes, if seizures happen one after another without recovery, if the person is injured or not breathing normally, or if it is their first seizure.",
+        "introduction": [
+            "A seizure is a sudden burst of abnormal electrical activity in the brain that can change movement, awareness, feelings or behaviour for a short time. Epilepsy is a condition in which a person tends to have repeated seizures.",
+            "The epilepsy clinic helps to find out whether episodes are seizures, what type they are and how they can be managed safely, so that you can live as normally as possible."
+        ],
+        "symptomsOrReasons": [
+            "Fits or convulsions",
+            "Brief episodes of staring or not responding",
+            "Sudden jerks of the arms or legs",
+            "Unexplained blackouts or falls",
+            "Repeated unusual sensations, smells or feelings of déjà vu",
+            "Seizures that continue despite medicine"
+        ],
+        "whatToExpect": [
+            "A detailed account of the episodes, from you and, if possible, from someone who has seen them.",
+            "A neurological examination.",
+            "A review of previous EEG reports, scan reports and medicines.",
+            "A discussion of whether tests such as an EEG or brain imaging are needed."
+        ],
+        "whoMayBenefit": [
+            "People who have had a first seizure or an unexplained blackout",
+            "People with epilepsy whose seizures are not well controlled",
+            "People with epilepsy who need regular review of their treatment",
+            "People experiencing side effects from epilepsy medicines"
+        ],
+        "preparation": [
+            "A short phone video of a typical episode, if it can be recorded safely",
+            "A seizure diary with dates, times and what happened during each episode",
+            "If possible, a family member or friend who has seen the episodes"
+        ],
+        "nextSteps": [
+            "The doctor will explain whether the episodes are likely to be seizures and, if so, what type.",
+            "Tests such as an EEG may be advised.",
+            "If treatment is needed, the doctor will discuss medicines and safety advice, for example about driving, swimming and heights.",
+            "Regular follow-up helps to review seizure control and any side effects."
+        ],
+        "faqs": [
+            {
+                "question": "Why is a video of a seizure helpful?",
+                "answer": "Seizures often happen when a doctor is not present. A short video, taken safely by a family member, shows what happens during an episode and helps with the assessment."
+            },
+            {
+                "question": "Can I stop my epilepsy medicine if I feel better?",
+                "answer": "Do not stop or change epilepsy medicine on your own, as this can trigger seizures. Discuss any concerns with the doctor first."
+            },
+            {
+                "question": "What should I do if someone is having a seizure?",
+                "answer": "Stay calm, move hard or sharp objects away, cushion their head and turn them onto their side once the jerking stops. Do not put anything in their mouth. Call 112 if the seizure lasts more than 5 minutes or if they are injured or not breathing normally."
+            }
+        ],
+        "relatedServiceIds": ["epilepsy", "eeg", "neurology"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Epilepsy Clinic – Seizure Assessment and Management",
+        "seoDescription": "Assessment of seizures and blackouts, and long-term epilepsy care. Learn what to expect, what to bring and when a seizure needs emergency help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "headache-migraine",
+        "slug": "headache-migraine",
+        "title": "Headache & Migraine",
+        "category": "specialities",
+        "icon": "fa-solid fa-face-tired",
+        "menuDescription": "Migraine and other recurrent headache conditions",
+        "shortDescription": "Assessment and management of migraine and other headaches that keep coming back.",
+        "urgentNotice": "Seek emergency care (call 112) for a sudden, severe 'worst-ever' headache, or a headache with fever and a stiff neck, confusion, weakness, fits or after a head injury.",
+        "introduction": [
+            "Headaches are very common, and most are not caused by a serious problem. However, frequent or severe headaches can affect work, study and family life.",
+            "The headache clinic helps to identify the type of headache you have, look for triggers and plan treatment to reduce how often and how badly headaches occur."
+        ],
+        "symptomsOrReasons": [
+            "Headaches that keep coming back or are becoming more frequent",
+            "Throbbing headaches with nausea or sensitivity to light and sound",
+            "Visual disturbances or other warning signs before a headache",
+            "Headaches that stop you from working or carrying out daily activities",
+            "Taking painkillers for headaches on many days of the month",
+            "A change in your usual pattern of headaches"
+        ],
+        "whatToExpect": [
+            "Questions about when the headaches started, how often they occur, what they feel like and what seems to trigger them.",
+            "A neurological examination, which may include checking your eyes, blood pressure and reflexes.",
+            "A review of the medicines you take, including painkillers.",
+            "A discussion about whether any tests are needed. Many people with headaches do not need a scan."
+        ],
+        "whoMayBenefit": [
+            "People with migraine or recurring headaches",
+            "People whose headaches have changed or are getting worse",
+            "People who rely on frequent painkillers for headaches"
+        ],
+        "preparation": [
+            "A headache diary for a few weeks: dates, how long each headache lasted, what you took and possible triggers",
+            "A list of all the painkillers and other medicines you have tried"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely type of headache.",
+            "You may be given advice about triggers, sleep, regular meals and painkiller use.",
+            "Treatment for attacks and, if needed, preventive treatment may be discussed.",
+            "A follow-up visit may be planned to check how well the treatment is working."
+        ],
+        "faqs": [
+            {
+                "question": "Do I need a brain scan for my headaches?",
+                "answer": "Not always. Most headaches are diagnosed from the history and examination. The doctor will advise whether a scan is needed in your situation."
+            },
+            {
+                "question": "Can taking too many painkillers make headaches worse?",
+                "answer": "Yes. Using painkillers on many days each month can lead to medication-overuse headache. Talk to the doctor before changing your medicines."
+            },
+            {
+                "question": "What is a headache diary?",
+                "answer": "It is a simple record of when headaches happen, how long they last, how severe they are, what you took and anything that may have triggered them. It helps the doctor understand the pattern."
+            }
+        ],
+        "relatedServiceIds": ["migraine", "neurology", "vertigo-balance"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Headache & Migraine Clinic – Assessment and Treatment",
+        "seoDescription": "Help for migraine and recurring headaches: what happens at your visit, how a headache diary helps and which headaches need emergency care.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "parkinsons-movement-disorders",
+        "slug": "parkinsons-movement-disorders",
+        "title": "Parkinson's & Movement Disorders",
+        "category": "specialities",
+        "icon": "fa-solid fa-hand",
+        "menuDescription": "Parkinson's disease, tremor, dystonia and movement disorders",
+        "shortDescription": "Assessment and ongoing care for Parkinson's disease, tremor, dystonia and other movement disorders.",
+        "introduction": [
+            "Movement disorders are conditions that affect the speed, control or smoothness of movement. They include Parkinson's disease, tremor and dystonia.",
+            "Assessment focuses on understanding the type of movement problem and its likely cause, and on how treatment and therapy can help with everyday activities."
+        ],
+        "symptomsOrReasons": [
+            "Shaking (tremor) of the hands, arms, legs or head",
+            "Slowness of movement or difficulty starting movements",
+            "Stiffness of the muscles",
+            "Changes in walking, such as small steps, shuffling or freezing",
+            "Problems with balance or frequent falls",
+            "Involuntary twisting movements or abnormal postures",
+            "Smaller handwriting or a softer voice"
+        ],
+        "whatToExpect": [
+            "Questions about when the symptoms started and how they affect your daily life.",
+            "A careful examination of movement, muscle tone, walking and balance.",
+            "A review of current and previous medicines, because some medicines can cause movement problems.",
+            "A discussion of whether any tests are needed."
+        ],
+        "whoMayBenefit": [
+            "People with tremor, slowness or stiffness",
+            "People with Parkinson's disease who need regular review",
+            "People with abnormal or involuntary movements",
+            "Caregivers supporting someone with a movement disorder"
+        ],
+        "preparation": [
+            "A short phone video of the movement problem, especially if it comes and goes",
+            "A list of all your medicines, including the times you take them"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely type of movement disorder.",
+            "Treatment options, with their possible benefits and side effects, may be discussed.",
+            "Physiotherapy and other rehabilitation may be suggested to help with movement and balance.",
+            "Regular follow-up helps to adjust treatment over time."
+        ],
+        "faqs": [
+            {
+                "question": "Is every tremor caused by Parkinson's disease?",
+                "answer": "No. Tremor has many causes, including essential tremor, anxiety, thyroid problems and some medicines. An examination helps to find the cause."
+            },
+            {
+                "question": "Can exercise help with Parkinson's disease?",
+                "answer": "Regular, safe physical activity and physiotherapy can help with movement, balance and general wellbeing. The doctor or therapist can advise what is suitable for you."
+            },
+            {
+                "question": "Why should I bring a list of my medicine timings?",
+                "answer": "In Parkinson's disease, symptoms can change depending on when medicines are taken. Knowing your timings helps the doctor adjust treatment."
+            }
+        ],
+        "relatedServiceIds": ["parkinsons", "tremor", "dystonia", "parkinsons-rehabilitation"],
+        "seoTitle": "Parkinson's & Movement Disorders Clinic",
+        "seoDescription": "Assessment and care for Parkinson's disease, tremor, dystonia and other movement disorders. Learn about symptoms, what to expect and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "memory-cognitive-clinic",
+        "slug": "memory-cognitive-clinic",
+        "title": "Memory & Cognitive Clinic",
+        "category": "specialities",
+        "icon": "fa-solid fa-puzzle-piece",
+        "menuDescription": "Memory loss, dementia and cognitive concerns",
+        "shortDescription": "Assessment of memory loss, confusion and other changes in thinking.",
+        "introduction": [
+            "Occasional forgetfulness is normal, especially as we get older. However, memory loss or confusion that is getting worse or affecting daily life should be assessed.",
+            "The memory and cognitive clinic looks at memory, attention, language and problem-solving to understand what may be causing the changes and how best to support the person and their family."
+        ],
+        "symptomsOrReasons": [
+            "Forgetting recent conversations or events more than before",
+            "Repeating the same questions",
+            "Getting lost in familiar places",
+            "Difficulty managing money, medicines or household tasks",
+            "Trouble finding the right words",
+            "Changes in personality, mood or behaviour",
+            "Confusion that comes and goes"
+        ],
+        "whatToExpect": [
+            "A conversation with the patient and, ideally, a family member who knows them well.",
+            "Simple question-based or pen-and-paper tests of memory and thinking.",
+            "A physical and neurological examination.",
+            "A discussion of blood tests or brain imaging that may help find treatable causes."
+        ],
+        "whoMayBenefit": [
+            "Adults with memory problems that are new or getting worse",
+            "Families worried about changes in a loved one's memory or behaviour",
+            "People with a diagnosis of dementia who need ongoing review and support"
+        ],
+        "preparation": [
+            "If possible, bring a family member or friend who knows about the memory changes",
+            "Notes of specific examples of forgetfulness or confusion, and when they began",
+            "Reading glasses or hearing aids, if used, for the memory tests"
+        ],
+        "nextSteps": [
+            "The doctor will explain the findings and the possible causes.",
+            "Some causes of memory problems, such as vitamin deficiency, thyroid problems, depression or medicine side effects, can be treated.",
+            "Further tests, such as a detailed cognitive assessment, may be advised.",
+            "Support and safety advice for the person and their family may be discussed."
+        ],
+        "faqs": [
+            {
+                "question": "Is memory loss always dementia?",
+                "answer": "No. Memory problems can have many causes, including stress, depression, poor sleep, vitamin deficiency, thyroid problems and medicine side effects. An assessment helps find the cause."
+            },
+            {
+                "question": "Should a family member come to the appointment?",
+                "answer": "Yes, if possible. Someone who knows the person well can describe changes that the patient may not notice themselves."
+            },
+            {
+                "question": "What is a cognitive assessment?",
+                "answer": "It is a set of questions and simple tasks that check memory, attention, language and problem-solving. It helps to measure the type and degree of any difficulty."
+            }
+        ],
+        "relatedServiceIds": ["dementia", "alzheimers", "cognitive-assessment", "cognitive-rehabilitation"],
+        "seoTitle": "Memory & Cognitive Clinic – Memory Loss and Dementia Assessment",
+        "seoDescription": "Assessment of memory loss, confusion and dementia concerns. Learn what happens at a memory assessment, who should attend and how to prepare.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "neuromuscular-clinic",
+        "slug": "neuromuscular-clinic",
+        "title": "Neuromuscular Clinic",
+        "category": "specialities",
+        "icon": "fa-solid fa-dumbbell",
+        "menuDescription": "Neuropathy, myopathy and related nerve/muscle disorders",
+        "shortDescription": "Assessment of conditions affecting the nerves and muscles, such as neuropathy and myopathy.",
+        "urgentNotice": "Seek emergency care (call 112) if weakness spreads quickly over hours or days, or if there is any difficulty breathing or swallowing.",
+        "introduction": [
+            "Neuromuscular conditions affect the nerves that run to the arms and legs (peripheral nerves), the junction where nerves meet muscles, or the muscles themselves.",
+            "The neuromuscular clinic aims to find the cause of symptoms such as numbness, tingling, weakness or muscle pain, and to plan treatment and therapy."
+        ],
+        "symptomsOrReasons": [
+            "Numbness, tingling, burning or pins and needles in the hands or feet",
+            "Weakness in the arms or legs",
+            "Muscle cramps, twitching or wasting",
+            "Drooping eyelids or double vision that gets worse when tired",
+            "Difficulty climbing stairs, getting up from a chair or lifting the arms"
+        ],
+        "whatToExpect": [
+            "Questions about your symptoms, how they began and your general health, including conditions such as diabetes.",
+            "An examination of muscle strength, reflexes and sensation.",
+            "A discussion of tests that may help, such as nerve conduction studies (NCV/NCS), EMG and blood tests."
+        ],
+        "whoMayBenefit": [
+            "People with numbness, tingling or nerve pain in the hands or feet",
+            "People with diabetes who have symptoms in their feet",
+            "People with muscle weakness, wasting or cramps",
+            "People with a known nerve or muscle condition who need follow-up"
+        ],
+        "preparation": [
+            "Recent blood test reports, including blood sugar, if available",
+            "Any previous nerve conduction or EMG reports"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely cause of your symptoms, or which tests are needed to find it.",
+            "Treatment of an underlying cause, such as diabetes or a vitamin deficiency, may be advised.",
+            "Medicines for nerve pain and rehabilitation for weakness or balance problems may be discussed.",
+            "Follow-up visits help to monitor progress."
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between neuropathy and myopathy?",
+                "answer": "Neuropathy affects the nerves and often causes numbness, tingling or weakness. Myopathy affects the muscles themselves and usually causes weakness, often around the hips and shoulders."
+            },
+            {
+                "question": "Which tests are used for nerve and muscle problems?",
+                "answer": "Nerve conduction studies (NCV/NCS) and EMG are commonly used, along with blood tests. The doctor will advise which tests, if any, are needed."
+            },
+            {
+                "question": "Can diabetes cause nerve damage?",
+                "answer": "Yes. Long-term high blood sugar is one of the most common causes of peripheral neuropathy, especially in the feet."
+            }
+        ],
+        "relatedServiceIds": ["neuropathy", "myopathy", "myasthenia-gravis", "ncv-ncs", "emg"],
+        "seoTitle": "Neuromuscular Clinic – Neuropathy and Muscle Disorders",
+        "seoDescription": "Assessment of numbness, tingling, nerve pain and muscle weakness, including neuropathy and myopathy. Learn what to expect and which tests may help.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "vertigo-balance",
+        "slug": "vertigo-balance",
+        "title": "Vertigo & Balance",
+        "category": "specialities",
+        "icon": "fa-solid fa-face-dizzy",
+        "menuDescription": "Dizziness, vertigo and balance concerns",
+        "shortDescription": "Assessment of dizziness, vertigo and unsteadiness.",
+        "urgentNotice": "Seek emergency care (call 112) if dizziness comes with sudden weakness, numbness, slurred speech, double vision, a severe headache or difficulty walking.",
+        "introduction": [
+            "Dizziness can mean feeling light-headed, unsteady or as if the room is spinning (vertigo). It can come from the inner ear, the brain, changes in blood pressure or other causes.",
+            "Assessment aims to find out what type of dizziness you have and its likely cause, and to plan treatment and balance exercises where they can help."
+        ],
+        "symptomsOrReasons": [
+            "A spinning sensation (vertigo), especially when moving your head",
+            "Feeling unsteady or off-balance when walking",
+            "Light-headedness or feeling faint",
+            "Repeated falls or near-falls",
+            "Dizziness with ringing in the ears or changes in hearing",
+            "Nausea or vomiting with dizziness"
+        ],
+        "whatToExpect": [
+            "Questions about what the dizziness feels like, how long episodes last and what triggers them.",
+            "An examination of eye movements, balance, walking and coordination.",
+            "Simple bedside tests for inner-ear causes of vertigo.",
+            "A discussion of whether any further tests are needed."
+        ],
+        "whoMayBenefit": [
+            "People with repeated episodes of vertigo or dizziness",
+            "People who feel unsteady or have had falls",
+            "Older adults whose balance has changed"
+        ],
+        "preparation": [
+            "Notes on when the dizziness happens, how long it lasts and what seems to trigger it"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely cause of your dizziness.",
+            "Some types of vertigo can be treated with specific head-positioning movements or exercises.",
+            "Balance and gait training may be recommended.",
+            "Your medicines may be reviewed if they could be contributing to dizziness."
+        ],
+        "faqs": [
+            {
+                "question": "Is dizziness the same as vertigo?",
+                "answer": "Not exactly. Vertigo is a false feeling that you or the room is spinning. Dizziness can also mean light-headedness or unsteadiness. Describing the feeling accurately helps with diagnosis."
+            },
+            {
+                "question": "Can balance exercises help?",
+                "answer": "For many people, specific balance and eye–head exercises can reduce dizziness and improve stability. The doctor or therapist will advise whether they are suitable for you."
+            }
+        ],
+        "relatedServiceIds": ["balance-gait-training", "neurology", "headache-migraine"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Vertigo & Balance Clinic – Dizziness Assessment",
+        "seoDescription": "Assessment of dizziness, vertigo and unsteadiness. Learn about common causes, what happens at your visit and when dizziness needs emergency care.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "spine-pain",
+        "slug": "spine-pain",
+        "title": "Spine & Pain",
+        "category": "specialities",
+        "icon": "fa-solid fa-bone",
+        "menuDescription": "Sciatica, cervical problems, radiculopathy and neuropathic pain",
+        "shortDescription": "Assessment of back and neck pain, sciatica, trapped nerves and nerve pain.",
+        "urgentNotice": "Seek emergency care (call 112) if back pain comes with loss of bladder or bowel control, numbness around the genitals or buttocks, or rapidly worsening weakness in the legs.",
+        "introduction": [
+            "Back and neck pain are common. When a nerve in the spine is irritated or compressed, pain can spread into an arm or leg, sometimes with numbness, tingling or weakness.",
+            "The spine and pain clinic assesses the cause of your pain and plans treatment, which may include medicines, physiotherapy and, where needed, a discussion of other options."
+        ],
+        "symptomsOrReasons": [
+            "Pain spreading from the lower back into the buttock or leg (sciatica)",
+            "Neck pain spreading into the shoulder, arm or hand",
+            "Numbness, tingling or weakness in an arm or leg",
+            "Burning, shooting or electric-shock-like nerve pain",
+            "Back or neck pain that does not improve with rest and simple painkillers",
+            "Stiffness of the neck or back that affects daily activities"
+        ],
+        "whatToExpect": [
+            "Questions about where the pain is, how it started and what makes it better or worse.",
+            "An examination of your spine, posture, movement, strength, reflexes and sensation.",
+            "A review of previous X-ray, MRI or CT reports.",
+            "A discussion of whether further imaging or tests are needed."
+        ],
+        "whoMayBenefit": [
+            "People with back or neck pain that spreads to an arm or leg",
+            "People with numbness or weakness linked to a spine problem",
+            "People with long-standing nerve pain"
+        ],
+        "preparation": [
+            "All previous spine X-ray, MRI or CT films and reports"
+        ],
+        "nextSteps": [
+            "The doctor will explain the likely cause of the pain.",
+            "Treatment may include medicines, physiotherapy, exercises and advice on posture and activity.",
+            "If needed, further tests or other treatment options, including a surgical opinion, may be discussed."
+        ],
+        "faqs": [
+            {
+                "question": "What is sciatica?",
+                "answer": "Sciatica is pain that travels from the lower back or buttock down the back of the leg. It is usually caused by irritation of a nerve root in the lower spine."
+            },
+            {
+                "question": "Will I need surgery for back pain?",
+                "answer": "Most people with back pain or sciatica improve without surgery. Surgery is considered only in specific situations, after careful assessment."
+            },
+            {
+                "question": "Should I rest completely?",
+                "answer": "Long periods of bed rest are usually not recommended. Staying gently active within your comfort limits often helps recovery. Follow the advice given for your situation."
+            }
+        ],
+        "relatedServiceIds": ["sciatica", "cervical-spondylosis", "radiculopathy", "physiotherapy", "neurosurgery"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Spine & Pain Clinic – Sciatica, Neck Pain and Nerve Pain",
+        "seoDescription": "Assessment of back and neck pain, sciatica, cervical problems, radiculopathy and nerve pain. Learn what to expect and when back pain is an emergency.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    },
+    {
+        "id": "pediatric-neurology",
+        "slug": "pediatric-neurology",
+        "title": "Pediatric Neurology",
+        "category": "specialities",
+        "icon": "fa-solid fa-child",
+        "menuDescription": "Neurological conditions affecting children",
+        "shortDescription": "Neurological conditions affecting children.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that pediatric neurology is offered and who provides it before writing and publishing this page."]
+    },
+    {
+        "id": "neuropsychiatry",
+        "slug": "neuropsychiatry",
+        "title": "Neuropsychiatry",
+        "category": "specialities",
+        "icon": "fa-solid fa-comments",
+        "menuDescription": "Neuropsychiatric and behavioural concerns",
+        "shortDescription": "Neuropsychiatric and behavioural concerns.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that neuropsychiatry is offered and who provides it before writing and publishing this page."]
+    },
+    {
+        "id": "neurosurgery",
+        "slug": "neurosurgery",
+        "title": "Neurosurgery",
+        "category": "specialities",
+        "icon": "fa-solid fa-user-doctor",
+        "menuDescription": "Brain and spine surgical services",
+        "shortDescription": "Surgical assessment and care for conditions of the brain and spine.",
+        "introduction": [
+            "Neurosurgery is the surgical treatment of conditions affecting the brain, spine and nerves. Not every condition needs surgery; many are treated with medicines, therapy or careful monitoring.",
+            "A neurosurgical consultation helps to assess whether surgery could help, explain the options with their benefits and risks, and plan the next steps together with you."
+        ],
+        "symptomsOrReasons": [
+            "A brain or spine condition for which surgery has been suggested",
+            "A brain tumour or other abnormality found on a scan",
+            "A spine problem pressing on nerves, such as a slipped disc causing weakness or severe pain",
+            "Specialist review after a head or spine injury"
+        ],
+        "whatToExpect": [
+            "A review of your symptoms, examination findings and scans.",
+            "An explanation of the condition and of both surgical and non-surgical options.",
+            "A discussion of the possible benefits, risks and recovery if surgery is considered."
+        ],
+        "whoMayBenefit": [
+            "People with brain or spine conditions where surgery may be an option",
+            "People referred by another doctor for a neurosurgical opinion"
+        ],
+        "preparation": [
+            "All brain or spine MRI/CT films and reports",
+            "Details of any blood-thinning medicines you take"
+        ],
+        "nextSteps": [
+            "If surgery is recommended, the doctor will explain the procedure, the preparation needed and the expected recovery.",
+            "If surgery is not needed, other treatment and follow-up will be advised.",
+            "Rehabilitation may be recommended to support recovery."
+        ],
+        "faqs": [
+            {
+                "question": "Does every brain or spine condition need surgery?",
+                "answer": "No. Many conditions are managed without surgery. Surgery is recommended only when the expected benefits outweigh the risks for your situation."
+            },
+            {
+                "question": "What should I bring to a neurosurgical consultation?",
+                "answer": "Bring all scan films and reports, previous treatment records, discharge summaries and a list of your current medicines."
+            }
+        ],
+        "relatedServiceIds": ["spine-pain", "neuro-rehabilitation", "neurology"],
+        "doctorIds": ["kundan-kumar"],
+        "seoTitle": "Neurosurgery – Brain and Spine Surgical Consultation",
+        "seoDescription": "Neurosurgical consultation for brain and spine conditions. Learn what happens at your visit, what to bring and how surgical options are discussed.",
+        "isPublished": true,
+        "optionalService": true,
+        "requiresVerification": []
+    },
+    {
+        "id": "neuro-rehabilitation",
+        "slug": "neuro-rehabilitation",
+        "title": "Neuro Rehabilitation",
+        "category": "specialities",
+        "icon": "fa-solid fa-person-walking",
+        "menuDescription": "Rehabilitation support for neurological conditions",
+        "shortDescription": "Rehabilitation to help people regain function and independence after neurological illness.",
+        "introduction": [
+            "Neurological conditions such as stroke, Parkinson's disease and nerve or muscle disorders can affect movement, balance, thinking and everyday activities.",
+            "Neuro rehabilitation is a structured programme of therapy and guidance that aims to improve function, prevent complications and help people become as independent as possible."
+        ],
+        "symptomsOrReasons": [
+            "Weakness or stiffness after a stroke or other neurological illness",
+            "Difficulty walking, balance problems or falls",
+            "Reduced ability to carry out daily tasks such as dressing or bathing",
+            "Memory or concentration difficulties after a stroke or brain injury"
+        ],
+        "whatToExpect": [
+            "An assessment of your abilities, difficulties and goals.",
+            "A personalised plan, which may include physiotherapy, balance training, cognitive exercises and home exercises.",
+            "Regular review of your progress."
+        ],
+        "whoMayBenefit": [
+            "People recovering from a stroke",
+            "People with Parkinson's disease or other movement disorders",
+            "People with nerve or muscle conditions",
+            "Families and caregivers who want to support recovery at home"
+        ],
+        "preparation": [
+            "Comfortable clothing and footwear suitable for exercise",
+            "Any walking aids, splints or braces you currently use"
+        ],
+        "nextSteps": [
+            "Your therapy plan will be adjusted as you progress.",
+            "A home exercise programme may be provided so you can continue between sessions."
+        ],
+        "faqs": [
+            {
+                "question": "How long does rehabilitation take?",
+                "answer": "It varies from person to person and depends on the condition and individual goals. Progress is reviewed regularly."
+            },
+            {
+                "question": "Can family members be involved?",
+                "answer": "Yes. Caregivers can learn how to support exercises and daily activities safely at home."
+            }
+        ],
+        "relatedServiceIds": ["stroke-rehabilitation", "physiotherapy", "balance-gait-training", "home-exercise-guidance"],
+        "seoTitle": "Neuro Rehabilitation – Recovery After Neurological Illness",
+        "seoDescription": "Neuro rehabilitation to improve movement, balance and independence after stroke and other neurological conditions. Learn what sessions involve.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": []
+    }
+]

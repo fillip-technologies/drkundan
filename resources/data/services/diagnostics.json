@@ -1,0 +1,393 @@
+[
+    {
+        "id": "eeg",
+        "slug": "eeg",
+        "title": "EEG",
+        "heading": "EEG (Electroencephalography)",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-wave-square",
+        "menuDescription": "Electroencephalography information and appointment enquiry",
+        "shortDescription": "A painless test that records the electrical activity of the brain.",
+        "availabilityNote": "Please confirm with the clinic when you book whether this test is currently available and where it will be done.",
+        "introduction": [
+            "An EEG (electroencephalogram) records the brain's electrical activity using small sensors (electrodes) placed on the scalp. The test is painless and does not send electricity into the body.",
+            "An EEG is most often used to help assess seizures and epilepsy. It is one part of the overall assessment: the results are interpreted together with your symptoms and examination."
+        ],
+        "symptomsOrReasons": [
+            "Suspected seizures, fits or unexplained blackouts",
+            "To help work out the type of epilepsy",
+            "Episodes of confusion or altered awareness",
+            "To review brain activity during epilepsy treatment, when the doctor advises it"
+        ],
+        "whatToExpect": [
+            "Small electrodes are attached to the scalp using a paste or a cap.",
+            "You sit or lie comfortably and relax, with your eyes closed for much of the recording.",
+            "You may be asked to breathe deeply or look at a flashing light, as these can bring out certain brain patterns.",
+            "The electrodes are removed afterwards, and the paste can be washed out of the hair."
+        ],
+        "whoMayBenefit": [
+            "People advised by a doctor to have an EEG for seizures, blackouts or episodes of altered awareness",
+            "People with epilepsy whose doctor wants to review their brain activity"
+        ],
+        "preparation": [
+            "Ask the clinic when you book whether there are any specific instructions for this test",
+            "Continue your usual medicines unless the doctor tells you otherwise",
+            "Previous EEG reports, if you have had this test before"
+        ],
+        "nextSteps": [
+            "The recording is reviewed and a report is prepared.",
+            "The doctor explains the results together with your symptoms and examination.",
+            "A normal EEG does not always rule out epilepsy, so further tests may sometimes be advised."
+        ],
+        "faqs": [
+            {
+                "question": "Is an EEG painful?",
+                "answer": "No. The electrodes only record activity; they do not give an electric shock."
+            },
+            {
+                "question": "Does a normal EEG mean I do not have epilepsy?",
+                "answer": "Not necessarily. Seizure activity may not appear during a short recording. The doctor considers the EEG together with your history and examination."
+            },
+            {
+                "question": "How do I find out whether the test is available?",
+                "answer": "Call the clinic or send a WhatsApp message to ask about EEG availability and appointment times."
+            }
+        ],
+        "relatedServiceIds": ["epilepsy-clinic", "epilepsy", "video-eeg", "neurology"],
+        "seoTitle": "EEG Test (Electroencephalography) – What to Expect",
+        "seoDescription": "What an EEG brain test is, why it may be advised, what happens during the test and how to enquire about an EEG appointment.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm whether EEG is performed at the clinic or arranged by referral.", "Add verified preparation instructions, if any."]
+    },
+    {
+        "id": "video-eeg",
+        "slug": "video-eeg",
+        "title": "Video EEG",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-video",
+        "menuDescription": "Extended seizure monitoring, if available",
+        "shortDescription": "Extended seizure monitoring, if available.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that Video EEG is available before writing and publishing this page."]
+    },
+    {
+        "id": "emg",
+        "slug": "emg",
+        "title": "EMG",
+        "heading": "EMG (Electromyography)",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-chart-line",
+        "menuDescription": "Electromyography",
+        "shortDescription": "A test that checks how well the muscles, and the nerves that control them, are working.",
+        "availabilityNote": "Please confirm with the clinic when you book whether this test is currently available and where it will be done.",
+        "introduction": [
+            "Electromyography (EMG) measures the electrical activity of muscles at rest and when they tighten. It helps to show whether weakness is coming from the muscle itself or from the nerve that supplies it.",
+            "EMG is often done together with nerve conduction studies (NCV/NCS)."
+        ],
+        "symptomsOrReasons": [
+            "Muscle weakness, wasting or cramps",
+            "Suspected pressure on a nerve root, for example from a slipped disc",
+            "Suspected muscle disease (myopathy) or motor neuron disease",
+            "Numbness or weakness where the cause is unclear"
+        ],
+        "whatToExpect": [
+            "A very thin needle electrode is placed into selected muscles.",
+            "You are asked to relax the muscle and then tighten it gently.",
+            "You may feel mild discomfort while the needle is in place.",
+            "The signals recorded from each muscle are reviewed."
+        ],
+        "whoMayBenefit": [
+            "People advised by a doctor to have an EMG to investigate muscle or nerve symptoms"
+        ],
+        "preparation": [
+            "Ask the clinic when you book whether there are any specific instructions for this test",
+            "Tell the doctor if you take blood-thinning medicines or have a bleeding disorder",
+            "Wear loose clothing so that your arms and legs can be examined easily"
+        ],
+        "nextSteps": [
+            "A report is prepared from the recordings.",
+            "The doctor explains the results along with your symptoms and examination.",
+            "Further tests or treatment may be advised depending on the findings."
+        ],
+        "faqs": [
+            {
+                "question": "Does EMG hurt?",
+                "answer": "Most people feel mild discomfort, similar to a small pinprick, when the needle is inserted. Any soreness usually settles quickly."
+            },
+            {
+                "question": "What is the difference between EMG and NCV?",
+                "answer": "A nerve conduction study (NCV/NCS) measures how well electrical signals travel along the nerves. EMG records the activity of the muscles. Together they help to locate nerve and muscle problems."
+            }
+        ],
+        "relatedServiceIds": ["ncv-ncs", "neuromuscular-clinic", "myopathy", "als-mnd"],
+        "seoTitle": "EMG Test (Electromyography) – What to Expect",
+        "seoDescription": "What an EMG muscle test is, why it may be advised, what happens during the test and how to enquire about an appointment.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm whether EMG is performed at the clinic or arranged by referral.", "Add verified preparation instructions, if any."]
+    },
+    {
+        "id": "ncv-ncs",
+        "slug": "ncv-ncs",
+        "title": "NCV / NCS",
+        "heading": "NCV / NCS (Nerve Conduction Study)",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-bolt",
+        "menuDescription": "Nerve conduction study",
+        "shortDescription": "A test that measures how fast and how well signals travel along your nerves.",
+        "availabilityNote": "Please confirm with the clinic when you book whether this test is currently available and where it will be done.",
+        "introduction": [
+            "A nerve conduction study (NCS), also called a nerve conduction velocity test (NCV), measures how quickly and strongly electrical signals travel along the nerves in your arms and legs.",
+            "It helps to detect nerve damage, find where a nerve is being compressed and tell different types of neuropathy apart."
+        ],
+        "symptomsOrReasons": [
+            "Numbness, tingling or burning in the hands or feet",
+            "Suspected carpal tunnel syndrome or another trapped nerve",
+            "Weakness in the hands, arms or legs",
+            "Suspected peripheral neuropathy, including in people with diabetes",
+            "Suspected Guillain-Barré syndrome"
+        ],
+        "whatToExpect": [
+            "Small sticky electrodes are placed on the skin over a nerve or muscle.",
+            "A brief, mild electrical pulse is used to stimulate the nerve.",
+            "The pulse can feel like a quick tingle or tap.",
+            "Several nerves may be tested, depending on your symptoms."
+        ],
+        "whoMayBenefit": [
+            "People advised by a doctor to have a nerve conduction study for numbness, tingling or weakness"
+        ],
+        "preparation": [
+            "Ask the clinic when you book whether there are any specific instructions for this test",
+            "Tell the clinic if you have a pacemaker or another implanted electrical device",
+            "Wear loose clothing"
+        ],
+        "nextSteps": [
+            "A report is prepared from the measurements.",
+            "The doctor explains the results along with your symptoms and examination.",
+            "Treatment or further tests may be advised depending on the findings."
+        ],
+        "faqs": [
+            {
+                "question": "Is the electrical pulse dangerous?",
+                "answer": "No. The pulses are small and brief. They can feel strange or slightly uncomfortable, but they are not harmful."
+            },
+            {
+                "question": "Is NCV the same as EMG?",
+                "answer": "No, but the two tests are often done together. NCV checks the nerves, while EMG checks the muscles."
+            }
+        ],
+        "relatedServiceIds": ["emg", "neuromuscular-clinic", "neuropathy", "gbs"],
+        "seoTitle": "NCV / NCS Nerve Conduction Study – What to Expect",
+        "seoDescription": "What a nerve conduction study (NCV/NCS) is, why it may be advised for numbness or weakness, what happens during the test and how to enquire.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm whether NCV/NCS is performed at the clinic or arranged by referral.", "Add verified preparation instructions, if any."]
+    },
+    {
+        "id": "vep",
+        "slug": "vep",
+        "title": "VEP",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-eye",
+        "menuDescription": "Visual evoked potentials, if available",
+        "shortDescription": "Visual evoked potentials, if available.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that VEP is available before writing and publishing this page."]
+    },
+    {
+        "id": "bera",
+        "slug": "bera",
+        "title": "BERA",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-ear-listen",
+        "menuDescription": "Brainstem auditory response, if available",
+        "shortDescription": "Brainstem auditory response, if available.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm that BERA is available before writing and publishing this page."]
+    },
+    {
+        "id": "ssep-rnst",
+        "slug": "ssep-rnst",
+        "title": "SSEP / RNST",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-file-waveform",
+        "menuDescription": "Other neurophysiology tests, if offered",
+        "shortDescription": "Other neurophysiology tests, if offered.",
+        "isPublished": false,
+        "optionalService": true,
+        "requiresVerification": ["Confirm whether SSEP and/or RNST are offered before writing and publishing this page."]
+    },
+    {
+        "id": "cognitive-assessment",
+        "slug": "cognitive-assessment",
+        "title": "Cognitive Assessment",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-puzzle-piece",
+        "menuDescription": "Memory and cognitive evaluation",
+        "shortDescription": "An evaluation of memory, attention, language and thinking skills.",
+        "availabilityNote": "Please confirm with the clinic when you book whether this assessment is currently available.",
+        "introduction": [
+            "A cognitive assessment uses questions and simple tasks to check thinking skills such as memory, attention, language, orientation and problem-solving.",
+            "It helps to show whether there is a problem with thinking, how significant it is and which areas are affected."
+        ],
+        "symptomsOrReasons": [
+            "Memory problems or forgetfulness that are getting worse",
+            "Confusion or difficulty managing everyday tasks",
+            "Concerns about dementia raised by the person or their family",
+            "Monitoring changes in thinking over time"
+        ],
+        "whatToExpect": [
+            "You will be asked questions and given short tasks, such as remembering words, drawing or naming objects.",
+            "There are no trick questions; you simply do your best.",
+            "A family member may be asked about changes in daily activities."
+        ],
+        "whoMayBenefit": [
+            "Adults with memory or thinking difficulties",
+            "People whose families have noticed changes in memory or behaviour"
+        ],
+        "preparation": [
+            "Bring reading glasses and hearing aids if you use them",
+            "If possible, bring a family member or friend who knows about the changes",
+            "Try to be well rested on the day"
+        ],
+        "nextSteps": [
+            "The results are considered together with your history and examination.",
+            "Further tests, or a more detailed neuropsychological assessment, may be advised.",
+            "Repeat assessments may be suggested to monitor any changes."
+        ],
+        "faqs": [
+            {
+                "question": "Can I fail a cognitive assessment?",
+                "answer": "It is not a pass-or-fail test. It helps the doctor understand your strengths and difficulties."
+            },
+            {
+                "question": "Does an abnormal result mean dementia?",
+                "answer": "Not necessarily. Anxiety, depression, poor sleep, illness and some medicines can all affect the results. The doctor interprets the results in context."
+            }
+        ],
+        "relatedServiceIds": ["memory-cognitive-clinic", "neuropsychological-assessment", "dementia", "cognitive-rehabilitation"],
+        "seoTitle": "Cognitive Assessment – Memory and Thinking Evaluation",
+        "seoDescription": "What a cognitive assessment of memory and thinking involves, who may need one, how to prepare and what happens with the results.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who performs cognitive assessments and where."]
+    },
+    {
+        "id": "neuropsychological-assessment",
+        "slug": "neuropsychological-assessment",
+        "title": "Neuropsychological Assessment",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-clipboard-list",
+        "menuDescription": "Detailed cognitive/behavioural assessment",
+        "shortDescription": "A detailed assessment of thinking, memory, behaviour and emotional wellbeing.",
+        "availabilityNote": "Please confirm with the clinic when you book whether this assessment is currently available.",
+        "introduction": [
+            "A neuropsychological assessment is a more detailed evaluation than a routine cognitive screening. It uses standardised tests to look closely at memory, attention, language, reasoning, behaviour and mood.",
+            "The results help to understand how a neurological condition is affecting a person, and to plan treatment, rehabilitation and support."
+        ],
+        "symptomsOrReasons": [
+            "Mild or unclear memory and thinking problems that need detailed evaluation",
+            "Changes in behaviour or personality",
+            "Thinking difficulties after a stroke, brain injury or other neurological illness",
+            "Planning rehabilitation or support at home or at work"
+        ],
+        "whatToExpect": [
+            "A discussion of your concerns and background.",
+            "A series of standardised tests involving questions, puzzles and tasks.",
+            "Questionnaires about mood and daily functioning.",
+            "The assessment usually takes longer than a routine consultation and may include breaks."
+        ],
+        "whoMayBenefit": [
+            "People whose doctor has advised a detailed assessment of thinking or behaviour",
+            "People recovering from a stroke or brain injury who have thinking difficulties"
+        ],
+        "preparation": [
+            "Bring reading glasses and hearing aids if you use them",
+            "Bring details of your education and work history, as these help to interpret the results",
+            "Ask the clinic when you book how long the assessment is expected to take"
+        ],
+        "nextSteps": [
+            "A report describing strengths and difficulties is prepared.",
+            "Recommendations may include treatment, cognitive rehabilitation or practical strategies."
+        ],
+        "faqs": [
+            {
+                "question": "How is this different from a cognitive assessment?",
+                "answer": "A cognitive assessment is usually a shorter screening test. A neuropsychological assessment is more detailed and looks at many areas of thinking and behaviour."
+            },
+            {
+                "question": "Should a family member come?",
+                "answer": "It often helps, as they can describe changes in daily life and behaviour."
+            }
+        ],
+        "relatedServiceIds": ["cognitive-assessment", "memory-cognitive-clinic", "cognitive-rehabilitation"],
+        "seoTitle": "Neuropsychological Assessment – Detailed Thinking and Behaviour Evaluation",
+        "seoDescription": "What a neuropsychological assessment involves, how it differs from a cognitive screening, how to prepare and how the results are used.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm who performs neuropsychological assessments and where."]
+    },
+    {
+        "id": "mri-ct-referral",
+        "slug": "mri-ct-referral",
+        "title": "MRI / CT Referral",
+        "heading": "MRI / CT Scan Referral Guidance",
+        "category": "diagnostics",
+        "icon": "fa-solid fa-x-ray",
+        "menuDescription": "Referral guidance if imaging is not available onsite",
+        "shortDescription": "Guidance on when a brain or spine scan is needed and how imaging referrals work.",
+        "availabilityNote": "This page explains imaging referral guidance. Ask the clinic when you book where your scan can be done.",
+        "introduction": [
+            "MRI (magnetic resonance imaging) and CT (computed tomography) scans create detailed pictures of the brain and spine. They help the doctor look for causes of symptoms such as stroke, tumours, bleeding, injury or nerve compression.",
+            "Not every neurological symptom needs a scan. The doctor will advise whether imaging is needed and which type is most suitable. If imaging is not available at the clinic, you will be guided on a referral to an imaging centre."
+        ],
+        "symptomsOrReasons": [
+            "When the history or examination suggests a problem that a scan can help confirm or rule out",
+            "Back or neck pain with nerve symptoms that are not improving",
+            "Seizures, unexplained weakness or other new neurological signs",
+            "To follow up a known condition"
+        ],
+        "whatToExpect": [
+            "The doctor explains why a scan is advised and which type.",
+            "You receive a referral with the details the imaging centre needs.",
+            "After the scan, you bring the images and report to your follow-up appointment."
+        ],
+        "whoMayBenefit": [
+            "People whose doctor has advised a brain or spine scan",
+            "People with previous scans who want them reviewed in context"
+        ],
+        "preparation": [
+            "Tell the doctor if you have a pacemaker, metal implants or metal fragments in the body, or if you may be pregnant, as these affect whether MRI or CT is suitable",
+            "Tell the doctor about kidney problems or any previous reaction to scan dye (contrast)",
+            "Follow any preparation instructions given by the imaging centre"
+        ],
+        "nextSteps": [
+            "The doctor reviews the images and report with you.",
+            "The results help decide on treatment and the next steps."
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between MRI and CT?",
+                "answer": "CT uses X-rays and is quick, which makes it useful in emergencies such as suspected bleeding. MRI uses a strong magnet and radio waves instead of X-rays, and shows more detail of the brain, spinal cord and nerves."
+            },
+            {
+                "question": "Should I get a scan before seeing the doctor?",
+                "answer": "It is usually best to be assessed first, so that the right scan can be chosen. If you already have scans, bring them to your appointment."
+            },
+            {
+                "question": "Why should I bring my old scans?",
+                "answer": "Comparing new and old images helps the doctor see whether anything has changed."
+            }
+        ],
+        "relatedServiceIds": ["neurology", "spine-pain", "neurosurgery"],
+        "seoTitle": "MRI / CT Scan Referral Guidance for Brain and Spine",
+        "seoDescription": "When a brain or spine MRI or CT scan may be needed, how imaging referrals work, safety questions to mention and what to bring to follow-up.",
+        "isPublished": true,
+        "optionalService": false,
+        "requiresVerification": ["Confirm which imaging, if any, is available onsite and which imaging centres patients are referred to."]
+    }
+]

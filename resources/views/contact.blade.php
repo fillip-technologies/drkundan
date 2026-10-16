@@ -6,7 +6,7 @@
 
     {{-- Hero --}}
     <section class="pt-36 pb-16 px-6"
-        style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
+        style="background: var(--gradient-hero);">
         <div class="max-w-4xl mx-auto text-center">
             <span class="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-5"
                 style="background: rgba(255,255,255,0.2); color: white;">
@@ -23,7 +23,7 @@
     {{-- Quick Contact Strip --}}
     <section class="py-10 px-6" style="background: var(--color-dark);">
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a href="tel:+918088152289" class="flex items-center gap-4 p-5 rounded-2xl transition hover:-translate-y-1"
+            <a href="{{ $site->telUrl() }}" class="flex items-center gap-4 p-5 rounded-2xl transition hover:-translate-y-1"
                 style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.08);">
                 <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
                     style="background: var(--color-primary);">
@@ -35,10 +35,10 @@
                 <div>
                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5" style="color: var(--color-secondary);">Phone
                     </p>
-                    <p class="text-white font-semibold">+91 80881 52289</p>
+                    <p class="text-white font-semibold">{{ $site->phoneDisplay() }}</p>
                 </div>
             </a>
-            <a href="https://wa.me/918088152289" target="_blank"
+            <a href="{{ $site->whatsappUrl() }}" target="_blank"
                 class="flex items-center gap-4 p-5 rounded-2xl transition hover:-translate-y-1"
                 style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.08);">
                 <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: #25D366;">
@@ -52,14 +52,14 @@
                 <div>
                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5" style="color: var(--color-secondary);">
                         WhatsApp</p>
-                    <p class="text-white font-semibold">+91 80881 52289</p>
+                    <p class="text-white font-semibold">{{ $site->phoneDisplay() }}</p>
                 </div>
             </a>
-            <a href="mailto:kundankumar911@gmail.com"
+            <a href="{{ $site->mailtoUrl() }}"
                 class="flex items-center gap-4 p-5 rounded-2xl transition hover:-translate-y-1"
                 style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.08);">
                 <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                    style="background: var(--color-secondary);">
+                    style="background: var(--gradient-brand);">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -68,7 +68,7 @@
                 <div>
                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5" style="color: var(--color-secondary);">Email
                     </p>
-                    <p class="text-white font-semibold">kundankumar911@gmail.com</p>
+                    <p class="text-white font-semibold">{{ $site->email() }}</p>
                 </div>
             </a>
         </div>
@@ -79,31 +79,41 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12">
 
-                {{-- LEFT: Contact Form --}}
-                <div class="rounded-3xl p-8 shadow-xl" style="background: white; border: 1px solid rgba(2,134,148,0.1);">
+                {{-- LEFT: Appointment request form (sent to the clinic on WhatsApp) --}}
+                <div id="book-appointment" class="scroll-mt-28 rounded-3xl p-8 shadow-xl" style="background: white; border: 1px solid rgba(var(--primary-rgb),0.1);">
                     <div class="mb-6">
                         <span class="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3"
-                            style="background: var(--color-soft); color: var(--color-primary);">Send a Message</span>
+                            style="background: var(--color-soft); color: var(--color-primary);">Appointment Request</span>
                         <h2 class="text-2xl font-extrabold" style="color: var(--color-dark);">Book an Appointment</h2>
-                        <p class="text-gray-500 text-sm mt-1">Fill the form and we'll get back to you within 24 hours.</p>
+                        <p class="text-gray-500 text-sm mt-1">Fill in your details below. Your request opens in WhatsApp so you can send it to the clinic.</p>
                     </div>
 
-                    <form action="#" method="POST" class="space-y-4">
-                        @csrf
+                    @if ($site->whatsappNumber())
+                    <form class="space-y-4" x-data="{
+                            name: '', phone: '', email: '', branch: '', message: '', sent: false,
+                            send() {
+                                const lines = ['Hello, I would like to book an appointment.', 'Name: ' + this.name, 'Phone: ' + this.phone];
+                                if (this.email) lines.push('Email: ' + this.email);
+                                if (this.branch) lines.push('Preferred clinic: ' + this.branch);
+                                if (this.message) lines.push('Note: ' + this.message);
+                                window.open(@js('https://wa.me/' . $site->whatsappNumber()) + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+                                this.sent = true;
+                            },
+                        }" @submit.prevent="send()">
                         <div class="grid sm:grid-cols-2 gap-4">
                             <div>
-                                <label class="block text-xs font-bold uppercase tracking-wide mb-1.5"
+                                <label for="appointment-name" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
                                     style="color: var(--color-dark);">Full Name</label>
-                                <input type="text" name="name" placeholder="Your full name" required
+                                <input id="appointment-name" type="text" name="name" x-model="name" autocomplete="name" placeholder="Your full name" required
                                     class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
                                     style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                     onfocus="this.style.borderColor='var(--color-primary)'"
                                     onblur="this.style.borderColor='transparent'">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold uppercase tracking-wide mb-1.5"
+                                <label for="appointment-phone" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
                                     style="color: var(--color-dark);">Phone Number</label>
-                                <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required
+                                <input id="appointment-phone" type="tel" name="phone" x-model="phone" autocomplete="tel" placeholder="+91 XXXXX XXXXX" required
                                     class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
                                     style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                     onfocus="this.style.borderColor='var(--color-primary)'"
@@ -111,42 +121,52 @@
                             </div>
                         </div>
                         <div>
-                            <label class="block text-xs font-bold uppercase tracking-wide mb-1.5"
+                            <label for="appointment-email" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
                                 style="color: var(--color-dark);">Email (Optional)</label>
-                            <input type="email" name="email" placeholder="your@email.com"
+                            <input id="appointment-email" type="email" name="email" x-model="email" autocomplete="email" placeholder="your@email.com"
                                 class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
                                 style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                 onfocus="this.style.borderColor='var(--color-primary)'"
                                 onblur="this.style.borderColor='transparent'">
                         </div>
                         <div>
-                            <label class="block text-xs font-bold uppercase tracking-wide mb-1.5"
+                            <label for="appointment-branch" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
                                 style="color: var(--color-dark);">Preferred Branch</label>
-                            <select name="branch" class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
+                            <select id="appointment-branch" name="branch" x-model="branch" class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
                                 style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                 onfocus="this.style.borderColor='var(--color-primary)'"
                                 onblur="this.style.borderColor='transparent'">
                                 <option value="">Select a clinic</option>
-                                <option>Patna – NSMCH, Bihta (Main Branch)</option>
-                                <option>Ara – Near LIC Office (Tuesday: 5–7 PM)</option>
-                                <option>Siwan – Bindusar Road (Saturday: 10 AM–3 PM)</option>
+                                @foreach ($site->branches() as $branch)
+                                    <option>{{ $branch['name'] }}{{ ! empty($branch['opd']) ? ' (' . $branch['opd'] . ')' : '' }}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div>
-                            <label class="block text-xs font-bold uppercase tracking-wide mb-1.5"
-                                style="color: var(--color-dark);">Your Concern / Message</label>
-                            <textarea name="message" rows="4" placeholder="Briefly describe your symptoms or concern..."
+                            <label for="appointment-message" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
+                                style="color: var(--color-dark);">Preferred Day or Question (Optional)</label>
+                            <textarea id="appointment-message" name="message" x-model="message" rows="4" aria-describedby="appointment-privacy"
+                                placeholder="For example, a preferred day or time"
                                 class="w-full px-4 py-3 rounded-xl text-sm outline-none transition resize-none"
                                 style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                 onfocus="this.style.borderColor='var(--color-primary)'"
                                 onblur="this.style.borderColor='transparent'"></textarea>
+                            <p id="appointment-privacy" class="mt-1.5 text-xs text-gray-500">Please don't include detailed medical information. You can discuss your symptoms with the doctor at your appointment.</p>
                         </div>
                         <button type="submit"
-                            class="w-full py-3.5 rounded-xl text-white font-bold text-sm tracking-wide transition hover:-translate-y-0.5 hover:shadow-lg"
-                            style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
-                            Send Message →
+                            class="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-xl text-white font-bold text-sm tracking-wide transition hover:-translate-y-0.5 hover:shadow-lg"
+                            style="background: var(--gradient-brand);">
+                            <i class="fa-brands fa-whatsapp text-base" aria-hidden="true"></i> Send Request on WhatsApp
                         </button>
+                        <p x-show="sent" style="display: none;" role="status" class="text-sm text-gray-600">
+                            WhatsApp should now be open with your request ready to send. If it did not open, you can
+                            <a href="{{ $site->telUrl() }}" class="font-semibold underline" style="color: var(--color-primary);">call the clinic</a> instead.
+                        </p>
                     </form>
+                    @else
+                        <p class="text-gray-600">To book an appointment, please call the clinic.</p>
+                        <x-cta.call-clinic class="mt-4" :show-number="true" />
+                    @endif
                 </div>
 
                 {{-- RIGHT: Clinic Info --}}
@@ -162,14 +182,14 @@
 
                     {{-- Patna --}}
                     <div class="rounded-2xl p-6 transition hover:-translate-y-1 hover:shadow-lg"
-                        style="background: white; border: 1px solid rgba(2,134,148,0.12);">
+                        style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
                         <div class="h-1.5 w-full rounded-full mb-4"
                             style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));">
                         </div>
                         <div class="flex items-center gap-3 mb-3">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
                                 style="background: var(--color-soft);">
-                                <svg class="w-5 h-5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                         d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
@@ -180,19 +200,19 @@
                             </div>
                         </div>
                         <p class="text-sm text-gray-500">⏰ Mon – Fri: 9:00 AM – 2:00 PM</p>
-                        <p class="text-sm text-gray-500">📞 +91 80881 52289</p>
+                        <p class="text-sm text-gray-500">📞 {{ $site->phoneDisplay() }}</p>
                     </div>
 
                     {{-- Ara --}}
                     <div class="rounded-2xl p-6 transition hover:-translate-y-1 hover:shadow-lg"
-                        style="background: white; border: 1px solid rgba(2,134,148,0.12);">
+                        style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
                         <div class="h-1.5 w-full rounded-full mb-4"
                             style="background: linear-gradient(to right, var(--color-secondary), var(--color-primary));">
                         </div>
                         <div class="flex items-center gap-3 mb-3">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
                                 style="background: var(--color-soft);">
-                                <svg class="w-5 h-5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                         d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
@@ -209,14 +229,14 @@
 
                     {{-- Siwan --}}
                     <div class="rounded-2xl p-6 transition hover:-translate-y-1 hover:shadow-lg"
-                        style="background: white; border: 1px solid rgba(2,134,148,0.12);">
+                        style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
                         <div class="h-1.5 w-full rounded-full mb-4"
                             style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));">
                         </div>
                         <div class="flex items-center gap-3 mb-3">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
                                 style="background: var(--color-soft);">
-                                <svg class="w-5 h-5" fill="none" stroke="#028694" viewBox="0 0 24 24">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                         d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
@@ -228,7 +248,7 @@
                             </div>
                         </div>
                         <p class="text-sm text-gray-500">⏰ Saturday: 10:00 AM – 3:00 PM</p>
-                        <p class="text-sm text-gray-500">📞 +91 80881 52289</p>
+                        <p class="text-sm text-gray-500">📞 {{ $site->phoneDisplay() }}</p>
                     </div>
                 </div>
 
@@ -240,14 +260,17 @@
     <section class="py-16 px-6" style="background: var(--color-dark);">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-extrabold text-white mb-3">Need Immediate Help?</h2>
-            <p class="text-white/70 mb-8">For neurological emergencies, do not wait — contact us immediately.</p>
+            <p class="text-white/70 mb-8">
+                For a life-threatening emergency, call <a href="{{ $site->emergencyTelUrl() }}" class="font-bold text-white underline underline-offset-2">{{ $site->emergencyNumber() }}</a>
+                or go to the nearest emergency department. For urgent questions, contact the clinic.
+            </p>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="tel:+918088152289"
+                <a href="{{ $site->telUrl() }}"
                     class="px-8 py-4 rounded-xl text-white font-bold text-lg shadow-lg transition hover:-translate-y-1"
-                    style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));">
-                    📞 Call Now: +91 80881 52289
+                    style="background: var(--gradient-brand);">
+                    📞 Call Now: {{ $site->phoneDisplay() }}
                 </a>
-                <a href="https://wa.me/918088152289" target="_blank"
+                <a href="{{ $site->whatsappUrl() }}" target="_blank"
                     class="px-8 py-4 rounded-xl font-bold text-lg transition hover:-translate-y-1"
                     style="background: #25D366; color: white;">
                     💬 WhatsApp Us

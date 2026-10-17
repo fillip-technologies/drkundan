@@ -1,10 +1,14 @@
+@inject('site', 'App\Support\SiteConfig')
+
 @php
-    $faqs = [
-        ['q' => 'What services does your hospital provide?', 'a' => 'We provide a wide range of services including diagnostics, emergency care, specialized treatments, and preventive healthcare programs.'],
-        ['q' => 'Do you have emergency facilities?', 'a' => 'Yes, our hospital is equipped with 24x7 emergency and trauma care facilities with dedicated doctors and staff.'],
-        ['q' => 'How can I book an appointment?', 'a' => 'You can book an appointment online through our website or call our helpline. Walk-ins are also welcome for urgent care.'],
-        ['q' => 'Do you accept health insurance?', 'a' => 'Yes, we are partnered with multiple insurance providers and accept most major health insurance policies.'],
-    ];
+    $opd = collect($site->branches())->map(fn ($branch) => $branch['city'].' ('.$branch['opd'].')')->implode(', ');
+
+    $faqs = array_values(array_filter([
+        ['q' => 'What conditions does '.$site->displayName().' treat?', 'a' => $site->displayName().' is a neurosurgeon who treats brain, spine and nerve conditions such as stroke, epilepsy, migraine, head injuries, sciatica and cervical spondylosis. Consultations are also available for orthopedic and general surgery problems.'],
+        ['q' => 'How can I book an appointment?', 'a' => 'Use the Book Appointment form on the Contact page, which sends your request to the clinic on WhatsApp.'.($site->phoneDisplay() ? ' You can also call '.$site->phoneDisplay().'.' : '')],
+        ['q' => 'Where are the clinics and what are the OPD timings?', 'a' => $opd ? $site->displayName().' sees patients in '.$site->branchCities().'. OPD timings: '.$opd.'.' : null],
+        ['q' => 'What should I do in an emergency?', 'a' => $site->emergencyGuidance()],
+    ], fn ($faq) => filled($faq['a'])));
 @endphp
 
 <section class="py-24" style="background: var(--color-light);">

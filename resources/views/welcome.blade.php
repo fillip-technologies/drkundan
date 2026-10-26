@@ -97,7 +97,7 @@
                         <i class="fa-solid fa-user-doctor"></i>
                     </span>
                     <span>
-                        <span class="block text-sm font-bold" style="color: var(--color-dark);">Consultant Neurosurgeon
+                        <span class="block text-sm font-bold" style="color: var(--color-dark);">Consultant
                             Neurosurgeon</span>
                         <span class="block text-xs text-slate-500">{{ $site->address() }}</span>
                     </span>

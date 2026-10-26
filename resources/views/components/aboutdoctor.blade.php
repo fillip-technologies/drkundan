@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="{{ asset('images/dr-kundan.JPEG') }}"
+                        <img src="{{ asset('images/dr-kundan.jpeg') }}"
                             alt="Dr. Kundan Kumar - Neurosurgeon" class="w-full h-[480px] object-cover object-top">
 
                         <!-- Overlay gradient -->

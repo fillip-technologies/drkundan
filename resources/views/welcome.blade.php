@@ -86,7 +86,7 @@
             <div class="lg:col-span-5 relative hidden lg:block" data-aos="fade-left" data-aos-delay="150">
 
                 <div class="relative rounded-[2rem] p-2 bg-white/10 border border-white/15 backdrop-blur">
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}"
                         alt="Dr Kundan Kumar" class="w-full aspect-[4/5] object-cover rounded-[1.6rem]">
                 </div>
 

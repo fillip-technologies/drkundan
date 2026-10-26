@@ -170,7 +170,7 @@
             {{-- Image --}}
             <div class="relative order-2 lg:order-1">
                 <div class="rounded-3xl overflow-hidden shadow-2xl" style="border: 2px solid var(--color-soft);">
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar - Neurologist"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}" alt="Dr. Kundan Kumar - Neurologist"
                         class="w-full object-cover object-top" style="height: 480px;">
                 </div>
                 {{-- Floating card --}}

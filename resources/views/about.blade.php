@@ -29,7 +29,7 @@
             <div class="relative flex justify-center">
                 <div class="relative w-72">
                     <div class="absolute -inset-2 rounded-3xl opacity-40 blur-xl" style="background: rgba(255,255,255,0.3);"></div>
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}" alt="Dr. Kundan Kumar"
                         class="relative w-full aspect-[4/5] rounded-3xl shadow-2xl object-cover object-top" style="border: 4px solid rgba(255,255,255,0.4);">
                     <div class="absolute -bottom-5 left-4 right-4 rounded-2xl p-4 shadow-xl"
                         style="background: rgba(255,255,255,0.97); backdrop-filter: blur(12px);">
@@ -78,7 +78,7 @@
                 <div class="absolute -inset-1 rounded-3xl opacity-20 blur-xl"
                     style="background: var(--gradient-brand);"></div>
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}"
                         alt="Dr. Kundan Kumar – Neurosurgeon"
                         class="w-full h-[500px] object-cover object-top">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>

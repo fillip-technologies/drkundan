@@ -204,7 +204,7 @@
             {{-- Image --}}
             <div class="relative">
                 <div class="rounded-3xl overflow-hidden shadow-2xl" style="border: 2px solid var(--color-soft);">
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}" alt="Dr. Kundan Kumar"
                         class="w-full object-cover object-top" style="height: 480px;">
                 </div>
                 <div class="absolute -bottom-6 -right-6 p-5 rounded-2xl shadow-2xl"

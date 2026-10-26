@@ -169,7 +169,7 @@
             {{-- Image --}}
             <div class="relative">
                 <div class="rounded-3xl overflow-hidden shadow-2xl" style="border: 2px solid var(--color-soft);">
-                    <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar - Surgeon"
+                    <img src="{{ asset('images/dr-kundan.jpeg') }}" alt="Dr. Kundan Kumar - Surgeon"
                         class="w-full object-cover object-top" style="height: 480px;">
                 </div>
                 {{-- Stats overlay card --}}

@@ -9,7 +9,7 @@
             <div class="absolute -top-6 -left-6 w-64 h-64 rounded-full opacity-20 blur-2xl"
                 style="background: var(--color-primary);"></div>
 
-            <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar"
+            <img src="{{ asset('images/dr-kundan.jpeg') }}" alt="Dr. Kundan Kumar"
                 class="relative rounded-2xl shadow-2xl w-full h-[520px] object-cover object-top z-10">
 
             <!-- Floating Badge -->

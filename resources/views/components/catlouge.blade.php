@@ -8,6 +8,7 @@
     $featured = $catalog->featured();
     $categories = $catalog->featuredCategories();
     $specialities = $catalog->category('specialities');
+    $painService = $catalog->find('spine-pain');
 @endphp
 
 <section style="background: var(--color-light);" class="px-6 py-24">
@@ -60,6 +61,29 @@
                 </a>
             </article>
         @endforeach
+
+        @if ($painService && $painService['isPublished'])
+            <article data-aos="fade-up" data-aos-delay="{{ count($featured) * 100 }}"
+                class="group relative flex flex-col rounded-2xl p-6 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-white"
+                style="border: 1px solid rgba(var(--primary-rgb),0.1);">
+                <div class="absolute top-0 left-0 right-0 h-1 rounded-t-2xl"
+                    style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));"></div>
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5 text-lg"
+                    style="background: var(--color-soft); color: var(--color-primary);">
+                    <i class="fa-solid fa-notes-medical" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-base font-bold mb-2" style="color: var(--color-dark);">Pain Management</h3>
+                <p class="text-sm mb-5 flex-1" style="color: rgba(var(--dark-rgb),0.6);">
+                    Assessment and care for spine and nerve related pain, guided by clinical evaluation.
+                </p>
+                <a href="{{ $catalog->url($painService) }}"
+                    class="inline-flex items-center gap-1 text-sm font-semibold transition-all group-hover:gap-2 after:absolute after:inset-0"
+                    style="color: var(--color-primary);">
+                    View Details<span class="sr-only">: Pain Management</span>
+                    <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                </a>
+            </article>
+        @endif
 
         <!-- Booking card -->
         <div data-aos="fade-up" data-aos-delay="{{ count($featured) * 100 }}"

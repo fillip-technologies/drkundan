@@ -73,7 +73,7 @@
                 "style": "steps",
                 "items": [
                     "Book an appointment by calling the clinic or sending a WhatsApp message. Walk-ins are welcome, but appointments are preferred.",
-                    "Check which clinic you will visit and its OPD day and timings (Patna, Ara or Siwan).",
+                    "Check which clinic you will visit and its OPD day and timings (Patna).",
                     { "text": "Gather your reports, scans and a list of your medicines.", "serviceId": "what-to-bring" },
                     "Write down your symptoms and the questions you want to ask."
                 ]
@@ -107,7 +107,7 @@
         "faqs": [
             {
                 "question": "Do I need an appointment?",
-                "answer": "Walk-ins are welcome, but appointments are preferred, especially for the Ara and Siwan clinics, which open on limited days."
+                "answer": "Walk-ins are welcome, but appointments are preferred at the Patna clinic."
             },
             {
                 "question": "Can a family member come with me?",
@@ -116,7 +116,7 @@
         ],
         "relatedServiceIds": ["what-to-bring", "test-preparation", "symptoms-we-treat"],
         "seoTitle": "First Visit Guide – What to Expect at Your Appointment",
-        "seoDescription": "How to book, what happens during your first neurology appointment, what to do afterwards and where the Patna, Ara and Siwan clinics are.",
+        "seoDescription": "How to book, what happens during your first neurology appointment, what to do afterwards and where the Patna clinic is.",
         "isPublished": true,
         "optionalService": false,
         "requiresVerification": []

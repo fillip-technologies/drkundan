@@ -23,7 +23,7 @@
                     </span>
 
                     <h2 class="text-3xl lg:text-4xl font-extrabold text-white leading-tight">
-                        Get Expert Neurological <br>Care Today
+                        Get Expert Neurosurgical <br>Care Today
                     </h2>
 
                     <p class="text-base" style="color: rgba(var(--light-rgb),0.65);">
@@ -39,7 +39,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M12 6v6l4 2m5-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            Mon – Sat: 10am – 6pm
+                            Consultation: 5pm – 8pm
                         </div>
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
                             style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">
@@ -49,7 +49,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                             </svg>
-                            NSMCH, Bihta, Patna
+                            {{ $site->address() }}
                         </div>
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
                             style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">
@@ -57,7 +57,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
                             </svg>
-                            Emergency Cases Welcome
+                            Call for Enquiries
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@
                         </div>
                         <div class="flex-1">
                             <p class="text-white font-bold text-base">Call for Appointment</p>
-                            <p class="text-white/75 text-sm mt-0.5">{{ $site->phoneDisplay() }} · Available 10am–6pm</p>
+                            <p class="text-white/75 text-sm mt-0.5">{{ $site->phoneDisplay() }}</p>
                         </div>
                         <svg class="w-5 h-5 text-white/60 group-hover:translate-x-1 transition" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -111,7 +111,7 @@
                     </a>
 
                     <!-- Online Booking -->
-                    <a href="#"
+                    <a href="{{ $site->bookingUrl() }}"
                         class="group flex items-center gap-4 px-6 py-5 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                         style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
@@ -123,7 +123,7 @@
                         </div>
                         <div class="flex-1">
                             <p class="font-bold text-base" style="color: var(--color-soft);">Book Online</p>
-                            <p class="text-sm mt-0.5" style="color: rgba(var(--light-rgb),0.5);">Fill the appointment form
+                            <p class="text-sm mt-0.5" style="color: rgba(var(--light-rgb),0.5);">Continue to DocsArthi to request an appointment
                             </p>
                         </div>
                         <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" style="color: var(--color-secondary);"

@@ -58,7 +58,7 @@ return [
         ['label' => 'Home', 'url' => '/'],
         ['label' => 'Specialities', 'menu' => 'specialities'],
         ['label' => 'Conditions', 'menu' => 'conditions'],
-        ['label' => 'Doctors', 'menu' => 'doctors', 'active' => ['about']],
+        ['label' => 'Doctor', 'menu' => 'doctors', 'active' => ['about']],
         ['label' => 'Diagnostics', 'menu' => 'diagnostics'],
         ['label' => 'Rehabilitation', 'menu' => 'rehabilitation'],
         ['label' => 'Contact Us', 'menu' => 'contact', 'active' => ['contact']],
@@ -77,7 +77,7 @@ return [
 
     'menus' => [
 
-        'specialities' => ['type' => 'mega', 'columns' => 3, 'category' => 'specialities'],
+        'specialities' => ['type' => 'mega', 'columns' => 3, 'category' => 'specialities', 'priority' => ['spine-pain', 'neurosurgery', 'neuro-rehabilitation']],
 
         // Icons on the condition group headings only, to keep the 17 items easy to scan.
         'conditions' => ['type' => 'mega', 'category' => 'conditions', 'itemIcons' => false],
@@ -86,12 +86,7 @@ return [
             'type' => 'dropdown',
             'groups' => [
                 ['items' => [
-                    ['label' => 'All Doctors', 'url' => '/about', 'icon' => 'fa-solid fa-users'],
-                    ['label' => 'Neurologist', 'url' => null, 'icon' => 'fa-solid fa-brain'],
                     ['label' => 'Neurosurgeon', 'url' => '/about#doctor-profile', 'icon' => 'fa-solid fa-user-doctor', 'optional' => 'neurosurgeon'],
-                    ['label' => 'Pediatric Neurologist', 'url' => null, 'icon' => 'fa-solid fa-child', 'optional' => 'pediatric_neurologist'],
-                    ['label' => 'Neuropsychiatrist', 'url' => null, 'icon' => 'fa-solid fa-comments', 'optional' => 'neuropsychiatrist'],
-                    ['label' => 'Physiotherapist / Rehabilitation Specialist', 'url' => null, 'icon' => 'fa-solid fa-person-walking', 'optional' => 'rehabilitation_specialist'],
                 ]],
             ],
             // Individual Doctor Profile (doctor details come from site.json)

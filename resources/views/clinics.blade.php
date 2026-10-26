@@ -12,9 +12,9 @@
                 style="background: rgba(255,255,255,0.2); color: white;">
                 Our Locations
             </span>
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4">Our Clinics & Branches</h1>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4">Patna Clinic</h1>
             <p class="text-white/80 text-lg max-w-2xl mx-auto">
-                Dr. Kundan Kumar's clinics are spread across Bihar — bringing world-class neurological care closer to you.
+                Visit Dr. Kundan Kumar at the Patna clinic for neurological care.
             </p>
         </div>
     </section>
@@ -26,16 +26,16 @@
             <div class="text-center mb-14">
                 <span class="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
                     style="background: var(--color-soft); color: var(--color-primary);">
-                    3 Branches
+                    Patna Clinic
                 </span>
                 <h2 class="text-3xl font-extrabold mb-3" style="color: var(--color-dark);">Find a Clinic Near You</h2>
-                <p class="text-gray-500 max-w-lg mx-auto">Each branch is equipped with modern facilities and staffed by
+                <p class="text-gray-500 max-w-lg mx-auto">Our Patna clinic provides consultations and care.
                     experienced medical professionals.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-1 gap-8 max-w-xl mx-auto">
 
-                {{-- PATNA BRANCH --}}
+                {{-- PATNA CLINIC --}}
                 <div class="group relative rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
                     style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
 
@@ -58,7 +58,7 @@
                                 <div>
                                     <p class="text-lg font-extrabold" style="color: var(--color-dark);">Patna</p>
                                     <p class="text-xs font-semibold uppercase tracking-wide"
-                                        style="color: var(--color-primary);">Main Branch</p>
+                                        style="color: var(--color-primary);">Clinic</p>
                                 </div>
                             </div>
                             <span class="flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full"
@@ -82,8 +82,7 @@
                                 <div>
                                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
                                         style="color: var(--color-primary);">Address</p>
-                                    <p class="text-sm" style="color: var(--color-dark);">NSMCH, Bihta, Patna, Bihar –
-                                        800014</p>
+                                    <p class="text-sm" style="color: var(--color-dark);">{{ $site->address() }}</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -97,7 +96,7 @@
                                 <div>
                                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
                                         style="color: var(--color-primary);">Timing</p>
-                                    <p class="text-sm" style="color: var(--color-dark);">Mon – Fri: 9:00 AM – 2:00 PM</p>
+                                    <p class="text-sm" style="color: var(--color-dark);">5:00 PM – 8:00 PM</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -123,202 +122,7 @@
                                 style="background: var(--color-primary);">
                                 📞 Call Now
                             </a>
-                            <a href="https://maps.google.com/?q=NSMCH+Sheikhpura+Patna" target="_blank"
-                                class="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition hover:-translate-y-0.5"
-                                style="background: var(--color-soft); color: var(--color-primary); border: 1px solid rgba(var(--primary-rgb),0.2);">
-                                📍 Directions
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-                {{-- ARA BRANCH --}}
-                <div class="group relative rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
-                    style="background: var(--color-dark); border: 1px solid rgba(255,255,255,0.06);">
-
-                    <div class="h-2 w-full"
-                        style="background: linear-gradient(to right, var(--color-secondary), var(--color-primary));"></div>
-
-                    <div class="absolute -bottom-12 -right-12 w-48 h-48 rounded-full opacity-5"
-                        style="background: var(--color-secondary);"></div>
-
-                    <div class="relative p-7 space-y-5">
-
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-xl flex items-center justify-center"
-                                    style="background: rgba(var(--secondary-rgb),0.15);">
-                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 10h.01M15 10h.01" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-lg font-extrabold text-white">Ara</p>
-                                    <p class="text-xs font-semibold uppercase tracking-wide"
-                                        style="color: var(--color-secondary);">Branch Clinic</p>
-                                </div>
-                            </div>
-                            <span class="flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full"
-                                style="background: rgba(var(--secondary-rgb),0.12); color: var(--color-secondary);">
-                                <span class="w-2 h-2 rounded-full inline-block" style="background: #22c55e;"></span>Open
-                            </span>
-                        </div>
-
-                        <div class="border-t" style="border-color: rgba(255,255,255,0.07);"></div>
-
-                        <div class="space-y-3">
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: rgba(var(--secondary-rgb),0.12);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0zM15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-secondary);">Address</p>
-                                    <p class="text-sm" style="color: rgba(var(--light-rgb),0.85);">Mahavir Tola Near LIC Office,
-                                        ARA
-                                        Bihar – 802301</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: rgba(var(--secondary-rgb),0.12);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M12 6v6l4 2m5-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-secondary);">Timing</p>
-                                    <p class="text-sm" style="color: rgba(var(--light-rgb),0.85);">Tuesday: 5:00 PM – 7:00 PM
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: rgba(var(--secondary-rgb),0.12);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-secondary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1-.502 1.21l-2.257 1.13a11.042 11.042 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498a1 1 0 0 1 .684.949V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-secondary);">Contact</p>
-                                    <p class="text-sm" style="color: rgba(var(--light-rgb),0.85);">{{ $site->phoneDisplay() }}</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="flex gap-3 pt-1">
-                            <a href="{{ $site->telUrl() }}"
-                                class="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold text-white transition hover:-translate-y-0.5"
-                                style="background: var(--color-primary);">
-                                📞 Call Now
-                            </a>
-                            <a href="https://maps.google.com/?q=Ara+Bhojpur+Bihar" target="_blank"
-                                class="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition hover:-translate-y-0.5"
-                                style="background: rgba(var(--secondary-rgb),0.12); color: var(--color-secondary); border: 1px solid rgba(var(--secondary-rgb),0.2);">
-                                📍 Directions
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-                {{-- SIWAN BRANCH --}}
-                <div class="group relative rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
-                    style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
-
-                    <div class="h-2 w-full"
-                        style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));"></div>
-
-                    <div class="p-7 space-y-5">
-
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-xl flex items-center justify-center"
-                                    style="background: var(--color-soft);">
-                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 10h.01M15 10h.01" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-lg font-extrabold" style="color: var(--color-dark);">Siwan</p>
-                                    <p class="text-xs font-semibold uppercase tracking-wide"
-                                        style="color: var(--color-primary);">Branch Clinic</p>
-                                </div>
-                            </div>
-                            <span class="flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full"
-                                style="background: var(--color-soft); color: var(--color-primary);">
-                                <span class="w-2 h-2 rounded-full inline-block" style="background: #22c55e;"></span>Open
-                            </span>
-                        </div>
-
-                        <div class="border-t" style="border-color: rgba(var(--primary-rgb),0.08);"></div>
-
-                        <div class="space-y-3">
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: var(--color-soft);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0zM15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-primary);">Address</p>
-                                    <p class="text-sm" style="color: var(--color-dark);">Holy spectra hospital, Near Dr.
-                                        Shahnwaz Alam, Bindusar
-                                        Road, Siwan – 841226
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: var(--color-soft);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M12 6v6l4 2m5-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-primary);">Timing</p>
-                                    <p class="text-sm" style="color: var(--color-dark);"> Sat: 10:00 AM – 3:00 PM</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                                    style="background: var(--color-soft);">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1-.502 1.21l-2.257 1.13a11.042 11.042 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498a1 1 0 0 1 .684.949V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
-                                        style="color: var(--color-primary);">Contact</p>
-                                    <p class="text-sm" style="color: var(--color-dark);">{{ $site->phoneDisplay() }}</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="flex gap-3 pt-1">
-                            <a href="{{ $site->telUrl() }}"
-                                class="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold text-white transition hover:-translate-y-0.5"
-                                style="background: var(--color-primary);">
-                                📞 Call Now
-                            </a>
-                            <a href="https://maps.google.com/?q=Siwan+Bihar" target="_blank"
+                            <a href="{{ $site->mapUrl() }}" target="_blank"
                                 class="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition hover:-translate-y-0.5"
                                 style="background: var(--color-soft); color: var(--color-primary); border: 1px solid rgba(var(--primary-rgb),0.2);">
                                 📍 Directions
@@ -355,10 +159,9 @@
                     {{-- Floating stat badge --}}
                     <div class="absolute bottom-6 left-6 right-6 rounded-2xl p-5 shadow-2xl"
                         style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border: 1px solid rgba(var(--primary-rgb),0.12);">
-                        <p class="text-3xl font-extrabold" style="color: var(--color-primary);">10k+</p>
-                        <p class="text-sm font-semibold mt-0.5" style="color: var(--color-dark);">Successful Procedures</p>
-                        <p class="text-xs text-gray-500 mt-1">Delivering precision care across the region for over a decade.
-                        </p>
+                        <p class="text-3xl font-extrabold" style="color: var(--color-primary);">M.Ch.</p>
+                        <p class="text-sm font-semibold mt-0.5" style="color: var(--color-dark);">Neurosurgery</p>
+                        <p class="text-xs text-gray-500 mt-1">Gajra Raja Medical College, Gwalior.</p>
                     </div>
                 </div>
 
@@ -402,10 +205,7 @@
                         </div>
                         <div>
                             <h3 class="text-lg font-bold mb-1" style="color: var(--color-dark);">Expert Surgeons</h3>
-                            <p class="text-gray-500 text-sm leading-relaxed">Our team consists of board-certified
-                                neurosurgeons trained at global centers of excellence, bringing <span
-                                    style="color: var(--color-primary); font-weight:600;">international standards</span> to
-                                your city.</p>
+                            <p class="text-gray-500 text-sm leading-relaxed">Dr. Kundan Kumar holds an M.Ch. in Neurosurgery from Gajra Raja Medical College, Gwalior.</p>
                         </div>
                     </div>
 
@@ -442,7 +242,7 @@
                     FAQs
                 </span>
                 <h2 class="text-3xl font-extrabold mb-3" style="color: var(--color-dark);">Frequently Asked Questions</h2>
-                <p class="text-gray-500">Everything you need to know before visiting our clinics.</p>
+                <p class="text-gray-500">Everything you need to know before visiting the clinic.</p>
             </div>
 
             {{-- FAQ Items --}}
@@ -462,7 +262,7 @@
                     <div class="faq-answer hidden px-6 py-5 text-sm text-gray-600 leading-relaxed"
                         style="background: white; border-top: 1px solid rgba(var(--primary-rgb),0.08);">
                         While walk-ins are welcome, we strongly recommend booking an appointment in advance — especially for
-                        the Ara and Siwan branches which operate on limited days. You can book via WhatsApp or call us
+                        the Patna clinic. You can book via WhatsApp or call us
                         directly.
                     </div>
                 </div>
@@ -472,7 +272,7 @@
                     <button onclick="toggleFaq(this)"
                         class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold transition"
                         style="background: var(--color-soft); color: var(--color-dark);">
-                        <span>Which branch is best for emergency neurological care?</span>
+                        <span>Where should I go for emergency neurological care?</span>
                         <svg class="w-5 h-5 shrink-0 transition-transform duration-300 faq-icon" fill="none"
                             stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -480,8 +280,8 @@
                     </button>
                     <div class="faq-answer hidden px-6 py-5 text-sm text-gray-600 leading-relaxed"
                         style="background: white; border-top: 1px solid rgba(var(--primary-rgb),0.08);">
-                        For emergencies, please visit the <strong style="color: var(--color-primary);">Patna (NSMCH,
-                            Bihta)</strong> branch as it is our main branch with full diagnostic and surgical support. For
+                        For emergencies, please visit the <strong style="color: var(--color-primary);">Patna clinic,
+                            Bihta)</strong> branch as it is our Patna clinic with full diagnostic and surgical support. For
                         life-threatening emergencies, please call <strong>{{ $site->phoneDisplay() }}</strong> immediately.
                     </div>
                 </div>
@@ -491,7 +291,7 @@
                     <button onclick="toggleFaq(this)"
                         class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold transition"
                         style="background: var(--color-soft); color: var(--color-dark);">
-                        <span>What conditions does Dr. Kundan Kumar treat at these clinics?</span>
+                        <span>What conditions does Dr. Kundan Kumar treat at the Patna clinic?</span>
                         <svg class="w-5 h-5 shrink-0 transition-transform duration-300 faq-icon" fill="none"
                             stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -500,8 +300,8 @@
                     <div class="faq-answer hidden px-6 py-5 text-sm text-gray-600 leading-relaxed"
                         style="background: white; border-top: 1px solid rgba(var(--primary-rgb),0.08);">
                         Dr. Kundan Kumar specializes in brain tumors, spinal disc problems, stroke management, head
-                        injuries, epilepsy, and complex nerve conditions. All branches offer OPD (outpatient) consultations,
-                        while surgical procedures are performed at the Patna branch.
+                        injuries, epilepsy, and complex nerve conditions. The Patna clinic offers OPD (outpatient) consultations,
+                        while surgical procedures are performed at the Patna clinic.
                     </div>
                 </div>
 
@@ -519,7 +319,7 @@
                     <div class="faq-answer hidden px-6 py-5 text-sm text-gray-600 leading-relaxed"
                         style="background: white; border-top: 1px solid rgba(var(--primary-rgb),0.08);">
                         Yes, absolutely. Patients are encouraged to bring existing MRI/CT scans and medical reports for
-                        review. Dr. Kundan Kumar provides thorough second opinions at all clinic locations to help patients
+                        review. Dr. Kundan Kumar provides thorough second opinions at the Patna clinic to help patients
                         make informed decisions about their treatment.
                     </div>
                 </div>
@@ -535,7 +335,7 @@
     <section class="py-16 px-6" style="background: var(--color-dark);">
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="text-3xl font-extrabold text-white mb-4">Ready to Visit Us?</h2>
-            <p class="text-white/70 mb-8">Book your appointment at any of our branches and get expert
+            <p class="text-white/70 mb-8">Book your appointment at our Patna clinic and get expert
                 neurological care from
                 Dr. Kundan Kumar.</p>
             <div class="flex flex-wrap justify-center gap-4">

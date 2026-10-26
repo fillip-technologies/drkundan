@@ -66,7 +66,14 @@ class Navigation
         $groups = [];
 
         if (isset($menu['category'])) {
-            foreach ($this->catalog->groups($menu['category']) as $group) {
+            $categoryGroups = $this->catalog->groups($menu['category']);
+            $priority = array_flip($menu['priority'] ?? []);
+
+            foreach ($categoryGroups as $group) {
+                if ($priority) {
+                    usort($group['entries'], fn ($a, $b) => ($priority[$a['id']] ?? PHP_INT_MAX) <=> ($priority[$b['id']] ?? PHP_INT_MAX));
+                }
+
                 $items = array_values(array_filter(array_map(fn ($entry) => $this->entryItem($entry), $group['entries'])));
 
                 if (($menu['itemIcons'] ?? true) === false) {

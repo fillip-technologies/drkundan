@@ -36,7 +36,7 @@
                 Our Services
             </span>
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-5 leading-tight">
-                Neurological Services &amp; <span class="text-gradient">Patient Care</span>
+                Neurosurgical Services &amp; <span class="text-gradient">Patient Care</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
                 Explore the clinic's specialities, the conditions we see, diagnostic tests, rehabilitation services and practical
@@ -160,8 +160,8 @@
         <div class="max-w-7xl mx-auto space-y-10">
             <div class="grid md:grid-cols-3 gap-5">
                 @foreach ([
-                    ['icon' => 'fa-solid fa-user-doctor', 'title' => 'Doctors', 'text' => 'Meet ' . $site->displayName() . ': qualifications, experience and areas of expertise.', 'url' => url('/about')],
-                    ['icon' => 'fa-solid fa-hospital', 'title' => 'About the Clinic', 'text' => 'Clinic locations in Patna, Ara and Siwan, OPD days and directions.', 'url' => url('/clinics')],
+                    ['icon' => 'fa-solid fa-user-doctor', 'title' => 'Doctor', 'text' => 'Meet ' . $site->displayName() . ': qualifications, experience and areas of expertise.', 'url' => url('/about')],
+                    ['icon' => 'fa-solid fa-hospital', 'title' => 'About the Clinic', 'text' => 'Patna clinic OPD days and directions.', 'url' => url('/clinics')],
                     ['icon' => 'fa-solid fa-headset', 'title' => 'Contact Us', 'text' => 'Call, WhatsApp or email the clinic, or send an appointment request.', 'url' => url('/contact')],
                 ] as $link)
                     <a href="{{ $link['url'] }}"

@@ -1,9 +1,9 @@
 @php
     $trustStats = [
-        ['value' => '10+', 'label' => 'Years Experience', 'icon' => 'fa-regular fa-clock'],
-        ['value' => '5000+', 'label' => 'Patients Treated', 'icon' => 'fa-solid fa-user-group'],
-        ['value' => '95%', 'label' => 'Success Rate', 'icon' => 'fa-solid fa-heart-pulse'],
-        ['value' => '3+', 'label' => 'Clinics in Patna And Siwan', 'icon' => 'fa-regular fa-hospital'],
+        ['value' => '11+', 'label' => 'Years Experience', 'icon' => 'fa-regular fa-clock'],
+        ['value' => '5,490+', 'label' => 'Patients Treated', 'icon' => 'fa-solid fa-user-group'],
+        ['value' => '90%', 'label' => 'Improvement Rate', 'icon' => 'fa-solid fa-heart-pulse'],
+        ['value' => 'Patna', 'label' => 'Clinic Location', 'icon' => 'fa-regular fa-hospital'],
     ];
 @endphp
 

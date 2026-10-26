@@ -131,7 +131,7 @@
                         </div>
                         <div>
                             <label for="appointment-branch" class="block text-xs font-bold uppercase tracking-wide mb-1.5"
-                                style="color: var(--color-dark);">Preferred Branch</label>
+                                style="color: var(--color-dark);">Preferred Clinic</label>
                             <select id="appointment-branch" name="branch" x-model="branch" class="w-full px-4 py-3 rounded-xl text-sm outline-none transition"
                                 style="background: var(--color-soft); border: 1.5px solid transparent; color: var(--color-dark);"
                                 onfocus="this.style.borderColor='var(--color-primary)'"
@@ -196,58 +196,10 @@
                             </div>
                             <div>
                                 <p class="font-extrabold" style="color: var(--color-dark);">Patna – Main Branch</p>
-                                <p class="text-xs" style="color: var(--color-primary);">NSMCH, Bihta, Patna – 800014</p>
+                                <p class="text-xs" style="color: var(--color-primary);">{{ $branch['address'] }}</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-500">⏰ Mon – Fri: 9:00 AM – 2:00 PM</p>
-                        <p class="text-sm text-gray-500">📞 {{ $site->phoneDisplay() }}</p>
-                    </div>
-
-                    {{-- Ara --}}
-                    <div class="rounded-2xl p-6 transition hover:-translate-y-1 hover:shadow-lg"
-                        style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
-                        <div class="h-1.5 w-full rounded-full mb-4"
-                            style="background: linear-gradient(to right, var(--color-secondary), var(--color-primary));">
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
-                                style="background: var(--color-soft);">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                        d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-extrabold" style="color: var(--color-dark);">Ara – Branch Clinic</p>
-                                <p class="text-xs" style="color: var(--color-primary);">Mahavir Tola, Near LIC Office, Ara –
-                                    802301</p>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-500">⏰ Tuesday: 5:00 PM – 7:00 PM</p>
-                        <p class="text-sm text-gray-500">📞 +91 95727 37464</p>
-                    </div>
-
-                    {{-- Siwan --}}
-                    <div class="rounded-2xl p-6 transition hover:-translate-y-1 hover:shadow-lg"
-                        style="background: white; border: 1px solid rgba(var(--primary-rgb),0.12);">
-                        <div class="h-1.5 w-full rounded-full mb-4"
-                            style="background: linear-gradient(to right, var(--color-primary), var(--color-secondary));">
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
-                                style="background: var(--color-soft);">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" style="color: var(--color-primary);" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                        d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-extrabold" style="color: var(--color-dark);">Siwan – Branch Clinic</p>
-                                <p class="text-xs" style="color: var(--color-primary);">Near Dr. Shahnwaz Alam, Bindusar
-                                    Road, Siwan – 841226</p>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-500">⏰ Saturday: 10:00 AM – 3:00 PM</p>
+                        <p class="text-sm text-gray-500">⏰ Consultation: 5:00 PM – 8:00 PM</p>
                         <p class="text-sm text-gray-500">📞 {{ $site->phoneDisplay() }}</p>
                     </div>
                 </div>

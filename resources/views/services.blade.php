@@ -17,33 +17,23 @@
             What We Treat
         </span>
         <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-5 leading-tight">
-            Neurology &amp; Neurosurgery<br>Services
+            Neurosurgery<br>Services
         </h1>
         <p class="text-white/80 text-lg max-w-2xl mx-auto">
             Comprehensive brain, spine, and nerve care — delivered with precision, compassion, and the most advanced surgical techniques available in Bihar.
         </p>
         <div class="flex flex-wrap justify-center gap-3 mt-8">
-            <a href="{{ url('/contact') }}"
+            <a href="{{ $site->bookingUrl() }}"
                 class="px-6 py-3 rounded-xl font-semibold text-sm transition hover:-translate-y-0.5 shadow-lg"
                 style="background: white; color: var(--color-primary);">
                 Book Appointment →
             </a>
-            <a href="tel:+918088152289"
+            <a href="{{ $site->telUrl() }}"
                 class="px-6 py-3 rounded-xl font-semibold text-sm transition hover:-translate-y-0.5"
                 style="background: rgba(255,255,255,0.15); color: white; border: 1px solid rgba(255,255,255,0.3);">
                 📞 Call Now
             </a>
         </div>
-    </div>
-</section>
-
-{{-- Stats Strip --}}
-<section class="py-8 px-6" style="background: var(--color-dark);">
-    <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-        <div><p class="text-3xl font-extrabold" style="color: var(--color-secondary);">6+</p><p class="text-xs text-white/60 mt-1">Specializations</p></div>
-        <div><p class="text-3xl font-extrabold" style="color: var(--color-secondary);">10+</p><p class="text-xs text-white/60 mt-1">Years Experience</p></div>
-        <div><p class="text-3xl font-extrabold" style="color: var(--color-secondary);">5000+</p><p class="text-xs text-white/60 mt-1">Patients Treated</p></div>
-        <div><p class="text-3xl font-extrabold" style="color: var(--color-secondary);">98%</p><p class="text-xs text-white/60 mt-1">Success Rate</p></div>
     </div>
 </section>
 
@@ -54,7 +44,7 @@
         <div class="text-center mb-14">
             <span class="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
                 style="background: var(--color-soft); color: var(--color-primary);">All Services</span>
-            <h2 class="text-3xl font-extrabold mb-3" style="color: var(--color-dark);">Comprehensive Neurological Care</h2>
+            <h2 class="text-3xl font-extrabold mb-3" style="color: var(--color-dark);">Comprehensive Neurosurgical Care</h2>
             <p class="text-gray-500 max-w-xl mx-auto">Each treatment plan is personalized, evidence-based, and delivered with the latest minimally invasive techniques.</p>
         </div>
 
@@ -82,7 +72,7 @@
                         </li>
                         @endforeach
                     </ul>
-                    <a href="{{ url('/contact') }}" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 group-hover:text-brand-700 transition w-max">
+                    <a href="{{ $site->bookingUrl() }}" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 group-hover:text-brand-700 transition w-max">
                         Book Consultation <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </a>
                 </div>
@@ -110,7 +100,7 @@
                         </li>
                         @endforeach
                     </ul>
-                    <a href="{{ url('/contact') }}" class="inline-flex items-center gap-2 text-sm font-bold text-amber-500 group-hover:text-amber-600 transition w-max">
+                    <a href="{{ $site->bookingUrl() }}" class="inline-flex items-center gap-2 text-sm font-bold text-amber-500 group-hover:text-amber-600 transition w-max">
                         Book Consultation <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </a>
                 </div>
@@ -191,11 +181,11 @@
                     </div>
                     <div>
                         <h3 class="text-xl font-extrabold text-white">Neuro OPD</h3>
-                        <p class="text-xs font-medium text-brand-200 mt-1">Available at All Branches</p>
+                        <p class="text-xs font-medium text-brand-200 mt-1">Available at the Patna Clinic</p>
                     </div>
                 </div>
                 <p class="text-brand-50 text-sm leading-relaxed mb-8 relative z-10 flex-1">Comprehensive outpatient consultations covering the full spectrum of neurological conditions including headaches, vertigo, and nerve pain.</p>
-                <a href="{{ url('/contact') }}" class="inline-flex items-center justify-center w-full py-3 rounded-xl bg-white text-brand-800 font-bold hover:bg-brand-50 transition shadow-lg relative z-10">
+                <a href="{{ $site->bookingUrl() }}" class="inline-flex items-center justify-center w-full py-3 rounded-xl bg-white text-brand-800 font-bold hover:bg-brand-50 transition shadow-lg relative z-10">
                     Book OPD Appointment
                 </a>
             </div>
@@ -216,11 +206,11 @@
                 </h2>
                 <div class="space-y-5">
                     @foreach([
-                        ['🧠', 'Super-Specialist Training', 'MCh in Neurosurgery from GRMC Gwalior, trained at LBS Hospital, New Delhi.'],
+                        ['🧠', 'M.Ch. Neurosurgery', 'Gajra Raja Medical College, Gwalior.'],
                         ['🔬', 'Advanced Technology', '3T MRI, neuro-navigation systems, and endoscopic tools for minimal invasion.'],
                         ['🫂', 'Patient-Centered Approach', 'Every patient receives a personalized plan, not a template. We listen before we operate.'],
-                        ['🌐', '3 Accessible Locations', 'Patna (daily OPD), Ara (Tuesday), and Siwan (Saturday) — closer to you.'],
-                        ['🚑', '24/7 Emergency Response', 'Available round the clock for neurological emergencies.'],
+                        ['🌐', 'Patna Clinic', 'Visit our clinic at ' . $site->address() . '.'],
+                        ['☎️', 'Call the Clinic', 'Call the clinic for enquiries and appointment information.'],
                     ] as $w)
                     <div class="flex items-start gap-4">
                         <div class="text-2xl">{{ $w[0] }}</div>
@@ -248,8 +238,8 @@
                             </svg>
                         </div>
                         <div>
-                            <p class="font-bold text-sm" style="color: var(--color-dark);">Board Certified Neurosurgeon</p>
-                            <p class="text-xs text-gray-500">MBBS, MCh, DNB — Patna, Bihar</p>
+                            <p class="font-bold text-sm" style="color: var(--color-dark);">Consultant Neurosurgeon</p>
+                            <p class="text-xs text-gray-500">MBBS, DNB (General Surgery), M.Ch. (Neurosurgery)</p>
                         </div>
                     </div>
                 </div>
@@ -266,12 +256,12 @@
             If you or a loved one is suffering from a neurological condition, don't wait. Early diagnosis and expert intervention leads to better outcomes.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="{{ url('/contact') }}"
+            <a href="{{ $site->bookingUrl() }}"
                 class="px-8 py-3.5 rounded-xl text-white font-semibold shadow-lg transition hover:-translate-y-0.5"
                 style="background: var(--gradient-brand);">
                 Book Appointment
             </a>
-            <a href="https://wa.me/918088152289" target="_blank"
+            <a href="{{ $site->whatsappUrl() }}" target="_blank"
                 class="px-8 py-3.5 rounded-xl font-semibold transition hover:-translate-y-0.5"
                 style="background: #25D366; color: white;">
                 💬 WhatsApp Us

@@ -83,7 +83,7 @@
         }
     ],
     "homepage": {
-        "featured": ["neurology", "neurosurgery", "stroke-clinic", "epilepsy-clinic", "spine-pain"],
+        "featured": ["neurosurgery", "stroke-clinic"],
         "categories": ["conditions", "diagnostics", "rehabilitation"]
     },
     "sectionLabels": {

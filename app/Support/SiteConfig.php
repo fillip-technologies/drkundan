@@ -87,7 +87,7 @@ class SiteConfig
 
     public function whatsappNumber(): ?string
     {
-        $number = preg_replace('/\D/', '', (string) $this->get('whatsapp.number'));
+        $number = preg_replace('/\D/', '', (string) $this->get('whatsapp.number', $this->get('phone.number')));
 
         return $number ?: null;
     }
@@ -108,7 +108,11 @@ class SiteConfig
     {
         $url = $this->get('booking.url');
 
-        return is_string($url) ? url($url) : null;
+        if (! is_string($url)) {
+            return null;
+        }
+
+        return filter_var($url, FILTER_VALIDATE_URL) ? $url : url($url);
     }
 
     public function bookingLabel(): string
@@ -140,16 +144,32 @@ class SiteConfig
 
     public function mapUrl(): ?string
     {
-        return $this->get('address.mapUrl');
+        $address = $this->address();
+
+        return $address ? 'https://maps.google.com/?q='.rawurlencode($address) : null;
+    }
+
+    public function mapEmbedUrl(): ?string
+    {
+        $address = $this->address();
+
+        return $address ? 'https://maps.google.com/maps?q='.rawurlencode($address).'&output=embed' : null;
     }
 
     /** Clinic branches with at least a name. */
     public function branches(): array
     {
-        return array_values(array_filter((array) $this->get('branches', []), fn ($branch) => is_array($branch) && ! empty($branch['name'])));
+        $branches = array_values(array_filter((array) $this->get('branches', []), fn ($branch) => is_array($branch) && ! empty($branch['name'])));
+
+        return array_map(function (array $branch): array {
+            $branch['address'] = $branch['address'] ?? $this->address();
+            $branch['mapUrl'] = $branch['mapUrl'] ?? $this->mapUrl();
+
+            return $branch;
+        }, $branches);
     }
 
-    /** Branch towns as readable text, e.g. "Patna, Ara and Siwan". */
+    /** Clinic towns as readable text. */
     public function branchCities(): string
     {
         $cities = array_values(array_unique(array_filter(array_column($this->branches(), 'city'))));

@@ -87,8 +87,9 @@
             /* SOFT TINT */
             --color-soft: #EAEFFF;
 
-            /* WARM ACCENT (ratings, highlights) */
-            --color-accent: #FFB547;
+            /* GOLD ACCENT to echo Dr. Kundan's logo */
+            --color-accent: #D4AF37;
+            --accent-rgb: 212, 175, 55;
 
             /* GRADIENTS */
             --gradient-brand: linear-gradient(135deg, var(--color-primary) 0%, var(--color-violet) 100%);

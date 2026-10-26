@@ -53,7 +53,7 @@
             },
             {
                 "question": "How can I check appointment availability?",
-                "answer": "Call the clinic or send a WhatsApp message to ask about appointment times at the Patna, Ara or Siwan clinics."
+                "answer": "Call the clinic or send a WhatsApp message to ask about appointment times at the Patna clinic."
             }
         ],
         "relatedServiceIds": ["headache-migraine", "epilepsy-clinic", "stroke-clinic", "eeg"],

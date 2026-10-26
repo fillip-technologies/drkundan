@@ -4,9 +4,13 @@
     $opd = collect($site->branches())->map(fn ($branch) => $branch['city'].' ('.$branch['opd'].')')->implode(', ');
 
     $faqs = array_values(array_filter([
-        ['q' => 'What conditions does '.$site->displayName().' treat?', 'a' => $site->displayName().' is a neurosurgeon who treats brain, spine and nerve conditions such as stroke, epilepsy, migraine, head injuries, sciatica and cervical spondylosis. Consultations are also available for orthopedic and general surgery problems.'],
-        ['q' => 'How can I book an appointment?', 'a' => 'Use the Book Appointment form on the Contact page, which sends your request to the clinic on WhatsApp.'.($site->phoneDisplay() ? ' You can also call '.$site->phoneDisplay().'.' : '')],
+        ['q' => 'What conditions does '.$site->displayName().' assess?', 'a' => 'Dr. Kundan Kumar assesses brain, spine and nerve conditions, including brain injury, brain tumour, haemorrhage, hydrocephalus, epilepsy, tremor, slipped disc, sciatica and cervical or lumbar spondylosis. Recommended care depends on clinical evaluation.'],
+        ['q' => 'How can I book an appointment?', 'a' => 'Use the Book Appointment button to open DocsArthi and request an appointment.'.($site->phoneDisplay() ? ' You can also call '.$site->phoneDisplay().'.' : '')],
         ['q' => 'Where are the clinics and what are the OPD timings?', 'a' => $opd ? $site->displayName().' sees patients in '.$site->branchCities().'. OPD timings: '.$opd.'.' : null],
+        ['q' => 'Does every brain or spine condition need surgery?', 'a' => 'No. Conditions are assessed individually, and the suitable care depends on clinical evaluation. Surgery is considered only when it is appropriate.'],
+        ['q' => 'What should I bring to my appointment?', 'a' => 'Bring any previous medical reports, scan images and reports, test results, and a list of your current medicines, if available.'],
+        ['q' => 'Can I visit without an appointment?', 'a' => 'Walk-ins are welcome at the Patna clinic, but appointments are preferred.'],
+        ['q' => 'Can a family member come with me?', 'a' => 'Yes. A family member or caregiver can accompany you and help share information or remember the advice given.'],
         ['q' => 'What should I do in an emergency?', 'a' => $site->emergencyGuidance()],
     ], fn ($faq) => filled($faq['a'])));
 @endphp

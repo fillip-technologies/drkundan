@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="{{ asset('images/dr-kundan.png') }}"
+                        <img src="{{ asset('images/dr-kundan.JPEG') }}"
                             alt="Dr. Kundan Kumar - Neurosurgeon" class="w-full h-[480px] object-cover object-top">
 
                         <!-- Overlay gradient -->
@@ -51,7 +51,7 @@
                             <p class="text-sm font-semibold uppercase tracking-wide"
                                 style="color: var(--color-primary);">Senior Consultant</p>
                             <h3 class="text-2xl font-bold mt-1" style="color: var(--color-dark);">Dr. Kundan Kumar</h3>
-                            <p class="text-sm text-gray-500 mt-0.5">MBBS, MCh (Neurosurgery)</p>
+                            <p class="text-sm text-gray-500 mt-0.5">MBBS, DNB (General Surgery), M.Ch. (Neurosurgery)</p>
                         </div>
                         <div class="w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
                             style="background: var(--gradient-brand);">
@@ -88,27 +88,25 @@
                 </h2>
 
                 <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                    Dedicated to providing world-class neurological care with a patient-centered approach.
-                    Dr. Kundan Kumar brings over a decade of specialized experience in complex brain and spine
-                    procedures.
+                    Dr. Kundan Kumar holds an MBBS from J.J.M. Medical College, a DNB in General Surgery from Deben Mahato Government Medical College & Hospital, and an M.Ch. in Neurosurgery from Gajra Raja Medical College.
                 </p>
 
                 <!-- Stats Grid -->
                 <div class="grid grid-cols-3 gap-4 mb-8">
                     <div class="text-center p-4 rounded-2xl transition-all hover:scale-105"
                         style="background: var(--color-soft);">
-                        <div class="text-3xl font-bold" style="color: var(--color-primary);">10+</div>
-                        <div class="text-xs text-gray-600 mt-1">Years Excellence</div>
+                        <div class="text-3xl font-bold" style="color: var(--color-primary);">5,490+</div>
+                        <div class="text-xs text-gray-600 mt-1">Patients Treated</div>
                     </div>
                     <div class="text-center p-4 rounded-2xl transition-all hover:scale-105"
                         style="background: var(--color-soft);">
-                        <div class="text-3xl font-bold" style="color: var(--color-primary);">5000+</div>
-                        <div class="text-xs text-gray-600 mt-1">Happy Patients</div>
+                        <div class="text-3xl font-bold" style="color: var(--color-primary);">11+</div>
+                        <div class="text-xs text-gray-600 mt-1">Years Experience</div>
                     </div>
                     <div class="text-center p-4 rounded-2xl transition-all hover:scale-105"
                         style="background: var(--color-soft);">
-                        <div class="text-3xl font-bold" style="color: var(--color-primary);">98%</div>
-                        <div class="text-xs text-gray-600 mt-1">Success Rate</div>
+                        <div class="text-3xl font-bold" style="color: var(--color-primary);">90%</div>
+                        <div class="text-xs text-gray-600 mt-1">Improvement Rate</div>
                     </div>
                 </div>
 
@@ -145,13 +143,13 @@
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
-                        <span class="text-gray-700 font-medium">24/7 Emergency Neuro Care</span>
+                        <span class="text-gray-700 font-medium">Complex Brain &amp; Spine Procedures</span>
                     </div>
                 </div>
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-wrap gap-4">
-                    <a href="#"
+                    <a href="{{ $site->bookingUrl() }}"
                         class="group inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl"
                         style="background: var(--gradient-brand); color: white;">
                         Book Appointment
@@ -169,7 +167,7 @@
                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
                             </path>
                         </svg>
-                        Emergency Contact
+                        Call Now
                     </a>
                 </div>
             </div>

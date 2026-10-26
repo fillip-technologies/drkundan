@@ -772,21 +772,20 @@
     {
         "id": "cervical-spondylosis",
         "slug": "cervical-spondylosis",
-        "title": "Cervical Spondylosis",
+        "title": "Cervical & Lumbar Spondylosis",
         "category": "conditions",
         "group": "spine",
         "icon": "fa-solid fa-user-injured",
-        "shortDescription": "Age-related wear of the neck spine that can cause neck pain and nerve symptoms.",
+        "shortDescription": "Age-related changes in the neck or lower spine that may cause pain or nerve symptoms.",
         "introduction": [
-            "Cervical spondylosis is age-related wear and tear of the discs and joints in the neck. It is common and often causes no symptoms.",
-            "In some people it causes neck pain and stiffness, or it may press on nerves or the spinal cord, causing arm symptoms or problems with walking and hand use."
+            "Cervical and lumbar spondylosis describe age-related changes in the discs and joints of the neck and lower back. These changes are common and do not always cause symptoms.",
+            "When symptoms occur, they can include pain, stiffness or nerve-related changes in the arms or legs. Assessment depends on symptoms and clinical findings."
         ],
         "symptomsOrReasons": [
-            "Neck pain and stiffness",
-            "Pain spreading to the shoulder or arm",
-            "Numbness or tingling in the arms or hands",
-            "Weakness or clumsiness of the hands",
-            "Unsteady walking, which needs prompt assessment"
+            "Neck or lower-back pain and stiffness",
+            "Pain spreading to a shoulder, arm, buttock or leg",
+            "Numbness or tingling in an arm, hand, leg or foot",
+            "Weakness or changes in coordination"
         ],
         "whatToExpect": [
             "A history and examination of the neck, arms and walking.",
@@ -866,5 +865,173 @@
         "isPublished": true,
         "optionalService": false,
         "requiresVerification": []
+    },
+    {
+        "id": "brain-tumour",
+        "slug": "brain-tumour",
+        "title": "Brain Tumour",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-brain",
+        "shortDescription": "A brain growth or scan finding that may need specialist assessment.",
+        "introduction": ["Assessment considers symptoms, examination findings and brain scan results to guide appropriate next steps."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "brain-injury-trauma",
+        "slug": "brain-injury-trauma",
+        "title": "Brain Injury / Trauma",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-head-side-virus",
+        "shortDescription": "Injury to the head or brain assessed in the context of symptoms and examination findings.",
+        "introduction": ["A clinical review can consider the nature of the injury, current symptoms and available scan results."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "brain-haemorrhage",
+        "slug": "brain-haemorrhage",
+        "title": "Brain Haemorrhage",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-droplet",
+        "shortDescription": "Bleeding in or around the brain assessed using clinical findings and imaging.",
+        "introduction": ["Assessment depends on symptoms, examination findings and brain imaging. Sudden severe symptoms need emergency care."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "hydrocephalus",
+        "slug": "hydrocephalus",
+        "title": "Hydrocephalus",
+        "category": "conditions",
+        "group": "brain-cognitive",
+        "icon": "fa-solid fa-water",
+        "shortDescription": "A build-up of fluid in the brain that is assessed with symptoms and imaging.",
+        "introduction": ["A specialist assessment reviews symptoms, examination findings and relevant brain scans."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "slipped-disc",
+        "slug": "slipped-disc",
+        "title": "Slipped Disc",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-link",
+        "shortDescription": "A spinal disc problem that can sometimes irritate or press on nearby nerves.",
+        "introduction": ["Assessment considers pain, sensation, strength, examination findings and any available spine scans."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "neck-lower-back-pain",
+        "slug": "neck-lower-back-pain",
+        "title": "Neck & Lower-Back Pain",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-person-circle-exclamation",
+        "shortDescription": "Neck or lower-back pain reviewed alongside symptoms and clinical findings.",
+        "introduction": ["The cause of neck or lower-back pain varies. Clinical evaluation helps guide suitable next steps."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "tingling-pins-needles",
+        "slug": "tingling-pins-needles",
+        "title": "Tingling / Pins and Needles",
+        "category": "conditions",
+        "group": "nerves-muscles",
+        "icon": "fa-solid fa-wave-square",
+        "shortDescription": "Altered sensation that may be assessed with symptoms and examination findings.",
+        "introduction": ["Tingling or pins and needles can have different causes. Assessment considers where it occurs and any related symptoms."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "spine-injury-trauma",
+        "slug": "spine-injury-trauma",
+        "title": "Spine Injury / Trauma",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-person-falling",
+        "shortDescription": "Injuries affecting the spine are reviewed with symptoms and relevant imaging.",
+        "introduction": ["Assessment considers the injury, examination findings, symptoms and available imaging."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "spine-tumour",
+        "slug": "spine-tumour",
+        "title": "Spine Tumour",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-ribbon",
+        "shortDescription": "A growth affecting the spine or spinal cord assessed with clinical findings and imaging.",
+        "introduction": ["Assessment reviews symptoms, examination findings and relevant spine imaging to guide next steps."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "cauda-equina-syndrome",
+        "slug": "cauda-equina-syndrome",
+        "title": "Cauda Equina Syndrome",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-kit-medical",
+        "shortDescription": "A condition involving nerves at the base of the spine that needs urgent assessment.",
+        "introduction": ["New loss of bladder or bowel control, numbness around the groin or rapidly worsening leg weakness needs emergency assessment."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "quadriplegia-quadriparesis",
+        "slug": "quadriplegia-quadriparesis",
+        "title": "Quadriplegia / Quadriparesis",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-wheelchair",
+        "shortDescription": "Weakness or paralysis affecting all four limbs, assessed in clinical context.",
+        "introduction": ["Assessment considers the pattern and onset of weakness, examination findings and relevant investigations."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "paraplegia-paraparesis",
+        "slug": "paraplegia-paraparesis",
+        "title": "Paraplegia / Paraparesis",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-wheelchair-move",
+        "shortDescription": "Weakness or paralysis affecting the legs, assessed in clinical context.",
+        "introduction": ["Assessment considers the pattern and onset of weakness, examination findings and relevant investigations."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "rigidity-spasticity",
+        "slug": "rigidity-spasticity",
+        "title": "Rigidity / Spasticity",
+        "category": "conditions",
+        "group": "movement",
+        "icon": "fa-solid fa-person",
+        "shortDescription": "Muscle stiffness or tightness assessed with other symptoms and examination findings.",
+        "introduction": ["Rigidity and spasticity can have different causes. A clinical assessment helps determine what evaluation may be appropriate."],
+        "isPublished": true,
+        "optionalService": false
+    },
+    {
+        "id": "bowel-bladder-control-problems",
+        "slug": "bowel-bladder-control-problems",
+        "title": "Bowel & Bladder Control Problems",
+        "category": "conditions",
+        "group": "spine",
+        "icon": "fa-solid fa-toilet",
+        "shortDescription": "Changes in bowel or bladder control reviewed with other symptoms and clinical findings.",
+        "introduction": ["New loss of bowel or bladder control, particularly with back pain or weakness, needs urgent medical assessment."],
+        "isPublished": true,
+        "optionalService": false
     }
 ]

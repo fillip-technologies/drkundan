@@ -9,7 +9,7 @@
                 Visit Us
             </span>
             <h2 class="text-4xl font-extrabold" style="color: var(--color-dark);">
-                Location & Timing
+                Get Expert Neurosurgical Care
             </h2>
             <p class="text-slate-500 mt-3">
                 Visit us at our conveniently located clinic in Patna
@@ -22,11 +22,7 @@
             <!-- LEFT - Google Map -->
             <div class="rounded-3xl overflow-hidden shadow-xl border border-slate-100 min-h-[450px]" data-aos="fade-up"
                 data-aos-delay="0">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.2519076947615!2d85.1275!3d25.5941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed57f12345678%3A0x1234567890abcdef!2sPatna%2C%20Bihar%2C%20India!5e0!3m2!1sen!2sin!4v1234567890"
-                    width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" class="w-full h-full">
-                </iframe>
+                <iframe src="{{ $site->mapEmbedUrl() }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
             <!-- RIGHT - Address & Timings -->
@@ -43,8 +39,7 @@
                             <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Clinic Address</h3>
                             <p class="text-slate-600 leading-relaxed">
                                 <strong style="color: var(--color-dark);">DR KUNDAN</strong> <br>
-                                Near Kumhrar, Patna - 800020 <br>
-                                Bihar, India
+                                {{ $site->address() }}
                             </p>
                             <a href="{{ $site->telUrl() }}"
                                 class="inline-flex items-center gap-2 mt-4 font-semibold text-brand-600 hover:text-brand-700">
@@ -67,38 +62,18 @@
                             <!-- Timing Grid -->
                             <div class="divide-y divide-slate-100">
                                 <div class="flex justify-between items-center py-3">
-                                    <span class="text-slate-600 font-medium">Monday - Friday</span>
-                                    <span class="font-semibold" style="color: var(--color-dark);">10:00 AM - 6:00 PM</span>
-                                </div>
-
-                                <div class="flex justify-between items-center py-3">
-                                    <span class="text-slate-600 font-medium">Saturday</span>
-                                    <span class="font-semibold" style="color: var(--color-dark);">10:00 AM - 4:00 PM</span>
-                                </div>
-
-                                <div class="flex justify-between items-center py-3">
-                                    <span class="text-slate-600 font-medium">Sunday</span>
-                                    <span class="px-3 py-1 rounded-full text-xs font-bold bg-rose-50 text-rose-600">Closed</span>
+                                    <span class="text-slate-600 font-medium">Consultation</span>
+                                    <span class="font-semibold" style="color: var(--color-dark);">5:00 PM - 8:00 PM</span>
                                 </div>
                             </div>
 
-                            <!-- Emergency -->
-                            <div class="mt-4 flex items-center gap-3 p-4 rounded-2xl bg-rose-50 border border-rose-100">
-                                <span class="relative flex w-2.5 h-2.5">
-                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full w-2.5 h-2.5 bg-rose-500"></span>
-                                </span>
-                                <p class="text-slate-700">
-                                    <span class="font-bold text-rose-600">Emergency:</span> 24/7 Available
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Quick Contact -->
                 <div class="relative overflow-hidden text-white p-7 rounded-3xl" style="background: var(--gradient-hero);">
-                    <p class="text-lg font-bold mb-4">Need Immediate Assistance?</p>
+                    <p class="text-lg font-bold mb-4">Call the Clinic</p>
                     <div class="flex flex-wrap gap-3">
                         <a href="{{ $site->telUrl() }}"
                             class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white font-semibold transition hover:-translate-y-0.5"

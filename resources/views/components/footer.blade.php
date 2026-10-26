@@ -39,8 +39,7 @@
             <!-- Column 1: Doctor Info -->
             <div class="lg:col-span-2 lg:pr-12">
                 <div class="flex items-center gap-3 mb-5">
-                    <span class="w-11 h-11 rounded-xl flex items-center justify-center text-white text-sm font-extrabold"
-                        style="background: var(--gradient-brand);">DK</span>
+                    <img src="{{ asset('images/dr-kundan-logo.png') }}" alt="Dr. Kundan Kumar logo" class="w-11 h-11 object-contain shrink-0">
                     <h2 class="text-2xl font-bold">{{ $site->displayName() }}</h2>
                 </div>
 
@@ -51,7 +50,7 @@
 
                 <!-- Contact -->
                 <div class="space-y-3 text-white/75 text-sm">
-                    <div class="flex items-center gap-3"><i class="fa-solid fa-location-dot w-4" style="color: var(--color-secondary);"></i> Patna, Bihar</div>
+                    <div class="flex items-center gap-3"><i class="fa-solid fa-location-dot w-4" style="color: var(--color-secondary);"></i> {{ $site->address() }}</div>
                     <x-cta.call-clinic variant="none" class="flex items-center gap-3 hover:text-white transition">
                         <i class="fa-solid fa-phone w-4" style="color: var(--color-secondary);"></i> {{ $site->phoneDisplay() }}
                     </x-cta.call-clinic>
@@ -143,6 +142,11 @@
 
         <!-- Bottom -->
         <div class="border-t border-white/10 mt-14 pt-6 text-center text-sm text-white/50">
+            <p class="mb-2">
+                Designed and developed by
+                <a href="http://filliptechnologies.com/" target="_blank" rel="noopener noreferrer"
+                    class="font-semibold text-white/75 hover:text-white transition-colors">Fillip Technologies</a>
+            </p>
             © {{ date('Y') }} {{ $site->displayName() }}. All rights reserved.
         </div>
 

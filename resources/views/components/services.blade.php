@@ -9,7 +9,7 @@
             <div class="absolute -top-6 -left-6 w-64 h-64 rounded-full opacity-20 blur-2xl"
                 style="background: var(--color-primary);"></div>
 
-            <img src="{{ asset('images/dr-kundan.png') }}" alt="Dr. Kundan Kumar"
+            <img src="{{ asset('images/dr-kundan.JPEG') }}" alt="Dr. Kundan Kumar"
                 class="relative rounded-2xl shadow-2xl w-full h-[520px] object-cover object-top z-10">
 
             <!-- Floating Badge -->
@@ -21,7 +21,7 @@
             <!-- Experience pill -->
             <div class="absolute top-5 right-5 z-20 flex flex-col items-center justify-center w-20 h-20 rounded-full shadow-xl text-white"
                 style="background: var(--color-primary);">
-                <p class="text-xl font-extrabold leading-none">10+</p>
+                <p class="text-xl font-extrabold leading-none">11+</p>
                 <p class="text-xs font-medium opacity-80 text-center leading-tight mt-1">Yrs Exp</p>
             </div>
 
@@ -42,7 +42,7 @@
                     Dr. Kundan Kumar
                 </h2>
                 <p class="text-base font-semibold" style="color: var(--color-primary);">
-                    MBBS, DNB (General Surgery), MCh (Neurosurgery)
+                    MBBS, DNB (General Surgery), M.Ch. (Neurosurgery)
                 </p>
             </div>
 
@@ -69,7 +69,7 @@
                     <div>
                         <p class="text-xs font-bold uppercase tracking-wide" style="color: var(--color-primary);">
                             Experience</p>
-                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">10+ Years in Neurosurgery</p>
+                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">M.Ch. Neurosurgery, GRMC Gwalior</p>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                     <div>
                         <p class="text-xs font-bold uppercase tracking-wide" style="color: var(--color-primary);">
                             Qualification</p>
-                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">MCh Neurosurgery, GRMC Gwalior</p>
+                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">M.Ch. Neurosurgery, GRMC Gwalior</p>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@
                     <div>
                         <p class="text-xs font-bold uppercase tracking-wide" style="color: var(--color-primary);">
                             Current Role</p>
-                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">Consultant Neurosurgeon, NSMCH Patna
+                        <p class="text-sm mt-0.5" style="color: var(--color-dark);">Consultant Neurosurgeon, Rajiv Nagar, Patna
                         </p>
                     </div>
                 </div>
@@ -125,31 +125,19 @@
             </div>
 
             <!-- Stats Row -->
-            <div class="grid grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 gap-4 max-w-sm">
 
                 <div class="flex flex-col items-center justify-center rounded-xl py-4 text-center"
                     style="background: var(--color-primary);">
-                    <p class="text-2xl font-extrabold text-white">10+</p>
+                    <p class="text-2xl font-extrabold text-white">11+</p>
                     <p class="text-xs text-white/70 mt-1">Years Exp.</p>
-                </div>
-
-                <div class="flex flex-col items-center justify-center rounded-xl py-4 text-center"
-                    style="background: var(--color-soft); border: 1px solid rgba(var(--primary-rgb),0.15);">
-                    <p class="text-2xl font-extrabold" style="color: var(--color-primary);">5000+</p>
-                    <p class="text-xs mt-1" style="color: rgba(var(--dark-rgb),0.6);">Cases Treated</p>
-                </div>
-
-                <div class="flex flex-col items-center justify-center rounded-xl py-4 text-center"
-                    style="background: var(--color-dark);">
-                    <p class="text-2xl font-extrabold text-white">95%</p>
-                    <p class="text-xs text-white/50 mt-1">Success Rate</p>
                 </div>
 
             </div>
 
             <!-- CTA -->
             <div class="flex flex-wrap gap-4 pt-2">
-                <a href="#"
+                <a href="{{ $site->bookingUrl() }}"
                     class="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-white font-semibold shadow-lg transition hover:-translate-y-0.5"
                     style="background: var(--color-primary);">
                     Book Consultation

@@ -7,13 +7,12 @@
         "display": "+91 80881 52289"
     },
     "whatsapp": {
-        "number": "918088152289",
         "message": "Hello, I would like to enquire about an appointment."
     },
     "email": "kundankumar911@gmail.com",
     "booking": {
         "label": "Book Appointment",
-        "url": "/contact#book-appointment"
+        "url": "https://docsarthi.com/"
     },
     "features": {
         "testimonials": false
@@ -23,51 +22,33 @@
         "guidance": "If you or someone with you has sudden weakness or numbness, facial drooping, slurred speech, a seizure lasting more than 5 minutes, a sudden severe headache or loss of consciousness, call 112 or go to the nearest emergency department immediately. Do not wait for an appointment or rely on this website."
     },
     "address": {
-        "line": "NSMCH, Bihta, Patna, Bihar – 800014",
-        "mapUrl": "https://maps.google.com/?q=NSMCH+Sheikhpura+Patna"
+        "line": "Shop No.- 1, VR Complex, Road No.- 3, Beside Canara Bank, Rajiv Nagar, Patna - 800024"
     },
     "branches": [
         {
             "id": "patna",
             "city": "Patna",
             "name": "Patna – Main Branch",
-            "address": "NSMCH, Bihta, Patna, Bihar – 800014",
-            "opd": "Mon – Fri: 9:00 AM – 2:00 PM",
-            "mapUrl": "https://maps.google.com/?q=NSMCH+Sheikhpura+Patna"
-        },
-        {
-            "id": "ara",
-            "city": "Ara",
-            "name": "Ara – Branch Clinic",
-            "address": "Mahavir Tola, Near LIC Office, Ara – 802301",
-            "opd": "Tuesday: 5:00 PM – 7:00 PM",
-            "mapUrl": "https://maps.google.com/?q=Ara+Bhojpur+Bihar"
-        },
-        {
-            "id": "siwan",
-            "city": "Siwan",
-            "name": "Siwan – Branch Clinic",
-            "address": "Near Dr. Shahnwaz Alam, Bindusar Road, Siwan – 841226",
-            "opd": "Saturday: 10:00 AM – 3:00 PM",
-            "mapUrl": "https://maps.google.com/?q=Siwan+Bihar"
-        }
-    ],
+            "opd": "5:00 PM – 8:00 PM"
+        }],
     "doctors": [
         {
             "id": "kundan-kumar",
             "name": "Dr. Kundan Kumar",
             "role": "Neurosurgeon",
-            "qualifications": ["MBBS", "MCh (Neurosurgery)", "DNB (Neurosurgery)"],
+            "qualifications": [
+                "MBBS — J.J.M. Medical College, Davangere (2014)",
+                "DNB (General Surgery) — Deben Mahato Government Medical College & Hospital, Purulia",
+                "M.Ch. (Neurosurgery) — Gajra Raja Medical College, Gwalior"
+            ],
             "profileUrl": "/about#doctor-profile",
             "opdUrl": "/clinics#branches",
-            "image": "images/dr-kundan.png",
-            "registration": null
+            "image": "images/dr-kundan.JPEG",
+            "registration": "MCI-IMR-17/6; DMC-13580"
         }
     ],
     "_review": [
-        "doctors.kundan-kumar.registration: medical registration number is not on the website.",
-        "branches: OPD timings are taken from the Contact and Clinics pages; the homepage 'Location & Timing' block (Mon–Fri 10 AM–6 PM, Sat 10 AM–4 PM) and hero chip (Mon–Sat 10am–6pm) show different timings.",
-        "branches.ara: the Contact page lists +91 95727 37464 for Ara, while the Clinics page lists +91 80881 52289. Branch phone numbers are not shown on service pages until this is confirmed.",
-        "booking.url: there is no online booking system; Book Appointment opens the Contact page form, which sends the request to the clinic on WhatsApp."
+        "consultation timing: 5:00 PM–8:00 PM; clinic days not specified.",
+        "booking.url: appointment actions open DocsArthi."
     ]
 }

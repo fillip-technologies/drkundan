@@ -111,7 +111,7 @@
                     Dedicated to Neurosurgical <br>Excellence in Bihar
                 </h2>
                 <p class="text-gray-600 leading-relaxed mb-6">
-                    Dr. Kundan Kumar holds an MBBS, a DNB in General Surgery, and an M.Ch. in Neurosurgery. His training includes MAMC, Delhi.
+                    Dr. Kundan Kumar holds an MBBS, a DNB in General Surgery, and an M.Ch. in Neurosurgery. His DNB is awarded by NBEMS, New Delhi, and his training includes MAMC, Delhi and LBSH, Delhi.
                 </p>
                 <p class="text-gray-600 leading-relaxed mb-8">
                     His approach combines the latest minimally invasive surgical techniques with a deep commitment to patient education and compassionate care. He believes every patient deserves to fully understand their diagnosis and treatment options.
@@ -170,7 +170,7 @@
             ['🧠', 'Brain Tumor Surgery', 'Surgical resection of benign and malignant brain tumors using neuro-navigation and microsurgery.'],
             ['🦴', 'Spine Surgery', 'Minimally invasive techniques for disc herniation, spondylosis, and spinal instability.'],
             ['⚡', 'Stroke & Neurovascular', 'Emergency and elective management of strokes, aneurysms, and AVMs.'],
-            ['🤕', 'Head Injury & Trauma', 'Emergency decompression and management of traumatic brain injuries.'],
+            ['🤕', 'Head & Spine Trauma', 'Emergency decompression and management of traumatic brain injuries and emergency spine injuries.'],
             ['🧬', 'Epilepsy Surgery', 'Surgical evaluation and treatment for medically refractory epilepsy.'],
             ['🩺', 'Neuro OPD Consultation', 'Comprehensive outpatient consultations for headaches, vertigo, nerve pain, and more.'],
             ] as $s)

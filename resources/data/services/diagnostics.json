@@ -121,7 +121,7 @@
                 "answer": "A nerve conduction study (NCV/NCS) measures how well electrical signals travel along the nerves. EMG records the activity of the muscles. Together they help to locate nerve and muscle problems."
             }
         ],
-        "relatedServiceIds": ["ncv-ncs", "neuromuscular-clinic", "myopathy", "als-mnd"],
+        "relatedServiceIds": ["ncv-ncs", "neuromuscular-clinic", "myopathy"],
         "seoTitle": "EMG Test (Electromyography) – What to Expect",
         "seoDescription": "What an EMG muscle test is, why it may be advised, what happens during the test and how to enquire about an appointment.",
         "isPublished": true,
@@ -178,7 +178,7 @@
                 "answer": "No, but the two tests are often done together. NCV checks the nerves, while EMG checks the muscles."
             }
         ],
-        "relatedServiceIds": ["emg", "neuromuscular-clinic", "neuropathy", "gbs"],
+        "relatedServiceIds": ["emg", "neuromuscular-clinic", "neuropathy"],
         "seoTitle": "NCV / NCS Nerve Conduction Study – What to Expect",
         "seoDescription": "What a nerve conduction study (NCV/NCS) is, why it may be advised for numbness or weakness, what happens during the test and how to enquire.",
         "isPublished": true,

@@ -314,7 +314,7 @@
                 "answer": "In Parkinson's disease, symptoms can change depending on when medicines are taken. Knowing your timings helps the doctor adjust treatment."
             }
         ],
-        "relatedServiceIds": ["parkinsons", "tremor", "dystonia", "parkinsons-rehabilitation"],
+        "relatedServiceIds": ["parkinsons", "tremor", "parkinsons-rehabilitation"],
         "seoTitle": "Parkinson's & Movement Disorders Clinic",
         "seoDescription": "Assessment and care for Parkinson's disease, tremor, dystonia and other movement disorders. Learn about symptoms, what to expect and how to prepare.",
         "isPublished": true,
@@ -378,7 +378,7 @@
                 "answer": "It is a set of questions and simple tasks that check memory, attention, language and problem-solving. It helps to measure the type and degree of any difficulty."
             }
         ],
-        "relatedServiceIds": ["dementia", "alzheimers", "cognitive-assessment", "cognitive-rehabilitation"],
+        "relatedServiceIds": ["dementia", "cognitive-assessment", "cognitive-rehabilitation"],
         "seoTitle": "Memory & Cognitive Clinic – Memory Loss and Dementia Assessment",
         "seoDescription": "Assessment of memory loss, confusion and dementia concerns. Learn what happens at a memory assessment, who should attend and how to prepare.",
         "isPublished": true,
@@ -440,7 +440,7 @@
                 "answer": "Yes. Long-term high blood sugar is one of the most common causes of peripheral neuropathy, especially in the feet."
             }
         ],
-        "relatedServiceIds": ["neuropathy", "myopathy", "myasthenia-gravis", "ncv-ncs", "emg"],
+        "relatedServiceIds": ["neuropathy", "myopathy", "ncv-ncs", "emg"],
         "seoTitle": "Neuromuscular Clinic – Neuropathy and Muscle Disorders",
         "seoDescription": "Assessment of numbness, tingling, nerve pain and muscle weakness, including neuropathy and myopathy. Learn what to expect and which tests may help.",
         "isPublished": true,

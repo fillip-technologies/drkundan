@@ -39,7 +39,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M12 6v6l4 2m5-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            Consultation: 5pm – 8pm
+                            Consultation: Mon – Sat, 5pm – 8pm
                         </div>
                         <div class="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm"
                             style="background: rgba(255,255,255,0.07); color: rgba(var(--light-rgb),0.8);">

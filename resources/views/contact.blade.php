@@ -199,7 +199,7 @@
                                 <p class="text-xs" style="color: var(--color-primary);">{{ $branch['address'] }}</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-500">⏰ Consultation: 5:00 PM – 8:00 PM</p>
+                        <p class="text-sm text-gray-500">⏰ Consultation: Mon – Sat, 5:00 PM – 8:00 PM</p>
                         <p class="text-sm text-gray-500">📞 {{ $site->phoneDisplay() }}</p>
                     </div>
                 </div>

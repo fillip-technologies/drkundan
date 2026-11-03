@@ -107,7 +107,7 @@
                 <div
                     class="absolute top-8 -right-6 flex items-center gap-2 px-4 py-2.5 rounded-2xl text-sm font-semibold text-white bg-white/15 border border-white/20 backdrop-blur-md shadow-xl">
                     <i class="fa-regular fa-clock" style="color: var(--color-secondary);"></i>
-                    Consultation · 5pm – 8pm
+                    Consultation · Mon – Sat, 5pm – 8pm
                 </div>
 
             </div>

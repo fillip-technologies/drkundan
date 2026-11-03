@@ -29,7 +29,7 @@
             "id": "patna",
             "city": "Patna",
             "name": "Patna – Main Branch",
-            "opd": "5:00 PM – 8:00 PM"
+            "opd": "Mon – Sat, 5:00 PM – 8:00 PM"
         }],
     "doctors": [
         {
@@ -48,7 +48,7 @@
         }
     ],
     "_review": [
-        "consultation timing: 5:00 PM–8:00 PM; clinic days not specified.",
+        "consultation timing: Mon–Sat, 5:00 PM–8:00 PM.",
         "booking.url: appointment actions open DocsArthi."
     ]
 }

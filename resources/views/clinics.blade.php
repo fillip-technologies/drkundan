@@ -96,7 +96,7 @@
                                 <div>
                                     <p class="text-xs font-bold uppercase tracking-wide mb-0.5"
                                         style="color: var(--color-primary);">Timing</p>
-                                    <p class="text-sm" style="color: var(--color-dark);">5:00 PM – 8:00 PM</p>
+                                    <p class="text-sm" style="color: var(--color-dark);">Mon – Sat, 5:00 PM – 8:00 PM</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">

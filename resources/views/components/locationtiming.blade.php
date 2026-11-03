@@ -62,6 +62,10 @@
                             <!-- Timing Grid -->
                             <div class="divide-y divide-slate-100">
                                 <div class="flex justify-between items-center py-3">
+                                    <span class="text-slate-600 font-medium">Days</span>
+                                    <span class="font-semibold" style="color: var(--color-dark);">Mon - Sat</span>
+                                </div>
+                                <div class="flex justify-between items-center py-3">
                                     <span class="text-slate-600 font-medium">Consultation</span>
                                     <span class="font-semibold" style="color: var(--color-dark);">5:00 PM - 8:00 PM</span>
                                 </div>

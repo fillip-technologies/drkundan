@@ -88,7 +88,7 @@
                 </h2>
 
                 <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                    Dr. Kundan Kumar holds an MBBS from J.J.M. Medical College, a DNB in General Surgery from Deben Mahato Government Medical College & Hospital, and an M.Ch. in Neurosurgery from Gajra Raja Medical College.
+                    Dr. Kundan Kumar holds an MBBS from J.J.M. Medical College, a DNB in General Surgery from NBEMS, New Delhi (DM Government Medical College & Hospital, Purulia, W.B.), and an M.Ch. in Neurosurgery from Gajra Raja Medical College.
                 </p>
 
                 <!-- Stats Grid -->

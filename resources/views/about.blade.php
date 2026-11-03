@@ -111,7 +111,7 @@
                     Dedicated to Neurosurgical <br>Excellence in Bihar
                 </h2>
                 <p class="text-gray-600 leading-relaxed mb-6">
-                    Dr. Kundan Kumar holds an MBBS, a DNB in General Surgery, and an M.Ch. in Neurosurgery. His DNB is awarded by NBEMS, New Delhi, and his training includes MAMC, Delhi and LBSH, Delhi.
+                    Dr. Kundan Kumar holds an MBBS, a DNB in General Surgery, and an M.Ch. in Neurosurgery. His DNB is from NBEMS, New Delhi (DM Government Medical College & Hospital, Purulia, W.B.), and his training includes MAMC, Delhi and LBSH, Delhi.
                 </p>
                 <p class="text-gray-600 leading-relaxed mb-8">
                     His approach combines the latest minimally invasive surgical techniques with a deep commitment to patient education and compassionate care. He believes every patient deserves to fully understand their diagnosis and treatment options.
@@ -122,7 +122,7 @@
                     <h3 class="font-bold text-sm uppercase tracking-widest mb-3" style="color: var(--color-primary);">Qualifications</h3>
                     @foreach ([
                     ['MBBS', 'J.J.M. Medical College, Davangere, Karnataka (2014)'],
-                    ['DNB (General Surgery)', 'Deben Mahato Government Medical College & Hospital, Purulia, West Bengal'],
+                    ['DNB (General Surgery)', 'NBEMS, New Delhi (DM Government Medical College & Hospital, Purulia, W.B.)'],
                     ['M.Ch. (Neurosurgery)', 'Gajra Raja Medical College, Gwalior, Madhya Pradesh'],
                     ] as $q)
                     <div class="flex items-center gap-3 p-3 rounded-xl" style="background: var(--color-soft);">
@@ -204,7 +204,7 @@
         <div class="relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-brand-200 before:to-transparent">
             @foreach ([
             ['2014', 'MBBS', 'J.J.M. Medical College, Davangere, Karnataka.', '🎓'],
-            ['DNB', 'DNB (General Surgery)', 'Deben Mahato Government Medical College & Hospital, Purulia, West Bengal.', '📜'],
+            ['DNB', 'DNB (General Surgery)', 'NBEMS, New Delhi (DM Government Medical College & Hospital, Purulia, W.B.).', '📜'],
             ['M.Ch.', 'M.Ch. (Neurosurgery)', 'Gajra Raja Medical College, Gwalior, Madhya Pradesh.', '🧠'],
             ] as $index => $e)
 

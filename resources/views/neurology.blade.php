@@ -204,7 +204,7 @@
                     Why Choose Dr. Kundan<br>for Neurology?
                 </h2>
                 <p class="text-base leading-relaxed" style="color: rgba(var(--dark-rgb),0.7);">
-                    Dr. Kundan Kumar holds an M.Ch. in Neurosurgery from Gajra Raja Medical College, Gwalior, and a DNB in General Surgery from Deben Mahato Government Medical College & Hospital, Purulia.
+                    Dr. Kundan Kumar holds an M.Ch. in Neurosurgery from Gajra Raja Medical College, Gwalior, and a DNB in General Surgery from NBEMS, New Delhi (DM Government Medical College & Hospital, Purulia, W.B.).
                 </p>
 
                 <div class="space-y-4">
